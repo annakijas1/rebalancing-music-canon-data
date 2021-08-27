@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="3.02">
+  <programVersion>3.6.0</programVersion>
+  <programRevision>2cbee43</programRevision>
+  <Score>
+    <LayerTag id="0" tag="default"></LayerTag>
+    <currentLayer>0</currentLayer>
+    <Division>480</Division>
+    <Style>
+      <pageWidth>8.50001</pageWidth>
+      <pageHeight>11</pageHeight>
+      <pagePrintableWidth>7.7126</pagePrintableWidth>
+      <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.393701</pageOddLeftMargin>
+      <pageEvenTopMargin>0.393701</pageEvenTopMargin>
+      <pageEvenBottomMargin>0.787403</pageEvenBottomMargin>
+      <pageOddTopMargin>0.393701</pageOddTopMargin>
+      <pageOddBottomMargin>0.787403</pageOddBottomMargin>
+      <lyricsOddFontFace>FreeSerif</lyricsOddFontFace>
+      <lyricsEvenFontFace>FreeSerif</lyricsEvenFontFace>
+      <chordSymbolAFontFace>FreeSerif</chordSymbolAFontFace>
+      <chordSymbolAFontSize>10</chordSymbolAFontSize>
+      <chordSymbolBFontFace>FreeSerif</chordSymbolBFontFace>
+      <chordSymbolBFontSize>10</chordSymbolBFontSize>
+      <nashvilleNumberFontFace>FreeSerif</nashvilleNumberFontFace>
+      <nashvilleNumberFontSize>10</nashvilleNumberFontSize>
+      <tupletFontFace>FreeSerif</tupletFontFace>
+      <tupletFontSize>10</tupletFontSize>
+      <fingeringFontFace>FreeSerif</fingeringFontFace>
+      <fingeringFontSize>10</fingeringFontSize>
+      <lhGuitarFingeringFontFace>FreeSerif</lhGuitarFingeringFontFace>
+      <lhGuitarFingeringFontSize>10</lhGuitarFingeringFontSize>
+      <rhGuitarFingeringFontFace>FreeSerif</rhGuitarFingeringFontFace>
+      <rhGuitarFingeringFontSize>10</rhGuitarFingeringFontSize>
+      <stringNumberFontFace>FreeSerif</stringNumberFontFace>
+      <stringNumberFontSize>10</stringNumberFontSize>
+      <longInstrumentFontFace>FreeSerif</longInstrumentFontFace>
+      <shortInstrumentFontFace>FreeSerif</shortInstrumentFontFace>
+      <partInstrumentFontFace>FreeSerif</partInstrumentFontFace>
+      <partInstrumentFontSize>10</partInstrumentFontSize>
+      <dynamicsFontFace>FreeSerif</dynamicsFontFace>
+      <dynamicsFontSize>10</dynamicsFontSize>
+      <expressionFontFace>FreeSerif</expressionFontFace>
+      <tempoFontFace>FreeSerif</tempoFontFace>
+      <tempoFontSize>10</tempoFontSize>
+      <metronomeFontFace>FreeSerif</metronomeFontFace>
+      <metronomeFontSize>10</metronomeFontSize>
+      <measureNumberFontFace>FreeSerif</measureNumberFontFace>
+      <measureNumberFontSize>10</measureNumberFontSize>
+      <mmRestRangeFontFace>FreeSerif</mmRestRangeFontFace>
+      <mmRestRangeFontSize>10</mmRestRangeFontSize>
+      <translatorFontFace>FreeSerif</translatorFontFace>
+      <translatorFontSize>10</translatorFontSize>
+      <systemFontFace>FreeSerif</systemFontFace>
+      <staffFontFace>FreeSerif</staffFontFace>
+      <rehearsalMarkFontFace>FreeSerif</rehearsalMarkFontFace>
+      <rehearsalMarkFontSize>10</rehearsalMarkFontSize>
+      <repeatLeftFontFace>FreeSerif</repeatLeftFontFace>
+      <repeatLeftFontSize>10</repeatLeftFontSize>
+      <repeatRightFontFace>FreeSerif</repeatRightFontFace>
+      <repeatRightFontSize>10</repeatRightFontSize>
+      <frameFontFace>FreeSerif</frameFontFace>
+      <frameFontSize>10</frameFontSize>
+      <glissandoFontFace>FreeSerif</glissandoFontFace>
+      <glissandoFontSize>10</glissandoFontSize>
+      <bendFontFace>FreeSerif</bendFontFace>
+      <bendFontSize>10</bendFontSize>
+      <headerFontFace>FreeSerif</headerFontFace>
+      <headerFontSize>10</headerFontSize>
+      <footerFontFace>FreeSerif</footerFontFace>
+      <footerFontSize>10</footerFontSize>
+      <instrumentChangeFontFace>FreeSerif</instrumentChangeFontFace>
+      <instrumentChangeFontSize>10</instrumentChangeFontSize>
+      <stickingFontFace>FreeSerif</stickingFontFace>
+      <stickingFontSize>10</stickingFontSize>
+      <user1FontFace>FreeSerif</user1FontFace>
+      <user2FontFace>FreeSerif</user2FontFace>
+      <user3FontFace>FreeSerif</user3FontFace>
+      <user4FontFace>FreeSerif</user4FontFace>
+      <user5FontFace>FreeSerif</user5FontFace>
+      <user6FontFace>FreeSerif</user6FontFace>
+      <user7FontFace>FreeSerif</user7FontFace>
+      <user8FontFace>FreeSerif</user8FontFace>
+      <user9FontFace>FreeSerif</user9FontFace>
+      <user10FontFace>FreeSerif</user10FontFace>
+      <user11FontFace>FreeSerif</user11FontFace>
+      <user12FontFace>FreeSerif</user12FontFace>
+      <Spatium>1.76389</Spatium>
+      </Style>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger"></metaTag>
+    <metaTag name="composer">Amy Beach</metaTag>
+    <metaTag name="copyright"></metaTag>
+    <metaTag name="creationDate">2021-05-04</metaTag>
+    <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="originalFormat">musicxml</metaTag>
+    <metaTag name="platform">Apple Macintosh</metaTag>
+    <metaTag name="poet"></metaTag>
+    <metaTag name="source"></metaTag>
+    <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle">Grand Mass in E-flat major, opus 5</metaTag>
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        </Staff>
+      <trackName>Soprano</trackName>
+      <Instrument>
+        <longName>Soprano</longName>
+        <shortName>S.</shortName>
+        <trackName>Soprano</trackName>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>150</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="sforzatoStaccato">
+          <velocity>150</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoStaccato">
+          <velocity>120</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoTenuto">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <controller ctrl="32" value="17"/>
+          <program value="52"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>1</midiChannel>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Staff id="1">
+      <VBox>
+        <height>12.5</height>
+        <Text>
+          <style>Title</style>
+          <family>FreeSerif</family>
+          <offset x="0" y="-0.0546806"/>
+          <text>Kyrie</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <family>FreeSerif</family>
+          <align>right,top</align>
+          <offset x="0" y="17.5842"/>
+          <text><font size="12"/>Amy Beach</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          <KeySig>
+            <accidental>-3</accidental>
+            </KeySig>
+          <TimeSig>
+            <subtype>1</subtype>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tempo>
+            <tempo>0.766667</tempo>
+            <followText>1</followText>
+            <offset x="-25.8598" y="-2.90059"/>
+            <text>(<sym>metNoteQuarterUp</sym> = 46)</text>
+            </Tempo>
+          <Tempo>
+            <tempo>0.833333</tempo>
+            <followText>1</followText>
+            <offset x="-32.8072" y="-2.48045"/>
+            <text><font size="12"/><b>Largo</b></text>
+            </Tempo>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            <placement>above</placement>
+            <offset x="-1.28655" y="-1.92715"/>
+            </Dynamic>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>Ky</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text>ri</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>e</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>e</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-11.4503" y="0.385966"/>
+                    <offset x="-0.257311" y="0"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>lei</text>
+              </Lyrics>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>son,</text>
+              </Lyrics>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <placement>above</placement>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Lyrics>
+              <syllabic>begin</syllabic>
+              <text>Ky</text>
+              </Lyrics>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <placement>above</placement>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>middle</syllabic>
+              <text>ri</text>
+              </Lyrics>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Lyrics>
+              <syllabic>end</syllabic>
+              <text>e,</text>
+              </Lyrics>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      </Staff>
+    </Score>
+  </museScore>
