@@ -20,13 +20,6 @@
             <identifier>
             <ref target="https://rebalancing-music-canon.com/"/>
             </identifier>
-         <publisher>Rebalancing the Music Canon</publisher>
-            <availability>
-               <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
-            </availability>
-            <identifier>
-            <ref target="https://rebalancing-music-canon.com/"/>
-            </identifier>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-0000000487207374">
@@ -44,8 +37,8 @@
             <score xml:id="score-0000000576425894">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001454483614">
-                     <rend xml:id="rend-0000001348516569" halign="center" valign="top">Gavotte</rend>
-                     <rend xml:id="rend-0000001955441688" halign="right" valign="top">Agathe Backer-Grøndahl, Op. 20, Nr. 3</rend>
+                     <rend xml:id="rend-0000001348516569" halign="center" valign="top">Gavotte, op. 20, no. 3</rend>
+                     <rend xml:id="rend-0000001955441688" halign="right" valign="top">Agathe Backer-Grøndahl</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001489208659">
                      <staffGrp xml:id="P1" bar.thru="true">
@@ -87,11 +80,9 @@
                         </layer>
                      </staff>
                      <tempo xml:id="tempo-0000000952931404" place="above" staff="1" tstamp="1.000000" midi.bpm="112" mm="112.000000" mm.unit="4">
-                        <rend xml:id="rend-0000000912751009" rend="none" fontweight="bold">M.M.  </rend>
-                        <rend xml:id="rend-0000001308247608" rend="none" fontweight="bold" />
                         <rend xml:id="rend-0000001558549552" fontname="VerovioText"></rend> = 112</tempo>
                      <dynam xml:id="dynam-0000000854008134" place="below" staff="1" tstamp="1.000000" val="80" vgrp="49">mf</dynam>
-                     <dir xml:id="dir-0000001347402940" place="above" staff="1" tstamp="1.000000" vgrp="200">Allegretto.</dir>
+                     <dir xml:id="dir-0000001347402940" place="above" staff="1" tstamp="1.000000" vgrp="200">Allegretto</dir>
                   </measure>
                   <measure xml:id="measure-0000001276599025" n="1">
                      <staff xml:id="staff-0000001646724750" n="1">
@@ -176,8 +167,8 @@
                      <slur xml:id="slur-0000000360185410" startid="#note-0000001673334875" endid="#note-0000001712119425" curvedir="above" />
                      <slur xml:id="slur-0000001256342327" startid="#note-0000002127149755" endid="#note-0000001586598019" curvedir="above" />
                      <fing xml:id="fing-0000000284294270" staff="1" startid="#note-0000001657324896">5</fing>
-                     <pedal xml:id="pedal-0000001024844655" staff="2" tstamp="1.000000" dir="down" form="line" place="below" vgrp="95" />
-                     <pedal xml:id="pedal-0000000160354580" staff="2" tstamp="1.400000" dir="up" form="line" place="below" vgrp="200" />
+                     <pedal dir="down" staff="2" tstamp="1" />
+                     <pedal dir="up" staff="2" tstamp="1.65" />
                   </measure>
                   <measure xml:id="measure-0000001765533417" n="2">
                      <staff xml:id="staff-0000001054561822" n="1">
@@ -258,8 +249,8 @@
                      </staff>
                      <fing xml:id="fing-0000000685006002" staff="1" startid="#note-0000001033514165">4</fing>
                      <fing xml:id="fing-0000001084598727" staff="1" startid="#note-0000002001008546">5</fing>
-                     <pedal xml:id="pedal-0000001970844301" staff="2" tstamp="3.000000" dir="down" form="line" place="below" vgrp="84" />
-                     <pedal xml:id="pedal-0000001739154224" staff="2" tstamp="4.400000" dir="up" form="line" place="below" vgrp="200" />
+                     <pedal dir="down" staff="2" tstamp="3" />
+                     <pedal dir="up" staff="2" tstamp="4" />
                   </measure>
                   <sb xml:id="sb-0000000374268505" />
                   <measure xml:id="measure-0000001107642900" n="3">

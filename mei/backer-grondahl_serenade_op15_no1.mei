@@ -21,13 +21,6 @@
             <identifier>
             <ref target="https://rebalancing-music-canon.com/"/>
             </identifier>
-         <publisher>Rebalancing the Music Canon</publisher>
-            <availability>
-               <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
-            </availability>
-            <identifier>
-            <ref target="https://rebalancing-music-canon.com/"/>
-            </identifier>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-0000000503054274">
@@ -47,7 +40,7 @@
                   <pgHead xml:id="pghead-0000000661110213">
                      <rend xml:id="rend-0000000324552112" halign="right" valign="top">Agathe Backer-Grøndahl</rend>
                      <rend xml:id="rend-0000001584703606" halign="center" valign="top">Sérénade</rend>
-                     <rend xml:id="rend-0000000614760649" halign="center" valign="top">Op. 15, No. 1</rend>
+                     <rend xml:id="rend-0000000614760649" halign="center" valign="top">op. 15, no. 1</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000577001958">
                      <staffGrp xml:id="P1" bar.thru="true">
@@ -104,8 +97,7 @@
                         </layer>
                      </staff>
                      <tempo xml:id="tempo-0000000040799085" place="above" staff="1" tstamp="1">
-                        <rend xml:id="rend-0000001412293770" rend="none" fontweight="bold">Andantino </rend>
-                          <rend xml:id="rend-0000000432019326" fontname="VerovioText"></rend> = 100</tempo>
+                          <rend xml:id="rend-0000000432019326" fontname="VerovioText">Andantino </rend> = 100</tempo>
                      <dir xml:id="dir-0000001036990045" place="below" staff="1" tstamp="1">
                         <rend xml:id="rend-0000001808154834" rend="none" fontstyle="italic">dolce</rend>
                      </dir>
@@ -117,8 +109,7 @@
                      <dir xml:id="dir-0000001344733016" place="below" staff="2" tstamp="1.000000" vgrp="60">
                         <rend xml:id="rend-0000002111901877" rend="none" fontstyle="italic">una corda</rend>
                      </dir>
-                     <pedal xml:id="pedal-0000001243131010" staff="2" tstamp="1.000000" dir="down" form="line" place="below" vgrp="65" />
-                     <pedal xml:id="pedal-0000001974642412" staff="2" tstamp="1.900000" dir="up" form="line" place="below" vgrp="200" />
+                     <pedal dir="down" staff="2" tstamp="1" />
                   </measure>
                   <measure xml:id="measure-0000001383582252" n="2">
                      <staff xml:id="staff-0000002017620213" n="1">

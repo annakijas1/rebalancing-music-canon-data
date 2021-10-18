@@ -5,8 +5,7 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Fantasistykker, Op. 39 - Rosernes Sang</title>
-            <title type="subordinate">No. 4</title>
+            <title>Fantasistykker, op. 39, no. 4 - Rosernes Sang</title>
             <respStmt>
                <persName role="composer">Agathe Backer Grøndahl</persName>
                <persName role="transcriber">Ismenia Ginebra</persName>
@@ -14,13 +13,6 @@
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-07" type="encoding-date">2021-05-07</date> <publisher>Rebalancing the Music Canon</publisher>
-            <availability>
-               <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
-            </availability>
-            <identifier>
-            <ref target="https://rebalancing-music-canon.com/"/>
-            </identifier>
-         <publisher>Rebalancing the Music Canon</publisher>
             <availability>
                <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
             </availability>
@@ -44,7 +36,7 @@
             <score xml:id="score-0000001677650388">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001752854348">
-                     <rend xml:id="rend-0000002019002871" halign="center" valign="top">Rosernes Sang</rend>
+                     <rend xml:id="rend-0000002019002871" halign="center" valign="top">Fantasistykker, op. 39, no. 4 - Rosernes Sang</rend>
                      <rend xml:id="rend-0000001957105033" halign="right" valign="top">Agathe Backer-Grøndahl</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001785924688">
@@ -108,7 +100,7 @@
                         </layer>
                      </staff>
                      <tempo xml:id="tempo-0000001045325538" place="above" staff="1" tstamp="1.000000" midi.bpm="72" mm="72.000000" mm.unit="4">
-                        <rend xml:id="rend-0000001459062282" fontname="VerovioText"></rend> = 72</tempo>
+                        <rend xml:id="rend-0000001459062282" fontname="VerovioText">Andante </rend> = 72</tempo>
                      <dir xml:id="dir-0000000131937862" place="above" staff="1" tstamp="1.000000" vgrp="200">
                         <rend xml:id="rend-0000000928859692" rend="none" fontstyle="italic">appassionato</rend>
                      </dir>
@@ -281,7 +273,7 @@
                         <rend xml:id="rend-0000001322732797" rend="none" fontstyle="italic">con tenerezza</rend>
                      </dir>
                      <slur xml:id="slur-0000000380233170" startid="#note-0000000856570889" endid="#note-0000001707423140" curvedir="above" />
-                     <dir xml:id="dir-0000000182442621" place="below" staff="1" tstamp="1.500000" vgrp="53">
+                     <dir xml:id="dir-0000000182442621" place="below" staff="1" tstamp="2.00000" vgrp="53">
                         <rend xml:id="rend-0000000652726873" rend="none" fontstyle="italic">cantando</rend>
                      </dir>
                      <slur xml:id="slur-0000001242510141" startid="#note-0000000046828173" endid="#note-0000001055617445" curvedir="above" />
