@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Voices from the Light</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -37,7 +37,6 @@
             <score xml:id="suuvar9">
                <scoreDef xml:id="syqalwr">
                   <pgHead xml:id="p6r3hmx">
-                     <rend xml:id="rrxg5oh" halign="center" valign="top">Voices from the Light</rend>
                      <rend xml:id="re2504j" halign="right" valign="bottom">Dorothy Rudd Moore</rend>
                   </pgHead>
                   <staffGrp xml:id="s6ksauk">
@@ -59,8 +58,10 @@
                            <multiRest xml:id="m2c7pbf" num="16" />
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="0">
-                        <rend>Moderato &#x1d15f; = 84</rend></tempo>
+                     <tempo xml:id="t55h7yz" place="above" staff="1" tstamp="0.000000" xml:lang="it" midi.bpm="90.000000" mm="60.000000" mm.unit="4" mm.dots="1">
+                        <rend xml:id="r7b1vga" fontstyle="normal" fontweight="bold">Moderato</rend>
+                        <rend xml:id="r1ekk7wh" fontweight="bold"><rend xml:id="rv5x4aw" fontfam="smufl"></rend> = 84</rend>
+                        </tempo>
                   </measure>
                   <measure xml:id="m8gr6vl" n="17">
                      <staff xml:id="stzsnvn" n="1">

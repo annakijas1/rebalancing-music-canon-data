@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Intervals</title>
+            <title>Intervals, Set VI</title>
               <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-09-17" type="encoding-date">2021-09-17</date>
@@ -37,8 +37,6 @@
             <score xml:id="s1e11t9j">
                <scoreDef xml:id="s11e7vh9">
                   <pgHead xml:id="p1y4dx9f">
-                     <rend xml:id="r1t79834" halign="center" valign="top">Intervals</rend>
-                     <rend xml:id="r7ds394" halign="center" valign="top">Set VI</rend>
                      <rend xml:id="rnra60v" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="skjuyze">
@@ -68,8 +66,9 @@
                            <rest xml:id="rwsqefk" dur.ppq="1" dur="8" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tcw7axv" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="r1jyx2cf" >&#x1d15f; </rend> = c. 54</tempo>
+                      <tempo xml:id="t1igr9uq" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
+                        <rend xml:id="r1mumfei" fontfam="smufl"></rend> =
+                        <rend xml:id="rhugtl5" fontweight="bold">c. 54</rend></tempo>
                  		<dynam place="below" staff="1" tstamp="5.000000" vgrp="1">
                         <rend xml:id="r1wfzmc7" fontweight="normal">p; sempre grave</rend>
                      </dynam>

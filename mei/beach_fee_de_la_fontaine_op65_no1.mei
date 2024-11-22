@@ -7,9 +7,9 @@
          <titleStmt>
             <title>La fée de la fontaine,  op. 65,  no. 1</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-07" type="encoding-date">2021-05-07</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -36,7 +36,6 @@
             <score xml:id="score-0000001068844941">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000435126885">
-                     <rend xml:id="rend-0000001995905729" halign="center" valign="top">La fée de la fontaine,  op. 65,  no. 1</rend>
                      <rend xml:id="rend-0000002033481804" halign="right" valign="top">Amy Beach</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000959975350">
@@ -66,6 +65,8 @@
                            <mRest xml:id="mrest-0000000032924137" />
                         </layer>
                      </staff>
+                     <tempo place="above" staff="1" tstamp="1">
+                        <rend fontsize = "normal">Andante con calma</rend></tempo>
                      <staff xml:id="staff-0000001364550821" n="2">
                         <layer xml:id="layer-0000001768898827" n="5">
                            <beam xml:id="beam-0000001438742157">
@@ -100,10 +101,10 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dynam xml:id="dynam-0000001744189786" place="above" staff="2" tstamp="1.000000" val="33" vgrp="211">pp</dynam>
-                     <dir xml:id="dir-0000002111901877" place="above" staff="2" tstamp="1.000000" vgrp="235">
+                     <dynam xml:id="dynam-0000001744189786" place="above" staff="2" tstamp="1.000000" val="33" vgrp="1">pp</dynam>
+                     <dynam xml:id="dir-0000002111901877" place="above" staff="2" tstamp="1.5" vgrp="1">
                         <rend xml:id="rend-0000000448440389" rend="none" fontstyle="italic">ben tranquillo</rend>
-                     </dir>
+                     </dynam>
                      <slur xml:id="slur-0000001974642412" startid="#note-0000001170438857" endid="#note-0000001761944607" curvedir="below" />
                      <dir xml:id="dir-0000001485158791" place="below" staff="2" tstamp="1.500000" vgrp="72">[<rend xml:id="rend-0000001642876582" rend="none" fontstyle="italic">con pedal</rend>
                         <rend xml:id="rend-0000000903185449" rend="none" fontstyle="normal">]</rend>
@@ -211,9 +212,7 @@
                      <slur xml:id="slur-0000000063689108" startid="#note-0000001897381880" endid="#note-0000001943988742" curvedir="below" />
                      <slur xml:id="slur-0000001518209385" startid="#note-0000001943988742" endid="#note-0000002067897949" curvedir="above" />
                      <slur xml:id="slur-0000000541919863" startid="#note-0000000613490420" endid="#note-0000000354269723" curvedir="above" />
-                     <dynam xml:id="dynam-0000001590212243" place="above" staff="2" tstamp="1.000000" val="49">[ </dynam>
-                     <dynam xml:id="dynam-0000001181073036" place="above" staff="2" tstamp="1.000000" val="49">p</dynam>
-                     <dynam xml:id="dynam-0000000616852535" place="above" staff="2" tstamp="1.000000" val="49"> ]</dynam>
+                     <dynam xml:id="dynam-0000001181073036" place="above" staff="2" tstamp="1.0">[p]</dynam>
                      <slur xml:id="slur-0000000679964586" startid="#note-0000000694977375" endid="#note-0000000662197671" curvedir="below" />
                   </measure>
                   <measure xml:id="measure-0000000818741950" right="single" n="4">

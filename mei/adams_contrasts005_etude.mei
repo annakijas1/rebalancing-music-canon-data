@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Contrasts</title>
+            <title>Contrasts, 5. Etude</title>
             <respStmt>
-               <persName role="composer">H.  Leslie Adams</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Phillip Wright</persName>
+               <persName xml:id="la01" role="composer">Leslie Adams</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-06-27" type="encoding-date">2022-06-27</date>
@@ -37,8 +37,6 @@
             <score xml:id="szf8zyg">
                <scoreDef xml:id="sm52jsf">
                   <pgHead xml:id="przqfd7">
-                     <rend xml:id="rof84io" halign="center" valign="top">Contrasts</rend>
-                     <rend xml:id="r86cz1a" halign="center" valign="top">5.  Etude</rend>
                      <rend xml:id="rypjz07" halign="right" valign="bottom">H.  Leslie Adams</rend>
                   </pgHead>
                   <staffGrp xml:id="s7obxhb">

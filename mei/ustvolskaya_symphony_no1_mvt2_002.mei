@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Symphony No. 1</title>
+            <title>Symphony No. 1, Mvt. II, 2. Karussell (Roundabout)</title>
             <respStmt>
-               <persName role="composer">Galina Ustvolskaya</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="gu01" role="composer">Galina Ustvolskaya</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-21" type="encoding-date">2022-07-21</date>
@@ -37,8 +37,6 @@
             <score xml:id="ssvuv4s">
                <scoreDef xml:id="s54ldy6">
                   <pgHead xml:id="p3mkfwc">
-                     <rend xml:id="rn78g2v" halign="center" valign="top">Symphony No. 1</rend>
-                     <rend xml:id="rn1kdc8" halign="center" valign="top">II, 2. Karussell (Roundabout)</rend>
                      <rend xml:id="r3z3lfp" halign="right" valign="bottom">Galina Ustvolskaya</rend>
                   </pgHead>
                   <staffGrp xml:id="sa65brs">
@@ -66,7 +64,7 @@
                      </staff>
                      <dynam xml:id="d83gu97" place="above" staff="1" tstamp="1.000000" val="96">f</dynam>
                      <tempo xml:id="til4q1w" place="above" staff="1" tstamp="1.000000" midi.bpm="63.000000" mm="126.000000" mm.unit="8">
-                        <rend xml:id="rtd5lyk" fontname="VerovioText"></rend> = 126</tempo>
+                        <rend xml:id="rtd5lyk" fontname="VerovioText" fontsize="small" ></rend> = 126</tempo>
                   </measure>
                   <measure xml:id="m29hb1v" n="2">
                      <staff xml:id="srnm6vy" n="1">

@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Bagatelles</title>
+            <title>Five Bagatelles, I. Boea</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="s411fzk">
                <scoreDef xml:id="s8rqznt">
                   <pgHead xml:id="pkcwdyd">
-                     <rend xml:id="ramsdhx" halign="center" valign="top">Five Bagatelles</rend>
-                     <rend xml:id="rpp1eqh" halign="center" valign="top">I. Boea</rend>
                      <rend xml:id="rq1p49o" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="szdoccl">
@@ -127,8 +125,10 @@
                      <dir xml:id="djug8yp" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="rfdhh0n" fontstyle="italic" fontweight="bold">f</rend>
                      </dir>
-                     <tempo xml:id="tn7byf5" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="r4dpt3j" fontname="VerovioText"> Recitando </rend> = c. 100</tempo>
+                     <tempo xml:id="t1tsd64w" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="r14uai7w" fontweight="bold">Recitando </rend>
+                        <rend xml:id="ruq6cev" fontweight="bold"><rend xml:id="rfj2whp" fontfam="smufl"></rend> = c. 100</rend>
+                        </tempo>
                      <tie xml:id="thgtdtm" startid="#nhzu017" endid="#ndiawpb" />
                      <tie xml:id="taxtzsn" startid="#ndcnrrb" endid="#n9hex7y" />
                   </measure>
@@ -192,7 +192,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dir xml:id="dndhs31" place="below" staff="3" tstamp="1.000000" vgrp="40">
+                     <dir xml:id="dndhs31" place="below" staff="3" tstamp="0" vgrp="40">
                         <rend xml:id="ro986cz" fontstyle="italic" fontweight="bold">pp</rend>
                      </dir>
                      <tie xml:id="txsiizp" startid="#n60b0be" endid="#n2at4ak" />

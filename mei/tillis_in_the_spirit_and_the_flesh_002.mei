@@ -7,9 +7,9 @@
          <titleStmt>
             <title>In the Spirit and the Flesh, II. Ev'ry Time I Feel the Spirit</title>
             <respStmt>
-               <persName role="composer">Frederick Tillis</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Aviva Michaeli</persName>
+               <persName xml:id="fct01" role="composer">Frederick C. Tillis</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="am01" role="reviewer">Aviva Michaeli</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-12-02" type="encoding-date">2021-12-02</date>
@@ -37,8 +37,6 @@
             <score xml:id="s4krg7u">
                <scoreDef xml:id="slfupj0">
                   <pgHead xml:id="piz8ven">
-                     <rend xml:id="rnspp9w" halign="center" valign="top">In the Spirit and the Flesh</rend>
-                     <rend xml:id="rp1bm73" halign="center" valign="top">II. Ev'ry Time I Feel the Spirit</rend>
                      <rend xml:id="rnfijco" halign="right" valign="bottom">Frederick Tillis</rend>
                   </pgHead>
                   <staffGrp xml:id="sj9mbcc">
@@ -66,12 +64,11 @@
                            </note>
                         </layer>
                      </staff>
-                     <tempo xml:id="tdwlq4y" place="above" staff="1" tstamp="1.000000" midi.bpm="138.000000" mm="138.000000" mm.unit="4">
-                        <rend xml:id="r603for" fontname="VerovioText"></rend> = 138</tempo>
+                     <tempo xml:id="tdwlq4y" place="above" staff="1" tstamp="1.000000" midi.bpm="138" mm="138.000000" mm.unit="4">
+                        <rend xml:id="r603for" fontname="VerovioText" fontsize="small"></rend> = 138</tempo>
                      <dir xml:id="drfuzst" place="below" staff="1" tstamp="4.000000" vgrp="46">
                         <rend xml:id="rfcknvj" fontstyle="italic" fontweight="bold">mf</rend>
                      </dir>
-                     <dir xml:id="de7k9e3" place="above" staff="1" tstamp="4.000000" vgrp="213">[french horns 1+2]</dir>
                      <tie xml:id="tt38jfn" startid="#n1j5ayj" endid="#n5nf59a" />
                   </measure>
                   <measure xml:id="mpz33ir" n="2">

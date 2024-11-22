@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Bagatelles</title>
+            <title>Five Bagatelles, V. Ballonchio</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="saioo3l">
                <scoreDef xml:id="sxivbla">
                   <pgHead xml:id="p98u0z9">
-                     <rend xml:id="rlv26ex" halign="center" valign="top">Five Bagatelles</rend>
-                     <rend xml:id="r7yzjfa" halign="center" valign="top">V. Ballonchio</rend>
                      <rend xml:id="rw7dwtx" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="spmuov4">
@@ -129,8 +127,10 @@
                            <mRest xml:id="m8nn4fa" />
                         </layer>
                      </staff>
-                     <tempo xml:id="t9lcysj" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="2">
-                        <rend xml:id="r1an7ji" fontname="VerovioText">Presto </rend> = c. 92</tempo>
+                     <tempo xml:id="td6bbpq" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="2">
+                        <rend xml:id="rd9jblq" fontweight="bold">Presto </rend>
+                        <rend xml:id="r1ppnyhu" fontweight="bold"><rend xml:id="r24lpgd" fontfam="smufl"></rend> = c. 92</rend>
+                        </tempo>
                      <dir xml:id="d7mu3o8" place="below" staff="3" tstamp="1.000000" vgrp="40">
                         <rend xml:id="rvj3qr1" fontstyle="italic" fontweight="bold">p</rend>
                      </dir>

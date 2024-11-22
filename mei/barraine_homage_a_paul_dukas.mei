@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Homage à Paul Dukas </title>
+            <title>Homage à Paul Dukas</title>
             <respStmt>
-               <persName role="composer">Elsa Barraine</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="eb01" role="composer">Elsa Barraine</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-04-23" type="encoding-date">2021-04-23</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -36,7 +36,6 @@
             <score xml:id="score-0000002106041415">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000795963156">
-                     <rend xml:id="rend-0000000721972519" halign="center" valign="top">Homage à Paul Dukas </rend>
                      <rend xml:id="rend-0000001475300970" halign="right" valign="bottom">Elsa Barraine</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000002063529933">

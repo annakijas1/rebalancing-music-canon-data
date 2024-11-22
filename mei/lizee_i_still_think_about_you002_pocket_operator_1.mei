@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>I Still Think About You</title>
+            <title>I Still Think About You, Pocket Operator 1</title>
             <respStmt>
-               <persName role="composer">Nicole Lizée</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="nl01" role="reviewer">Nicole Lizée</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-14" type="encoding-date">2022-07-14</date>
@@ -37,8 +37,6 @@
             <score xml:id="s369bur">
                <scoreDef xml:id="sqcazd5">
                   <pgHead xml:id="pwbx3kd">
-                     <rend xml:id="r1xclw5" halign="center" valign="top">I Still Think About You</rend>
-                     <rend xml:id="r3o0b9n" halign="center" valign="top">Pocket Operator 1</rend>
                      <rend xml:id="r7809qe" halign="right" valign="bottom">Nicole Lizée</rend>
                   </pgHead>
                   <staffGrp xml:id="s1q2si9">
@@ -109,7 +107,7 @@
                         </layer>
                      </staff>
                      <tempo xml:id="tzaalr6" place="above" staff="1" tstamp="1.000000" midi.bpm="80.000000" mm="80.000000" mm.unit="4">
-                        <rend xml:id="ra14li2" fontname="VerovioText"></rend> = 80</tempo>
+                        <rend xml:id="ra14li2" fontfam="smufl"></rend> = 80</tempo>
                         <dir xml:id="d17to6j" place="above" staff="1" tstamp="2.000000" >Stop (effect will ring for ca. one beat)</dir>
                      <dir xml:id="dljoa3o" place="above" staff="1" tstamp="1.000000" >PLAY (2nd button from bottom on R)</dir>
                      <dir place="above" staff="1" tstamp="1">

@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Grand Mass in E-flat Major Opus 5, Quoniam tu solus</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-10-22" type="encoding-date">2021-10-22</date>
@@ -37,7 +37,6 @@
             <score xml:id="s99y06s">
                <scoreDef xml:id="sr48xao">
                   <pgHead xml:id="pquqlyv">
-                     <rend xml:id="rvwibj2" halign="center" valign="top">Grand Mass in E-flat Major Opus 5, Quoniam tu solus</rend>
                      <rend xml:id="rhb6uqp" halign="right" valign="bottom">Amy Beach</rend>
                   </pgHead>
                   <staffGrp xml:id="sud5a3m">
@@ -58,8 +57,9 @@
                            <multiRest xml:id="mwu9349" num="8" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tu4ejo7" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm="120.000000" mm.unit="4">
-             <rend xml:id="rlqc7pd" fontname="VerovioText">Allegro con vigore </rend> = 88</tempo>
+                     <tempo xml:id="tu4ejo7" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm="120.000000" mm.unit="4">
+             				<rend xml:id="rlqc7pd" fontsize = "normal" >Allegro con vigore </rend>
+                        <rend xml:id="rlqc7pd" fontsize = "small" fontname="VerovioText"> </rend> = 88</tempo>
                   </measure>
                   <measure xml:id="m9yse7u" n="9">
                      <staff xml:id="st5rwf7" n="1">
@@ -85,7 +85,6 @@
                      <dir xml:id="d4khtud" place="above" staff="1" tstamp="1.000000" vgrp="234">
                         <rend xml:id="r39mxuh" fontstyle="italic" fontweight="bold">f</rend>
                      </dir>
-                     <dir xml:id="dm0lazh" place="above" staff="1" tstamp="1.000000" vgrp="221">[Bass]</dir>
                   </measure>
                   <measure xml:id="maek3dc" n="10">
                      <staff xml:id="s93669c" n="1">
@@ -124,7 +123,7 @@
                      </staff>
                      <slur xml:id="suzzsq" startid="#nh5cr9e" endid="#nxb4pnd" curvedir="above" />
                   </measure>
-                  <measure xml:id="mqmktmm" right="end" n="12">
+                  <measure xml:id="mqmktmm" right="single" n="12">
                      <staff xml:id="sgvj89j" n="1">
                         <layer xml:id="lvkrpmz" n="1">
                            <note xml:id="nvrj546" dots="2" dur.ppq="7" dur="4" oct="3" pname="g" stem.dir="down">

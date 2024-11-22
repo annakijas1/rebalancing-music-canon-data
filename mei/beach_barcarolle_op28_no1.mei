@@ -8,9 +8,9 @@
             <title>Barcarolle</title>
             <title type="subordinate">op. 28,  no. 1</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-07" type="encoding-date">2021-05-07</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -38,7 +38,6 @@
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001909336715">
                      <rend xml:id="rend-0000001226418232" halign="right" valign="top">Amy Beach</rend>
-                     <rend xml:id="rend-0000001920694182" halign="center" valign="top">Barcarolle, op. 28, no. 1</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000144094004">
                      <staffGrp xml:id="P1" bar.thru="true">
@@ -68,13 +67,14 @@
                            <rest xml:id="rest-0000000516761490" dur.ppq="2" dur="8" />
                         </layer>
                      </staff>
+                     <tempo staff="1" tstamp="1.0" place="above">Andantino</tempo>
                      <staff xml:id="staff-0000000070399441" n="2">
                         <layer xml:id="layer-0000001752854348" n="5">
                            <note xml:id="note-0000001957105033" dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="up" />
                         </layer>
                      </staff>
                      <dynam xml:id="dynam-0000000985501422" place="above" staff="2" tstamp="1.000000" val="33" vgrp="207">pp</dynam>
-                     <pedal xml:id="pedal-0000001568874682" staff="2" tstamp="1.000000" dir="down" form="line" place="below" vgrp="66" />
+                     <pedal xml:id="pedal-0000001568874682" staff="2" tstamp="1.000000" dir="down" form="line" place="below" vgrp="66"/>
                      <tie xml:id="tie-0000001751340887" startid="#note-0000001957105033" endid="#note-0000002011352582" />
                   </measure>
                   <measure xml:id="measure-0000001785924688" n="1">

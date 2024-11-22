@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Les lilas qui avaient fleuri</title>
             <respStmt>
-               <persName role="composer">Lili Boulanger</persName>
-               <persName role="transcriber">Chelsea Hong</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lb01" role="composer">Lili Boulanger</persName>
+               <persName xml:id="ch01" role="transcriber">Chelsea Hong</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-24" type="encoding-date">2021-05-24</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000000923103253">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001336063757">
-                     <rend xml:id="rend-0000001582876614" halign="center" valign="top">Les lilas qui avaient fleuri</rend>
                      <rend xml:id="rend-0000001632294250" halign="right" valign="bottom">Lili Boulanger</rend>
                      <rend xml:id="rend-0000000302770330" halign="left" valign="bottom">Francis Jammes</rend>
                   </pgHead>
@@ -60,6 +59,8 @@
                            <mRest xml:id="mrest-0000001412889347" />
                         </layer>
                      </staff>
+                     <tempo place="above" staff="1" tstamp="1">
+                        <rend>Sans lenteur</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000001634987740" n="2">
                      <staff xml:id="staff-0000001333123555" n="1">
@@ -92,8 +93,10 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000001505102270" place="above" staff="1" tstamp="1.500000" vgrp="234">
-                        <rend xml:id="rend-0000000733334415" rend="none" fontweight="normal">p simple</rend>
+                     <dynam place="above" staff="1" tstamp="1.500000" vgrp="1">
+                        <rend>p</rend></dynam>
+                     <dir xml:id="dir-0000001505102270" place="above" staff="1" tstamp="1.749" vgrp="1">
+                        <rend xml:id="rend-0000000733334415" rend="none" fontweight="normal">simple</rend>
                      </dir>
                   </measure>
                   <measure xml:id="measure-0000001549907388" n="3">

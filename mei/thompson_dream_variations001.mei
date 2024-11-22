@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dream Variations</title>
+            <title>Dream Variations. I too, sing America</title>
             <respStmt>
-               <persName role="composer">Richard Thompson</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="rt01" role="composer">Richard Thompson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -37,8 +37,6 @@
             <score xml:id="s5hr8kx">
                <scoreDef xml:id="stp8c32">
                   <pgHead xml:id="pxb9zox">
-                     <rend xml:id="rs2sim6" halign="center" valign="top">Dream Variations</rend>
-                     <rend xml:id="r3525v" halign="center" valign="top">I, too, sing America</rend>
                      <rend xml:id="rbap4hs" halign="right" valign="bottom">Richard Thompson</rend>
                      <rend xml:id="r8nvg6w" halign="left" valign="bottom">Langston Hughes</rend>
                   </pgHead>
@@ -60,8 +58,9 @@
                            <mRest xml:id="mt1joa1" />
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="0">
-                        <rend fontweight="bold">&#x1d15f; = 92 energico</rend></tempo>
+                     <tempo xml:id="t1d0smck" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="92.000000" mm="92.000000" mm.unit="4">
+                        <rend xml:id="r1n0tvn3" fontweight="bold"> energico</rend>
+                        <rend xml:id="r1lty7mp" fontfam="smufl"></rend> = 92</tempo>
                   </measure>
                   <measure xml:id="mp2cqn" n="2">
                      <staff xml:id="ssi6efa" n="1">

@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Symphony in Three Movements</title>
+            <title>Symphony in Three Movements, III. Vivace</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="s7pqbpd">
                <scoreDef xml:id="skbnt">
                   <pgHead xml:id="ps9k8ve">
-                     <rend xml:id="rctitaf" halign="center" valign="top">Symphony in Three Movements</rend>
-                     <rend xml:id="r67d01h" halign="center" valign="top">III. Vivace</rend>
                      <rend xml:id="rs6zhvr" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="shyp8gq">

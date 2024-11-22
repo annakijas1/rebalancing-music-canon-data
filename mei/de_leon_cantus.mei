@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Cantus</title>
             <respStmt>
-               <persName role="composer">Mario Diaz de Leon</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-              <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="mdl01" role="composer">Mario Diaz de Leon</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+             <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
               </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-12" type="encoding-date">2022-08-12</date>
@@ -37,7 +37,6 @@
             <score xml:id="s2zv2iu">
                <scoreDef xml:id="s8aopnc">
                   <pgHead xml:id="p9e1yc">
-                     <rend xml:id="rgbfoo8" halign="center" valign="top">Cantus</rend>
                      <rend xml:id="rso3k62" halign="right" valign="bottom">Mario Diaz de Leon</rend>
                   </pgHead>
                   <staffGrp xml:id="soo2ogb">

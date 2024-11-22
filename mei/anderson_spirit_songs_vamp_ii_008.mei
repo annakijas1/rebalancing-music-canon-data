@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Spirit Songs</title>
+            <title>Spirit Songs, VIII. Vamp II</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="sibwb4h">
                <scoreDef xml:id="s98xrjf">
                   <pgHead xml:id="prr0jjf">
-                     <rend xml:id="rt8k5nf" halign="center" valign="top">Spirit Songs</rend>
-                     <rend xml:id="ri2987d" halign="center" valign="top">Vamp II</rend>
                      <rend xml:id="rv3o1hm" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="s149jna">

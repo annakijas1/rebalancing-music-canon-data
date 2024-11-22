@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Night Fantasy, II</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-12-03" type="encoding-date">2021-12-03</date>
@@ -37,8 +37,6 @@
             <score xml:id="sd5w93o">
                <scoreDef xml:id="soectii">
                   <pgHead xml:id="p8jjz20">
-                     <rend xml:id="ry4klvx" halign="center" valign="top">Night Fantasy</rend>
-                     <rend xml:id="rijsyzy" halign="center" valign="top">II</rend>
                      <rend xml:id="rx9i9l2" halign="right" valign="bottom">Dorothy Rudd Moore</rend>
                   </pgHead>
                   <staffGrp xml:id="sefzy6q">
@@ -59,8 +57,9 @@
                            <mRest xml:id="mbpdpm5" />
                         </layer>
                      </staff>
-                     <tempo xml:id="t9l95ix" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="80.000000" mm="160.000000" mm.unit="8">
-                        <rend xml:id="rodyy18" fontname="VerovioText">Allegro </rend> = 160</tempo>
+                     <tempo xml:id="t9l95ix" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="80" mm="160.000000" mm.unit="8">
+                        <rend xml:id="rodyy18" >Allegro</rend>
+                        <rend xml:id="rodyy20" fontsize="small" fontname="VerovioText"> </rend> = 160</tempo>
                   </measure>
                   <measure xml:id="m8irnzc" n="2">
                      <staff xml:id="s1co7yp" n="1">

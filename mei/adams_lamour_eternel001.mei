@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>L'Amour éternal</title>
+            <title>L'Amour éternal, Allegretto fluente</title>
             <respStmt>
-               <persName role="composer">Leslie Adams</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="la01" role="composer">Leslie Adams</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -37,8 +37,6 @@
             <score xml:id="s57x246">
                <scoreDef xml:id="sad3qlj">
                   <pgHead xml:id="pocdu99">
-                     <rend xml:id="rvj7qfn" halign="center" valign="top">L'Amour éternel</rend>
-                     <rend xml:id="ryhdchc" halign="center" valign="top">I. Allegretto fluente</rend>
                      <rend xml:id="rknsa24" halign="right" valign="bottom">Leslie Adams</rend>
                   </pgHead>
                   <staffGrp xml:id="sy269de">
@@ -61,7 +59,7 @@
                         </layer>
                      </staff>
                      <tempo place="above" staff="1" tstamp="0">
-                        <rend>&#x1d15f; = c. 112</rend></tempo>
+                        <rend xml:id="rujg6v8" fontfam="smufl"></rend> = c. 112</tempo>
                   </measure>
                   <measure xml:id="m2kwxaz" left="rptstart" n="9">
                      <staff xml:id="soq4apf" n="1">

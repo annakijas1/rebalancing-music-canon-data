@@ -7,12 +7,14 @@
          <titleStmt>
             <title>The candy lion, op. 75, no. 1</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Hailing Wang</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="hw01" role="transcriber">Hailing Wang</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-03-22" type="encoding-date">2021-03-22</date> <publisher>Rebalancing the Music Canon</publisher>
+                         <publisher>Rebalancing the Music Canon</publisher>
+
             <availability>
                <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
             </availability>
@@ -37,7 +39,6 @@
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000416216982">
                      <rend xml:id="rend-0000001889650736" halign="right" valign="bottom">Amy Beach</rend>
-                     <rend xml:id="rend-0000002125143537" halign="center" valign="top">The candy lion, op. 75, no. 1</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000669697387">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="4">
@@ -58,7 +59,8 @@
                            <mRest xml:id="mrest-0000000216110201" />
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000000920913527" place="above" staff="1" tstamp="1.000000" vgrp="200">Allegretto con delicatezza</dir>
+                     <tempo place="above" staff="1" tstamp="1.000000" midi.bpm="76" mm="152.000000" mm.unit="8">
+                        <rend xml:id="rend-0000000064844517" fontsize = "normal">Allegretto con delicatezza</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000000942821338" n="2">
                      <staff xml:id="staff-0000000817018380" n="1">

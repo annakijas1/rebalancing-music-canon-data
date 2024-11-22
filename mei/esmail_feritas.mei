@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Feritas</title>
             <respStmt>
-               <persName role="composer">Reena Esmail</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="re01" role="composer">Reena Esmail</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,9 +38,7 @@
             <score xml:id="syfzb4g">
                <scoreDef xml:id="sdwcvlh">
                   <pgHead xml:id="pdunfw7">
-                     <rend xml:id="repe1mo" halign="center" valign="top">Feritas</rend>
                      <rend xml:id="rh3zkwi" halign="right" valign="top">Reena Esmail</rend>
-                     <rend xml:id="ro31q1b" halign="left" valign="top">I</rend>
                   </pgHead>
                   <staffGrp xml:id="sn8y5nb">
                      <staffGrp xml:id="sa95rs9">
@@ -78,8 +76,8 @@
                            </beam>
                         </layer>
                      </staff>
-                     <tempo xml:id="txgbs67" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="144.000000" mm="144.000000" mm.unit="4">
-                        <rend xml:id="rybw4at" fontname="VerovioText">Quickly (</rend> = 144)</tempo>
+                     <tempo xml:id="tau9pxg" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="144" mm="144.000000" mm.unit="4">
+                        <rend xml:id="r19zonta" fontweight="bold">Quickly </rend> (<rend xml:id="ry2uwe6" fontfam="smufl"></rend> = 144)</tempo>
                      <dynam xml:id="d89zs62" place="below" staff="1" tstamp="2.000000" val="96" vgrp="52">f</dynam>
                   </measure>
                   <scoreDef xml:id="sj9ja3x">

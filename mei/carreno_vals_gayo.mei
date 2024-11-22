@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Vals Gayo</title>
             <respStmt>
-               <persName role="composer">Teresa Carreño</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+              <persName xml:id="tc01" role="composer">Teresa Carreño</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-07-15" type="encoding-date">2021-07-15</date>
@@ -35,7 +35,6 @@
             <score xml:id="score-0000001389019958">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000257466107">
-                     <rend xml:id="rend-0000000801364560" halign="center" valign="top">Vals Gayo</rend>
                      <rend xml:id="rend-0000000076100840" halign="right" valign="bottom">Teresa Carreño</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001162326463">

@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Fantasistykker, op 45, no. 5 - Vals</title>
             <respStmt>
-               <persName role="composer">Agathe Backer-Grøndahl</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="abg01" role="composer">Agathe Backer-Grøndahl</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-09-14" type="encoding-date">2021-09-14</date>
@@ -36,7 +36,7 @@
             <score xml:id="s65wdse">
                <scoreDef xml:id="sm5kuup">
                   <pgHead xml:id="p8jnzpu">
-                     <rend xml:id="r15wwk1" halign="center" valign="top">Fantasistykker, op. 45, no. 5 - Vals</rend>
+                     <rend xml:id="r15wwk1" halign="center" valign="top"></rend>
                      <rend xml:id="rgaqpri" halign="right" valign="bottom">Agathe Backer-Grøndahl</rend>
                   </pgHead>
                   <staffGrp xml:id="spy2fga">
@@ -86,8 +86,9 @@
                            </chord>
                         </layer>
                      </staff>
-                     <tempo xml:id="t3myv66" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="94.000200" mm="96.000000" mm.unit="2" mm.dots="1">
-                        <rend xml:id="rhacyci" fontname="VerovioText">Molto con anima </rend> = 96</tempo>
+                     <tempo xml:id="tvu0469" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="94" mm="96.000000" mm.unit="2" mm.dots="1">
+                        <rend xml:id="r1mnyhqg" fontweight="bold">Molto con anima. </rend>
+                        <rend xml:id="r1xldfk8" fontfam="smufl"></rend> = 96</tempo>
                      <dir xml:id="d8wsbjt" place="below" staff="1" tstamp="2.000000" vgrp="40">
                         <rend xml:id="r9l95ix" fontstyle="italic">leggiero</rend>
                      </dir>
@@ -160,7 +161,7 @@
                      <pedal dir="down" staff="2" tstamp="1" />
                      <pedal dir="up" staff="2" tstamp="3.9" />
                    </measure>
-                  <measure xml:id="mfvjlpy" right="end" n="4">
+                  <measure xml:id="mfvjlpy" right="single" n="4">
                      <staff xml:id="sw7vtlk" n="1">
                         <layer xml:id="lr7a435" n="1">
                            <beam xml:id="ba1e1mt">

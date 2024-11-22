@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Suite for String Orchestra (The Dark Island), III. Alla Marcia</title>
             <respStmt>
-               <persName role="composer">Grace Williams</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="gw01" role="composer">Grace Williams</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-11-19" type="encoding-date">2021-11-19</date>
@@ -37,8 +37,6 @@
             <score xml:id="score-0000001396349639">
                <scoreDef xml:id="svhmu9j">
                   <pgHead xml:id="pghead-0000001457844672">
-                     <rend xml:id="rend-0000000713432683" halign="center" valign="top">Suite for String Orchestra (The Dark Island)</rend>
-                     <rend xml:id="rend-0000001359459984" halign="center" valign="top">III. Alla Marcia</rend>
                      <rend xml:id="rend-0000001326950408" halign="right" valign="bottom">Grace Williams</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001744577664">
@@ -60,8 +58,9 @@
                            <mRest xml:id="mrest-0000001001948928" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tempo-0000001001343223" place="above" staff="1" tstamp="1.000000" midi.bpm="120" mm="120.000000" mm.unit="4">
-                        <rend xml:id="rend-0000001361278282" fontname="VerovioText">Molto ritmico </rend> = 120</tempo>
+                     <tempo xml:id="tnkyplv" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm="120.000000" mm.unit="4">
+                        <rend xml:id="r1y9e23g" fontweight="bold">Molto ritmico </rend>
+                        <rend xml:id="r1brvnpq" fontfam="smufl"></rend> = 120</tempo>
                   </measure>
                   <measure xml:id="measure-0000001581827127" n="2">
                      <staff xml:id="staff-0000000897207326" n="1">
@@ -147,9 +146,9 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000001251576435" place="below" staff="1" tstamp="1.000000" vgrp="85">
+                     <dynam xml:id="dir-0000001251576435" place="below" staff="1" tstamp="1.000000" vgrp="85">
                         <rend xml:id="rend-0000001150589654" rend="none" fontweight="normal">ff quasi trombe</rend>
-                     </dir>
+                     </dynam>
                      <tie xml:id="tie-0000000174029761" startid="#note-0000002025782591" endid="#note-0000001479421429" />
                      <tie xml:id="tie-0000000023988139" startid="#note-0000001312143037" endid="#note-0000000527717396" />
                      <tie xml:id="tie-0000001145759500" startid="#note-0000000740415108" endid="#note-0000001797029929" />

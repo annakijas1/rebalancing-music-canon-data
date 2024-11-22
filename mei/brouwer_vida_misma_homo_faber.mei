@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>La Vida Misma, I  Homo Faber</title>
+            <title>La Vida Misma, I Homo Faber</title>
             <respStmt>
-               <persName role="composer">Leo Brouwer</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+              <persName xml:id="lb01" role="composer">Leo Brouwer</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-07-16" type="encoding-date">2021-07-16</date>
@@ -36,10 +36,7 @@
             <score xml:id="score-0000001475300970">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001121655598">
-                     <rend xml:id="rend-0000000691323895" halign="center" valign="top">La Vida Misma</rend>
-                     <rend xml:id="rend-0000000648443881" halign="center" valign="top">I  Homo Faber</rend>
                      <rend xml:id="rend-0000001452197873" halign="right" valign="bottom">Leo Brouwer</rend>
-                     <rend xml:id="rend-0000001249052435" halign="left" valign="top">Violin</rend>
                   </pgHead>
                   <pgFoot xml:id="pgfoot-0000000985702224">
                   </pgFoot>
@@ -89,8 +86,9 @@
                      <dir xml:id="dir-0000000707758061" place="below" staff="1" tstamp="1.000000" vgrp="66">
                         <rend xml:id="rend-0000000515253288" fontstyle="italic" fontweight="bold">pp</rend>
                      </dir>
-                     <tempo xml:id="tempo-0000002004440114" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="160.000000" mm="160.000000" mm.unit="4">
-                        <rend xml:id="rend-0000000405400175" fontname="VerovioText">Vivace </rend> = 160-176</tempo>
+                     <tempo xml:id="tempo-0000002004440114" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="160" mm="160.000000" mm.unit="4">
+                        <rend xml:id="rend-0000000405400175" >Vivace </rend>
+                        <rend fontsize="small" fontname="VerovioText"> </rend> = 160-176</tempo>
                   </measure>
                   <measure xml:id="measure-0000000096601285" n="2">
                      <staff xml:id="staff-0000000159363182" n="1">

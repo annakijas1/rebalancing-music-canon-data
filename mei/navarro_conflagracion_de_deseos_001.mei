@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Conflagración de Deseos, I</title>
             <respStmt>
-               <persName role="composer">Johanny Navarro </persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="jn01" role="composer">Johanny Navarro </persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-11-18" type="encoding-date">2021-11-18</date>
@@ -37,14 +37,12 @@
             <score xml:id="score-0000000921440802">
                <scoreDef xml:id="svhmu9j">
                   <pgHead xml:id="pghead-0000001737618289">
-                     <rend xml:id="rend-0000001977672529" halign="center" valign="top">Conflagración de Deseos</rend>
-                     <rend xml:id="rend-0000002019453893" halign="center" valign="top">I</rend>
                      <rend xml:id="rend-0000000313024327" halign="right" valign="bottom">Johanny Navarro </rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000892118432">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="2" trans.diat="-1.000000" trans.semi="-2.000000">
-                        <label xml:id="label-0000000307696573">B♭ Trumpet</label>
-                        <labelAbbr xml:id="labelAbbr-0000001676301899">B♭ Tpt.</labelAbbr>
+                        <label xml:id="label-0000000307696573">B♭ Trumpet II</label>
+                        <labelAbbr xml:id="labelAbbr-0000001676301899">B♭ Tpt. II</labelAbbr>
                         <instrDef xml:id="instrdef-0000000461803338" midi.channel="0" midi.instrnum="56" midi.volume="78.00%" />
                         <clef xml:id="clef-0000000761044972" shape="G" line="2" />
                         <keySig xml:id="keysig-0000001190338079" sig="2f" />
@@ -62,8 +60,8 @@
                         </layer>
                      </staff>
                      <tempo xml:id="tempo-0000001670235701" place="above" staff="1" tstamp="1.000000" midi.bpm="98" mm="65.000000" mm.unit="4" mm.dots="1">
-                     <rend xml:id="rend-0000001823057965" fontname="VerovioText">Con meraviglia (</rend> = 65)</tempo>
-                     <dir xml:id="dir-0000001117531415" place="above" staff="1" tstamp="1.000000" vgrp="200">[B♭trumpet II]</dir>
+                     <rend xml:id="rend-0000001823057965" >Con meraviglia (</rend>
+                     <rend xml:id="rend-0000001823057966" fontsize="small" fontname="VerovioText"></rend> = 65)</tempo>
                      <dir xml:id="dir-0000001380741012" place="below" staff="1" tstamp="4.000000" vgrp="40">
                         <rend xml:id="rend-0000000587496345" rend="none" fontstyle="italic" fontweight="bold">mp</rend>
                      </dir>

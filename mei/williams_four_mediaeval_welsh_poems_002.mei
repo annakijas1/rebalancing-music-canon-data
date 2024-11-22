@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Four Mediaeval Welsh Poems, II. Hwiangerdd</title>
             <respStmt>
-               <persName role="composer">Grace Williams</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="gw01" role="composer">Grace Williams</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-11-24" type="encoding-date">2021-11-24</date>
@@ -37,8 +37,6 @@
             <score xml:id="score-0000000585156456">
                <scoreDef xml:id="scoredef-0000002125242283">
                   <pgHead xml:id="pghead-0000002095888225">
-                     <rend xml:id="rend-0000000044313801" halign="center" valign="top">Four Mediaeval Welsh Poems</rend>
-                     <rend xml:id="rend-0000002057530752" halign="center" valign="top">II. Hwiangerdd</rend>
                      <rend xml:id="rend-0000001510064388" halign="right" valign="bottom">Grace Williams</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001003676273">
@@ -61,7 +59,7 @@
                         </layer>
                      </staff>
                      <tempo place="above" staff="1" tstamp="1.0000">
-             <rend fontname="VerovioText">Andante con moto</rend></tempo>
+             <rend fontweight="bold">Andante con moto</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000001815734243" n="9">
                      <staff xml:id="staff-0000001496321764" n="1">

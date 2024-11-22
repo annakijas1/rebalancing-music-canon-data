@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dream and Variations</title>
+            <title>Dream and Variations, 3</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Anna Kijas</persName>
-               <persName role="reviewer">Phillip Wright</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="aek01" role="transcriber">Anna E. Kijas</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-11" type="encoding-date">2022-07-11</date>
@@ -37,7 +37,6 @@
             <score xml:id="si54k5h">
                <scoreDef xml:id="s2hhmx0">
                   <pgHead xml:id="p96tx4j">
-                     <rend xml:id="rfolsfw" halign="center" valign="top">Dream and Variations</rend>
                      <rend xml:id="rm8p7or" halign="right" valign="bottom">Dorothy Rudd Moore</rend>
                   </pgHead>
                   <staffGrp xml:id="sj0q5ys">
@@ -96,8 +95,9 @@
                         </layer>
                      </staff>
                      <dynam xml:id="dku679v" place="below" staff="1" tstamp="1.000000" val="96" vgrp="49">f</dynam>
-                     <tempo xml:id="t3ll6gb" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rurur6j" fontweight="bold">Pesante &#x1d15f; = &#x1d15f;</rend>
+                      <tempo xml:id="tb0wdsu" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
+                        <rend xml:id="r1jrh40p" fontweight="bold">Pesante</rend>
+                        <rend xml:id="r1r1qph6" fontfam="smufl"></rend> = <rend xml:id="rvemys5" fontfam="smufl"></rend>
                      </tempo>
                   </measure>
                   <measure xml:id="mlxc3qg" n="2">

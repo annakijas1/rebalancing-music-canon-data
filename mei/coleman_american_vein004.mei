@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>American Vein</title>
+            <title>American Vein, 4. The Melting Pot</title>
             <respStmt>
-               <persName role="composer">Valerie Coleman</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="vc01" role="composer">Valerie Coleman</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-12" type="encoding-date">2022-08-12</date>
@@ -37,8 +37,6 @@
             <score xml:id="sg01uaq">
                <scoreDef xml:id="s49oh9l">
                   <pgHead xml:id="pq1l33x">
-                     <rend xml:id="rsxsno5" halign="center" valign="top">American Vein</rend>
-                     <rend xml:id="rjlbw72" halign="center" valign="top">4. The Melting Pot</rend>
                      <rend xml:id="rtu9hjf" halign="right" valign="bottom">Valerie Coleman</rend>
                   </pgHead>
                   <staffGrp xml:id="siwc2gg">
@@ -84,8 +82,9 @@
                            </beam>
                         </layer>
                      </staff>
-                     <tempo xml:id="tl9z1o" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="88.000000" mm="88.000000" mm.unit="4">
-                        <rend xml:id="rbc8dnp" fontweight="bold">MAESTOSO &#x1d15f; = 88</rend></tempo>
+                     <tempo xml:id="taxdvrm" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="88.000000" mm="88.000000" mm.unit="4">
+                        <rend xml:id="r1pyd8j3" fontweight="bold">MAESTOSO </rend>
+                        <rend xml:id="r1vs8k5q" fontsize="small" fontfam="smufl"></rend> = 88</tempo>
                      <dynam xml:id="df9bpjs" place="below" staff="1" tstamp="1.000000" val="112" vgrp="40">ff</dynam>
                      <slur xml:id="s9ypsf" startid="#n5f5u7t" endid="#n7ymc0i" curvedir="below" />
                      <slur xml:id="s4rloxm" startid="#nwjv7k" endid="#nujxbbo" curvedir="above" />
@@ -155,7 +154,8 @@
                         </layer>
                      </staff>
                      <tempo xml:id="talphe1" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="100.000000" mm="100.000000" mm.unit="4">
-                        <rend xml:id="rhrif59" fontname="VerovioText">PIU MOSSO </rend> = 100</tempo>
+                        <rend fontweight="bold">PIU MOSSO </rend>
+                        <rend fontsize="small" fontname="VerovioText"></rend> = 100</tempo>
                      <tie xml:id="t16qfwx" startid="#n6yqnl5" endid="#nf9r3rm" />
                      <trill xml:id="thh3znf" staff="1" startid="#n6yqnl5" tstamp2="1m+3.0000" extender="true" n="1" />
                   </measure>

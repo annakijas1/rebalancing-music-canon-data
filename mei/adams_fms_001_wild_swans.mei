@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Millay Songs</title>
+            <title>Five Millay Songs: Wild Swans</title>
             <respStmt>
-               <persName role="composer">H. Leslie Adams</persName>
-               <persName role="lyricist">Edna St. Vincent Millay</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Aviva Michaeli</persName>
+               <persName xml:id="la01" role="composer">Leslie Adams</persName>
+               <persName xml:id="esvm01" role="lyricist">Edna St. Vincent Millay</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="am01" role="reviewer">Aviva Michaeli</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-02-22" type="encoding-date">2022-02-22</date>
@@ -38,8 +38,6 @@
             <score xml:id="snsp34m">
                <scoreDef xml:id="sh5es23">
                   <pgHead xml:id="p6jnkhu">
-                     <rend xml:id="r727l2b" halign="center" valign="top">Five Millay Songs</rend>
-                     <rend xml:id="rmfv22u" halign="center" valign="top">1.  Wild Swans</rend>
                      <rend xml:id="rzat3dg" halign="right" valign="bottom">H. Leslie Adams</rend>
                      <rend xml:id="rbnqen1" halign="left" valign="bottom">Edna St. Vincent Millay</rend>
                   </pgHead>
@@ -62,10 +60,10 @@
                            <mRest xml:id="m43urk5" />
                         </layer>
                      </staff>
-                     <tempo xml:id="t402duq" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="138.000000" mm="92.000000" mm.unit="4" mm.dots="1">
-                        <lb xml:id="l1fkfpo" />
-                        <rend xml:id="r5n86e5" fontstyle="normal" fontweight="normal" />
-                        <rend xml:id="roclue9" fontname="VerovioText">Andantino portamento </rend> = 92</tempo>
+                      <tempo xml:id="t14v7i2r" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="138.000000" mm="92.000000" mm.unit="4" mm.dots="1">
+                        <rend xml:id="r1rq9jhh" fontstyle="italic" fontweight="bold">Andantino portamento</rend>
+                        <rend xml:id="r1b1ir4n" fontstyle="normal" fontweight="normal" />
+                        <rend xml:id="r1d7ye1d" fontfam="smufl"></rend> = 92</tempo>
                   </measure>
                   <measure xml:id="msh9pjs" n="2">
                      <staff xml:id="sruiurp" n="1">

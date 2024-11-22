@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Etudes and a Fancy </title>
+            <title>Five Etudes and a Fancy, I. Assimilation</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,10 +38,7 @@
             <score xml:id="sq3on2f">
                <scoreDef xml:id="sac94ot">
                   <pgHead xml:id="plsyadl">
-                     <rend xml:id="r1j5ag9" halign="center" valign="top">Five Etudes and a Fancy </rend>
                      <rend xml:id="reyfprj" halign="right" valign="bottom">T. J. Anderson</rend>
-                     <rend xml:id="rpswil5" halign="center" valign="top">I. Assimilation</rend>
-                     <rend xml:id="rkntog3" halign="left" valign="top">Flute</rend>
                   </pgHead>
                   <staffGrp xml:id="sanlrp8">
                      <staffGrp xml:id="sii0nzz">
@@ -80,9 +77,10 @@
                            <rest xml:id="rtf2x4t" dur.ppq="120" dur="2" />
                         </layer>
                      </staff>
-                     <tempo xml:id="trqns4r" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="r2aw87h" fontweight="bold">Moderato (</rend>
-                        <rend xml:id="rm1jp6n" fontname="VerovioText"></rend> = c. 92)</tempo>
+                     <tempo xml:id="tqaj8a4" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="r1iauwt8" fontweight="bold">Moderato (</rend>
+                        <rend xml:id="r10ymiob" fontweight="bold"><rend xml:id="r1fto51k" fontfam="smufl"></rend> = c. 92)</rend>
+                        </tempo>
                      <dir xml:id="dsbh1lm" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="ri8zyi0" fontstyle="italic" fontweight="bold">f</rend>
                      </dir>

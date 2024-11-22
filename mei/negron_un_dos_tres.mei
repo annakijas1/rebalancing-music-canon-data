@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Un, dos, tres</title>
             <respStmt>
-               <persName role="composer">Angélica Negrón</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="an01" role="composer">Angélica Negrón</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-07" type="encoding-date">2022-07-07</date>
@@ -37,7 +37,6 @@
             <score xml:id="s2uir2b">
                <scoreDef xml:id="sda64wa">
                   <pgHead xml:id="prp860s">
-                     <rend xml:id="rlq681c" halign="center" valign="top">Un, dos, tres</rend>
                      <rend xml:id="rt970yk" halign="right" valign="bottom">Angélica Negrón</rend>
                   </pgHead>
                   <staffGrp xml:id="setchbo">
@@ -53,7 +52,9 @@
                </scoreDef>
                <section xml:id="scpz81g">
                   <measure xml:id="mxcz9ke" n="1" right="dbl">
-                     <tempo place="above" staff="1" tstamp="0"> <rend>Fun and lively &#x1d15f; = 84</rend></tempo>
+                     <tempo xml:id="t1i7rid8" place="above" staff="1" tstamp="0.000000" xml:lang="it" midi.bpm="120.000000">
+                        <rend xml:id="r1u6kx" fontweight="bold">Fun and lively <rend xml:id="r26rdj" fontfam="smufl" fontweight="normal"></rend> = 84</rend>
+                     </tempo>
                      <staff xml:id="ssfaj1w" n="1">
                         <layer xml:id="l8wgyn" n="1">
                            <multiRest xml:id="mc1tbln" num="8" />

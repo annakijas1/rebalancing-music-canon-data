@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>In the Spirit and the Flesh</title>
+            <title>In the Spirit and the Flesh, I. Life</title>
             <respStmt>
-               <persName role="composer">Frederick Tillis</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Aviva Michaeli</persName>
+               <persName xml:id="fct01" role="composer">Frederick C. Tillis</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="am01" role="reviewer">Aviva Michaeli</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-12-03" type="encoding-date">2021-12-03</date>
@@ -37,8 +37,6 @@
             <score xml:id="swnnfu4">
                <scoreDef xml:id="srtbgb0">
                   <pgHead xml:id="pr64jom">
-                     <rend xml:id="rok83uv" halign="center" valign="top">In the Spirit and the Flesh</rend>
-                     <rend xml:id="rqy6uvi" halign="center" valign="top">I. Life</rend>
                      <rend xml:id="rj0vzy" halign="right" valign="bottom">Frederick Tillis</rend>
                   </pgHead>
                   <staffGrp xml:id="sxyr5i8">
@@ -75,8 +73,8 @@
                         <rend xml:id="r5enxxy" fontstyle="italic" fontweight="bold">mp</rend>
                      </dir>
                      <dir xml:id="di939pi" place="above" staff="1" tstamp="1.000000" vgrp="225">[cello]</dir>
-                     <tempo xml:id="tbtb3b0" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rh9st83" fontname="VerovioText"></rend> = c. 100 Moderately (expectantly)</tempo>
+                     <tempo xml:id="tbtb3b0" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="rh9st83" fontname="VerovioText" fontsize="small"></rend> = c. 100 Moderately (expectantly)</tempo>
                      <slur xml:id="svhmu9j" startid="#ng5kctd" endid="#nasm7a1" curvedir="above" />
                      <hairpin xml:id="hfi109x" staff="1" tstamp="1.200000" tstamp2="0m+1.78800" form="cres" place="below" vgrp="70" />
                      <dir xml:id="de5zabt" place="below" staff="1" tstamp="1.800000" vgrp="40">

@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Drei Sonaten für Cembalo / Sonata Terza</title>
             <respStmt>
-               <persName role="composer">Maria Teresa Agnesi</persName>
-               <persName role="transcriber">Simon K. Perry</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="mta01" role="composer">Maria Teresa Agnesi</persName>
+               <persName xml:id="skp01" role="transcriber">Simon K. Perry</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -43,15 +43,10 @@
             <score xml:id="score-0000001220288579">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000070399441">
-                     <rend xml:id="rend-0000001339627057" halign="center" valign="top">Drei Sonaten für Cembalo / Sonata Terza
-</rend>
+                     <rend xml:id="rend-0000001339627057" halign="center" valign="top"></rend>
                      <rend xml:id="rend-0000002019002871" halign="right" valign="bottom">Maria Teresa Agnesi
 </rend>
                   </pgHead>
-                  <pgFoot xml:id="pgfoot-0000000985501422">
-                     <rend xml:id="rend-0000001677650388">per il Cembalo
-</rend>
-                  </pgFoot>
                   <staffGrp xml:id="staffgrp-0000001752854348">
                      <staffGrp xml:id="P1" bar.thru="true">
                         <label xml:id="label-0000001957105033">Piano</label>
@@ -62,12 +57,12 @@
                            <keySig xml:id="keysig-0000000857840945" sig="1s" />
                            <meterSig xml:id="msig-0000002063529933" count="2" unit="4" />
                         </staffDef>
+                        <grpSym xml:id="grpsym-0000001243131010" symbol="brace" />
                         <staffDef xml:id="staffdef-0000000691323895" n="2" lines="5" ppq="4">
                            <clef xml:id="clef-0000000326764008" shape="F" line="4" />
                            <keySig xml:id="keysig-0000000873397970" sig="1s" />
                            <meterSig xml:id="msig-0000000985702224" count="2" unit="4" />
                         </staffDef>
-                        <grpSym xml:id="grpsym-0000001452197873" symbol="brace" />
                      </staffGrp>
                   </staffGrp>
                </scoreDef>

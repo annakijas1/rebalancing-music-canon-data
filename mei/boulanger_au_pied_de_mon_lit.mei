@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Au pied de mon lit</title>
             <respStmt>
-               <persName role="composer">Lili Boulanger</persName>
-               <persName role="transcriber">Chelsea Hong</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lb01" role="composer">Lili Boulanger</persName>
+               <persName xml:id="ch01" role="transcriber">Chelsea Hong</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-24" type="encoding-date">2021-05-24</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000001510633480">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000460749927">
-                     <rend xml:id="rend-0000000741169178" halign="center" valign="top">Au pied de mon lit</rend>
                      <rend xml:id="rend-0000001355857319" halign="right" valign="bottom">Lili Boulanger</rend>
                      <rend xml:id="rend-0000001037012619" halign="left" valign="bottom">Fancis Jammes</rend>
                   </pgHead>
@@ -80,8 +79,12 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000001885253112" place="above" staff="1" tstamp="2.000000" vgrp="200">
-                        <rend xml:id="rend-0000001719816744" rend="none" fontweight="normal">p simple et calme</rend>
+                     <tempo place="above" staff="1" tstamp="0">
+                        <rend>Sans lenteur</rend></tempo>
+                     <dynam place="above" staff="1" tstamp="1.5" vgrp="1">
+                           <rend>p</rend></dynam>
+                     <dir xml:id="dir-0000001885253112" place="above" staff="1" tstamp="2.2" vgrp="1">
+                        <rend xml:id="rend-0000001719816744" rend="none" fontweight="normal">simple et calme</rend>
                      </dir>
                   </measure>
                   <measure xml:id="measure-0000000443013635" n="2">

@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Grand Mass in E-flat Major Opus 5, Credo</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-10-22" type="encoding-date">2021-10-22</date>
@@ -37,7 +37,6 @@
             <score xml:id="smgdttw">
                <scoreDef xml:id="sruiurp">
                   <pgHead xml:id="pj9vl8l">
-                     <rend xml:id="rbclei5" halign="center" valign="top">Grand Mass in E-flat Major Opus 5, Credo</rend>
                      <rend xml:id="roq2zjg" halign="right" valign="bottom">Amy Beach</rend>
                   </pgHead>
                   <staffGrp xml:id="sb4466v">
@@ -71,9 +70,9 @@
                      <dir xml:id="dtijw7g" place="above" staff="1" tstamp="1.000000" vgrp="234">
                         <rend xml:id="rsd62i7" fontstyle="italic" fontweight="bold">f</rend>
                      </dir>
-                     <tempo xml:id="tlr5klb" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="116.000000" mm="116.000000" mm.unit="4">
-                        <rend xml:id="rmchisn" fontname="VerovioText">Allegro con spirito </rend> = 116</tempo>
-                     <dir xml:id="dhb6uqp" place="above" staff="1" tstamp="1.000000" vgrp="222">[Soprano Solo]</dir>
+                     <tempo xml:id="tlr5klb" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="116" mm="116.000000" mm.unit="4">
+                        <rend xml:id="rmchisn" fontsize = "normal">Allegro con spirito </rend>
+                        <rend xml:id="rmchisn" fontsize = "small" fontname="VerovioText"> </rend> = 116</tempo>
                   </measure>
                   <measure xml:id="mhry6qo" n="2">
                      <staff xml:id="slpuqw4" n="1">
@@ -99,7 +98,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="mqwawt8" right="end" n="4">
+                  <measure xml:id="mqwawt8" right="single" n="4">
                      <staff xml:id="s19b3s8" n="1">
                         <layer xml:id="l9ph45z" n="1">
                            <mRest xml:id="mj80ou7" />

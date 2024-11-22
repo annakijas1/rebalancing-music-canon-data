@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dream and Variations</title>
+            <title>Dream and Variations, 4</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Anna Kijas</persName>
-               <persName role="reviewer">Phillip Wright</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="aek01" role="transcriber">Anna E. Kijas</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-11" type="encoding-date">2022-07-11</date>
@@ -37,7 +37,6 @@
             <score xml:id="s2ygt9v">
                <scoreDef xml:id="si78hbo">
                   <pgHead xml:id="p9on7f5">
-                     <rend xml:id="rq3f9kt" halign="center" valign="top">Dream and Variations</rend>
                      <rend xml:id="roiddz0" halign="right" valign="bottom">Dorothy Rudd Moore</rend>
                   </pgHead>
                   <staffGrp xml:id="s1v1xji">
@@ -88,8 +87,9 @@
                            </note>
                         </layer>
                      </staff>
-                     <tempo xml:id="trl1eal" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="38.000000" mm="76.000000" mm.unit="8">
-                        <rend xml:id="ruwrx00" fontweight="bold">Adagio &#x1d160; = 76</rend></tempo>
+                     <tempo xml:id="t1j3upze" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="38.000000" mm="76.000000" mm.unit="8">
+                        <rend xml:id="r1v7j530" fontweight="bold">Adagio</rend>
+                        <rend xml:id="rune0va" fontfam="smufl"></rend> = 76</tempo>
                      <slur xml:id="sg01i5j" startid="#nswe9w5" endid="#ncegwme" curvedir="below" />
                      <tie xml:id="tnyl01s" startid="#ncegwme" endid="#nk3s8m6" />
                      <slur xml:id="sisvf2i" startid="#nk3s8m6" endid="#n8pz7aj" curvedir="below" />

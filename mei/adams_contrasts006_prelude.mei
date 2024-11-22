@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Contrasts</title>
+            <title>Contrasts, 6. Prelude</title>
             <respStmt>
-               <persName role="composer">H.  Leslie Adams</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Phillip Wright</persName>
+               <persName xml:id="la01" role="composer">Leslie Adams</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-06-27" type="encoding-date">2022-06-27</date>
@@ -37,8 +37,6 @@
             <score xml:id="sgwo828">
                <scoreDef xml:id="shml579">
                   <pgHead xml:id="psawuwn">
-                     <rend xml:id="r4610hg" halign="center" valign="top">Contrasts</rend>
-                     <rend xml:id="rwmka68" halign="center" valign="top">6.  Prelude</rend>
                      <rend xml:id="rf41zdp" halign="right" valign="bottom">H.  Leslie Adams</rend>
                   </pgHead>
                   <staffGrp xml:id="se8qo1v">

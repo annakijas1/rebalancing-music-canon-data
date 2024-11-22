@@ -8,9 +8,9 @@
             <title>Etude de Concert</title>
             <title type="subordinate">op. 47, no. 2</title>
             <respStmt>
-               <persName role="composer">Agathe Backer-Grondahl</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="abg01" role="composer">Agathe Backer-Grøndahl</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -45,7 +45,7 @@
             <score xml:id="score-0000001059913455">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001768064207">
-                     <rend xml:id="rend-0000000915339236" halign="center" valign="top">Etude de Concert, op. 47, no. 2</rend>
+                     <rend xml:id="rend-0000000915339236" halign="center" valign="top"></rend>
                      <rend xml:id="rend-0000001702749235" halign="right" valign="top">Agathe Backer-Grøndahl</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000279662537">
@@ -97,8 +97,9 @@
                         </layer>
                      </staff>
                      <dynam xml:id="dynam-0000000994437979" place="below" staff="1" tstamp="1.000000" val="64" vgrp="40">mp</dynam>
-                     <tempo xml:id="tempo-0000001226418232" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="168.000000" mm="168.000000" mm.unit="4">
-                        <rend xml:id="rend-0000001920694182" fontname="VerovioText">Con fuoco </rend> = 168</tempo>
+                     <tempo xml:id="tpcosgf" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="168" mm="168.000000" mm.unit="4">
+                        <rend xml:id="rlpm2ul" fontweight="bold">Con fuoco. </rend>
+                        <rend xml:id="r196sozq" fontfam="smufl"></rend> = 168.</tempo>
                   </measure>
                   <measure xml:id="measure-0000000373769401" n="1">
                      <staff xml:id="staff-0000000458774416" n="1">

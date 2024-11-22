@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Strange Dreams</title>
             <respStmt>
-               <persName role="composer">Missy Mazzoli</persName>
-               <persName role="lyricist">Royce Vavrek</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="mm01" role="reviewer">Missy Mazzoli</persName>
+               <persName xml:id="rv01" role="lyricist">Royce Vavrek</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-11-17" type="encoding-date">2021-11-17</date>
@@ -38,8 +38,6 @@
             <score xml:id="sudd4jc">
                <scoreDef xml:id="sb6408w">
                   <pgHead xml:id="pfi109x">
-                     <rend xml:id="rvhmu9j" halign="center" valign="top">Strange Dreams</rend>
-                     <rend xml:id="rjjjtxk" halign="center" valign="top">(from Proving Up)</rend>
                      <rend xml:id="raioglq" halign="right" valign="bottom">Missy Mazzoli</rend>
                      <rend xml:id="re5zabt" halign="left" valign="bottom">Royce Vavrek</rend>
                   </pgHead>
@@ -63,7 +61,8 @@
                         </layer>
                      </staff>
                      <tempo xml:id="t7td0u6" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="64.000000" mm="64.000000" mm.unit="4">
-                        <rend xml:id="r9j9btg" fontname="VerovioText">Resigned, steady </rend> = 64</tempo>
+                        <rend>Resigned, steady</rend>
+                        <rend xml:id="r9j9btg" fontname="VerovioText" fontsize="small"></rend> = 64</tempo>
                   </measure>
                   <scoreDef xml:id="sjj6hsc">
                      <meterSig xml:id="mnaqrtn" count="3" unit="4" />

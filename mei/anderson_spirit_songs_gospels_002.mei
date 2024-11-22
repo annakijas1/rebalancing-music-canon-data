@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Spirit Songs, II. Gospels</title>
             <respStmt>
-               <persName role="composer">T.J. Anderson</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-09-30" type="encoding-date">2021-09-30</date>
@@ -38,8 +38,7 @@
             <score xml:id="syw4k9e">
                <scoreDef xml:id="smnk48p">
                   <pgHead xml:id="pzaahol">
-                     <rend xml:id="r9j6t2e" halign="center" valign="top">Spirit Songs, II. Gospels</rend>
-                     <rend xml:id="rmave1l" halign="right" valign="bottom">T.J. Anderson</rend>
+                     <rend xml:id="rmave1l" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="so1ymqm">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="2">

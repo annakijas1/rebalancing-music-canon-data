@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>A Little Whimsy</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
                <persName role="reviewerr">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
@@ -37,8 +37,6 @@
             <score xml:id="s1xhgpj">
                <scoreDef xml:id="s9q3a39">
                   <pgHead xml:id="pyelnpd">
-                     <rend xml:id="rf87u3z" halign="center" valign="top">A Little Whimsy</rend>
-                     <rend xml:id="rmdhylw" halign="center" valign="top">for Piano</rend>
                      <rend xml:id="ruj1437" halign="right" valign="bottom">Dorothy Rudd Moore
 </rend>
                   </pgHead>
@@ -91,7 +89,8 @@
                         </layer>
                      </staff>
                      <tempo xml:id="t9gidhx" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="160.000000" mm="80.000000" mm.unit="2">
-                        <rend xml:id="rmsdclb" fontname="VerovioText"> Allegro </rend> = 80</tempo>
+                        <rend xml:id="rmsdclb" > Allegro</rend>
+                        <rend xml:id="rmsdclc" fontsize="small" fontname="VerovioText"> </rend> = 80</tempo>
                      <dynam xml:id="dwdzpkc" place="below" staff="1" tstamp="1.000000" val="80" vgrp="40">mf</dynam>
                      <slur xml:id="sk5dr94" startid="#ndgl2hf" endid="#nrmmy5g" curvedir="above" />
                   </measure>

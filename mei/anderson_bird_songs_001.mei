@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Bird Songs</title>
+            <title>Bird Songs, I. Birds of Prey</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="score-0000000717245864">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000053744496">
-                     <rend xml:id="rend-0000001236356019" halign="center" valign="top">Bird Songs</rend>
-                     <rend xml:id="rend-0000001622267383" halign="center" valign="top">I. Birds of Prey</rend>
                      <rend xml:id="rend-0000001699717683" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000002056907811">
@@ -60,9 +58,10 @@
                            <mRest xml:id="mrest-0000001336063757" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tempo-0000001193342342" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rend-0000001770481772" fontweight="bold">(</rend>
-                        <rend xml:id="rend-0000001416636601" fontname="VerovioText"></rend> = c. 92)</tempo>
+                     <tempo xml:id="tm7hcjr" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="re4quig" fontweight="bold">(</rend>
+                        <rend xml:id="r19z3349" fontweight="bold"><rend xml:id="r15ybz8e" fontfam="smufl"></rend> = c. 92)</rend>
+                        </tempo>
                      <dir xml:id="dir-0000000240688264" place="above" staff="1" tstamp="1.000000" vgrp="200">(4+3)</dir>
                   </measure>
                   <measure xml:id="measure-0000001632294250" n="2">
@@ -92,11 +91,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000001513831853" place="below" staff="1" tstamp="1.500000" vgrp="40">
-                        <rend xml:id="rend-0000002012651415" fontstyle="italic" fontweight="bold">f </rend>
-                        <lb xml:id="lb-0000000549275871" />
-                        <rend xml:id="rend-0000000018824687" fontweight="normal">agitando</rend>
-                     </dir>
+                     <dynam place="below" staff="1" tstamp="1.500000" vgrp="1">
+                        <rend fontweight="normal">agitando</rend>
+                     </dynam>
+                     <dynam place="below" staff="1" tstamp="1.2500000" vgrp="1">
+                        <rend fontweight="bold">f</rend>
+                     </dynam>
                      <slur xml:id="slur-0000001634987740" startid="#note-0000001412889347" endid="#note-0000000332759234" curvedir="above" />
                      <slur xml:id="slur-0000001242120913" startid="#note-0000000761005113" endid="#note-0000000880909333" curvedir="above" />
                   </measure>

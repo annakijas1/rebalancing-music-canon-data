@@ -8,9 +8,9 @@
             <title>Sonata for viola (clarinet) and piano</title>
             <title type="subordinate">op. 22</title>
             <respStmt>
-               <persName role="composer">Marion Bauer</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="mb01" role="composer">Marion Bauer</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-07" type="encoding-date">2021-05-07</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,8 +37,6 @@
             <score xml:id="score-0000001475141758">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001175628993">
-                     <rend xml:id="rend-0000001578309063" halign="center" valign="top">Sonata for viola (clarinet) and piano, op. 22
-</rend>
                      <rend xml:id="rend-0000000092625705" halign="right" valign="top">Marion Bauer</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001318418697">

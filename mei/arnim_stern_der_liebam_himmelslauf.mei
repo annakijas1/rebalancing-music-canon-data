@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Ein Stern der Lieb' am Himmelslauf</title>
             <respStmt>
-               <persName role="composer">Bettina von Arnim</persName>
-               <persName role="lyricist">Achim von Arnim</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="bva01" role="composer">Bettina von Arnim</persName>
+               <persName xml:id="ava01" role="lyricist">Achim von Arnim</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-04-16" type="encoding-date">2021-04-16</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000000033055378">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001632294250">
-                     <rend xml:id="rend-0000001740654144" halign="center" valign="top">Ein Stern der Lieb' am Himmelslauf</rend>
                      <rend xml:id="rend-0000001943312790" halign="right" valign="bottom">Bettina von Arnim</rend>
                      <rend xml:id="rend-0000001800746069" halign="left" valign="bottom">Achim von Arnim</rend>
                   </pgHead>

@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Drei Sonaten für Cembalo / Sonata Prima</title>
             <respStmt>
-               <persName role="composer">Maria Teresa Agnesi</persName>
-               <persName role="transcriber">Simon K. Perry</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="mta01" role="composer">Maria Teresa Agnesi</persName>
+               <persName xml:id="skp01" role="transcriber">Simon K. Perry</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -44,29 +44,21 @@
             <score xml:id="score-0000000607475861">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000915339236">
-                     <rend xml:id="rend-0000001790496533" halign="center" valign="top">Sonata Prima
+                     <rend xml:id="rend-0000001790496533" halign="center" valign="top">
 </rend>
                      <rend xml:id="rend-0000000416491255" halign="right" valign="bottom">Maria Teresa Agnesi
 </rend>
                   </pgHead>
-                  <pgFoot xml:id="pgfoot-0000001702749235">
-                     <rend xml:id="rend-0000000733189405">per il Cembalo
-</rend>
-                     <rend xml:id="rend-0000000381572419" />
-                     <rend xml:id="rend-0000001275642985">(1720-1795)
-</rend>
-                  </pgFoot>
                   <staffGrp xml:id="staffgrp-0000000537184961">
-                     <staffGrp xml:id="staffgrp-0000001727362442">
-                        <grpSym xml:id="grpsym-0000001883737240" symbol="brace" />
+                     <staffGrp xml:id="P1" bar.thru="true">
                         <staffDef xml:id="P1" n="1" lines="5" ppq="2">
                            <instrDef xml:id="instrdef-0000001616753997" midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
                            <clef xml:id="clef-0000001104591732" shape="G" line="2" />
                            <keySig xml:id="keysig-0000000112775106" sig="1s" />
                            <meterSig xml:id="msig-0000000348424075" count="4" sym="common" unit="4" />
                         </staffDef>
+                        <grpSym xml:id="grpsym-0000001243131010" symbol="brace" />
                         <staffGrp xml:id="staffgrp-0000000752106335">
-                           <grpSym xml:id="grpsym-0000001524320522" symbol="brace" />
                            <staffDef xml:id="P2" n="2" lines="5" ppq="2">
                               <instrDef xml:id="instrdef-0000000405400175" midi.channel="1" midi.instrnum="0" midi.volume="78.00%" />
                               <clef xml:id="clef-0000002099315841" shape="G" line="2" />

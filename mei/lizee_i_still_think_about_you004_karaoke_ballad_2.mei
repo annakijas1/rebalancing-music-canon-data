@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>I Still Think About You</title>
+            <title>I Still Think About You, Karakoe Ballad 2</title>
             <respStmt>
-               <persName role="composer">Nicole Lizée</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="nl01" role="reviewer">Nicole Lizée</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-14" type="encoding-date">2022-07-14</date>
@@ -37,8 +37,6 @@
             <score xml:id="sqpw7dj">
                <scoreDef xml:id="sugopv1">
                   <pgHead xml:id="p33s5vz">
-                     <rend xml:id="rnxw6pj" halign="center" valign="top">I Still Think About You</rend>
-                     <rend xml:id="rbnv2qg" halign="center" valign="top">Karaoke Ballad 2</rend>
                      <rend xml:id="rn6btxl" halign="right" valign="bottom">Nicole Lizée</rend>
                   </pgHead>
                   <staffGrp xml:id="smrkns9">
@@ -121,7 +119,7 @@
                      </staff>
                      <dir xml:id="d9utsbo" place="above" staff="1" tstamp="1.000000" vgrp="219">Synth</dir>
                      <tempo xml:id="tqco4iw" place="above" staff="1" tstamp="1.000000" mm="52.000000" mm.unit="2">
-                        <rend xml:id="rdp6owu" fontname="VerovioText"></rend> = 52</tempo>
+                        <rend xml:id="rdp6owu" fontfam=""="smufl"></rend> = 52</tempo>
                   </measure>
                   <measure xml:id="m3coq0x" n="3">
                      <staff xml:id="sd9popt" n="1">

@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Songs of Illumination </title>
+            <title>Songs of Illumination, IV. Moon</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="s5rnhev">
                <scoreDef xml:id="st1mkdq">
                   <pgHead xml:id="p9ph45z">
-                     <rend xml:id="r49ae4b" halign="center" valign="top">Songs of Illumination </rend>
-                     <rend xml:id="rj80ou7" halign="center" valign="top">IV. Moon</rend>
                      <rend xml:id="rysq6cf" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="sefooyv">
@@ -146,13 +144,13 @@
                            <rest xml:id="r7hknf" dur.ppq="6" dur="8" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tcvdj7r" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
+                     <tempo xml:id="tcvdj7r" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
                         <rend xml:id="roraqsa" fontname="VerovioText"></rend> = c. 88</tempo>
-                     <dir xml:id="dcfs8yn" place="below" staff="3" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="rp7jh8q" fontstyle="italic" fontweight="bold">mp</rend>
-                        <lb xml:id="ldeos0r" />
-                        <rend xml:id="r1co7yp" fontweight="normal">; stacc.</rend>
-                     </dir>
+                     <dynam place="below" staff="3" tstamp="1.000000" vgrp="40">
+                        <rend fontstyle="italic" fontweight="bold">mp</rend></dynam>
+                        <dynam place="below" staff="3" tstamp="1.25" vgrp="40">                       
+                        <rend fontweight="normal">; stacc.</rend>
+                     </dynam>
                   </measure>
                   <measure xml:id="mwpi5md" n="2">
                      <staff xml:id="svoottq" n="1">

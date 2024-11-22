@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Elegy for Strings</title>
             <respStmt>
-               <persName role="composer">Grace Williams</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Aviva Michaeli</persName>
+               <persName xml:id="gw01" role="composer">Grace Williams</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="am01" role="reviewer">Aviva Michaeli</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-02-22" type="encoding-date">2022-02-22</date>
@@ -37,7 +37,6 @@
             <score xml:id="sm0lazh">
                <scoreDef xml:id="scfaq9r">
                   <pgHead xml:id="pruwzhw">
-                     <rend xml:id="rqwawt8" halign="center" valign="top">Elegy for Strings</rend>
                      <rend xml:id="rmyzinq" halign="right" valign="bottom">Grace Williams</rend>
                   </pgHead>
                   <staffGrp xml:id="st1mkdq">
@@ -70,8 +69,9 @@
                      <dir xml:id="dyflle5" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="rl3hgfd" fontstyle="italic" fontweight="bold">mp</rend>
                      </dir>
-                     <tempo xml:id="t8vtqkh" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="72.000000" mm="72.000000" mm.unit="4">
-                        <rend xml:id="rqqknd9" fontname="VerovioText">Andante espressivo  </rend> = 72</tempo>
+                     <tempo xml:id="t1u4yyc" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="72.000000" mm="72.000000" mm.unit="4">
+                        <rend xml:id="r1kc5ghs" fontweight="bold">Andante espressivo </rend>
+                        <rend xml:id="r1g6hqx2" fontfam="smufl"></rend> = 72</tempo>
                      <slur xml:id="s1v55tu" startid="#ni9n8fo" endid="#nwpi5md" curvedir="below" />
                   </measure>
                   <measure xml:id="ma64ofl" n="2">

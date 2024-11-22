@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Songs of Illumination</title>
+            <title>Songs of Illumination, II. Cody and the Chicken</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="shbzny8">
                <scoreDef xml:id="sytvryf">
                   <pgHead xml:id="p6c78p">
-                     <rend xml:id="rtslwyo" halign="center" valign="top">Songs of Illumination</rend>
-                     <rend xml:id="rd5w93o" halign="center" valign="top">II. Cody and the Chicken</rend>
                      <rend xml:id="re6qib5" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="sbflgxj">
@@ -96,15 +94,15 @@
                            <mRest xml:id="ms01b9e" />
                         </layer>
                      </staff>
-                     <tempo xml:id="t1jcyme" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="2">
+                     <tempo xml:id="t1jcyme" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="2">
                         <rend xml:id="rbpdpm5" fontname="VerovioText"></rend> = c. 108 </tempo>
                      <slur xml:id="s8eiaex" startid="#n7yrlcz" endid="#nc0e296" curvedir="above" />
                      <slur xml:id="s9obe05" startid="#nmvi9ub" endid="#n9zloyu" curvedir="above" />
-                     <dir xml:id="d7hknf" place="below" staff="2" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="rq9802u" fontstyle="italic" fontweight="bold">mf</rend>
-                        <lb xml:id="l7xlme0" />
-                        <rend xml:id="rwlgitx" fontweight="normal">; furioso</rend>
-                     </dir>
+                     <dynam place="below" staff="2" tstamp="1.000000" vgrp="40">
+                        <rend fontstyle="italic" fontweight="bold">mf</rend></dynam>
+                     <dynam place="below" staff="2" tstamp="1.25" vgrp="40">
+                        <rend fontweight="normal">; furioso</rend>
+                     </dynam>
                   </measure>
                   <measure xml:id="mifop5j" n="2">
                      <staff xml:id="sduno2" n="1">

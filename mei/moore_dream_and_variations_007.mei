@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dream and Variations</title>
+            <title>Dream and Variations, 7</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Anna Kijas</persName>
-               <persName role="reviewer">Phillip Wright</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="aek01" role="transcriber">Anna E. Kijas</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-11" type="encoding-date">2022-07-11</date>
@@ -37,7 +37,6 @@
             <score xml:id="spq3clb">
                <scoreDef xml:id="s7d6cdb">
                   <pgHead xml:id="parth5j">
-                     <rend xml:id="r1a3v2o" halign="center" valign="top">Dream and Variations</rend>
                      <rend xml:id="rfl2ay1" halign="right" valign="bottom">Dorothy Rudd Moore</rend>
                   </pgHead>
                   <staffGrp xml:id="sp0p6un">
@@ -104,8 +103,9 @@
                         </layer>
                      </staff>
                      <hairpin staff="1" tstamp="4.5" tstamp2="0m+4.9" form="dim" place="below" vgrp="1" />
-                     <tempo xml:id="tvg53kn" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="50.000000" mm="50.000000" mm.unit="4">
-                        <rend xml:id="ru1ibsp" fontweight="bold">Molto Adagio &#x1d15f; = 50</rend></tempo>
+                     <tempo xml:id="tw1hlzv" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="50.000000" mm="50.000000" mm.unit="4">
+                        <rend xml:id="rrg7r0e" fontweight="bold">Molto Adagio </rend>
+                        <rend xml:id="rh2qimd" fontfam="smufl"></rend> = 50</tempo>
                      <dynam xml:id="df83vs3" place="below" staff="1" tstamp="1.000000" val="64" vgrp="42">mp</dynam>
                      <tie xml:id="t1ozajw" startid="#n4wd3zh" endid="#nry6dtp" />
                      <hairpin xml:id="hk09wpf" staff="1" tstamp="4.625000" tstamp2="0m+4.5000" form="dim" place="below" vgrp="60" />

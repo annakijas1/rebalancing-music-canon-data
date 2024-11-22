@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Sonata for Violin</title>
+            <title type="subordinate">III</title>
             <respStmt>
-               <persName role="composer">Grace Williams</persName>
-               <persName role="transcriber">Anna Kijas</persName>
-               <persName role="reviewer">Aviva Michaeli</persName>
+               <persName xml:id="gw01" role="composer">Grace Williams</persName>
+               <persName xml:id="aek01" role="transcriber">Anna E. Kijas</persName>
+               <persName xml:id="am01" role="reviewer">Aviva Michaeli</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +39,6 @@
             <score xml:id="s3r05pi">
                <scoreDef xml:id="s63imsi">
                   <pgHead xml:id="pjr0vgj">
-                     <rend xml:id="r1x0220" halign="center" valign="top">Sonata for Violin</rend>
-                     <rend xml:id="raba21" halign="center" valign="top">III</rend>
                      <rend xml:id="r70hsbd" halign="right" valign="bottom">Grace Williams</rend>
                   </pgHead>
                   <staffGrp xml:id="s12qpyy">

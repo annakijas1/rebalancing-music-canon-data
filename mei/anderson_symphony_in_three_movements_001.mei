@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Symphony in Three Movements</title>
+            <title>Symphony in Three Movements, I. Allegro</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="s4khtud">
                <scoreDef xml:id="s39mxuh">
                   <pgHead xml:id="p8t3cob">
-                     <rend xml:id="rm0lazh" halign="center" valign="top">Symphony in Three Movements</rend>
-                     <rend xml:id="rqwawt8" halign="center" valign="top">I. Allegro</rend>
                      <rend xml:id="rruwzhw" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="s5rnhev">
@@ -150,16 +148,20 @@
                            <mRest xml:id="mbhrrz3" />
                         </layer>
                      </staff>
-                     <dir xml:id="dl3hgfd" place="below" staff="1" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="r3a84ck" fontstyle="italic" fontweight="bold">f; robusto</rend>
-                        <lb xml:id="lskfde2" />
-                     </dir>
+                     <dynam place="below" staff="1" tstamp="1" vgrp="1">
+                        <rend fontstyle="italic" fontweight="bold">f</rend>
+                     </dynam>
+                     <dynam place="below" staff="1" tstamp="1.25" vgrp="1">
+                        <rend fontstyle="italic" fontweight="normal">; robusto</rend>
+                     </dynam>
                      <tempo xml:id="twudsl7" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="168" mm="84.000000" mm.unit="2">
                         <rend xml:id="roraqsa" fontname="VerovioText">Allegro (</rend> = 84)</tempo>
-                     <dir xml:id="dduno2" place="below" staff="3" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="r9jj5k6" fontstyle="italic" fontweight="bold">f; robusto</rend>
-                        <lb xml:id="lvqb579" />
-                     </dir>
+                        <dynam place="below" staff="3" tstamp="1" vgrp="1">
+                           <rend fontstyle="italic" fontweight="bold">f</rend>
+                        </dynam>
+                        <dynam place="below" staff="3" tstamp="1.25" vgrp="1">
+                           <rend fontstyle="italic" fontweight="normal">; robusto</rend>
+                        </dynam>
                   </measure>
                   <measure xml:id="muzzsq" n="2">
                      <staff xml:id="s945jpz" n="1">

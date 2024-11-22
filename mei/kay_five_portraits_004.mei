@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Five Portraits, 4. Larghetto</title>
             <respStmt>
-               <persName role="composer">Ulysses Kay</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="uk01" role="composer">Ulysses Kay</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
                <respStmt />
             </respStmt>
          </titleStmt>
@@ -38,8 +38,6 @@
             <score xml:id="sjalvi1">
                <scoreDef xml:id="sq0hdec">
                   <pgHead xml:id="pypa1xq">
-                     <rend xml:id="rmfdklt" halign="center" valign="top">Five Portraits</rend>
-                     <rend xml:id="rng0wjo" halign="center" valign="top">4. Larghetto</rend>
                      <rend xml:id="rak6p20" halign="right" valign="bottom">Ulysses Kay</rend>
                   </pgHead>
                   <staffGrp xml:id="sro9dgb">
@@ -128,9 +126,9 @@
                         </layer>
                      </staff>
                      <tie xml:id="tg7hixd" startid="#n6lqzch" endid="#nhfux3y" />
-                     <dir xml:id="dnbs8tv" place="below" staff="2" tstamp="4.000000" vgrp="40">
-                        <rend xml:id="r3z400x" fontstyle="italic" fontweight="bold">mp chiaro </rend>
-                     </dir>
+                     <dynam xml:id="dnbs8tv" place="below" staff="2" tstamp="4.000000" vgrp="40">
+                        <rend xml:id="r3z400x" fontstyle="italic">mp chiaro </rend>
+                     </dynam>
                      <slur xml:id="s4ji2aw" startid="#nnrrh59" endid="#nz48ehh" curvedir="above" />
                   </measure>
                   <scoreDef xml:id="sjtcvtm">

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Elegía a los silencios</title>
             <respStmt>
-               <persName role="composer">Irma Urteaga</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="iu01" role="composer">Irma Urteaga</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -37,7 +37,6 @@
             <score xml:id="s11q7rw">
                <scoreDef xml:id="s1c5kbb">
                   <pgHead xml:id="p9aw9fh">
-                     <rend xml:id="rpc1u8m" halign="center" valign="top">Elegía a los silencios</rend>
                      <rend xml:id="r50xv4z" halign="right" valign="bottom">Irma Urteaga</rend>
                   </pgHead>
                   <staffGrp xml:id="shxrskn">
@@ -59,8 +58,10 @@
                            <multiRest xml:id="mtpjsas" num="2" />
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="0">
-                        <rend>Tranquilo &#x1d15f; = 54</rend></tempo>
+                     <tempo xml:id="t55h7yz" place="above" staff="1" tstamp="0.000000" xml:lang="it" midi.bpm="90.000000" mm="60.000000" mm.unit="4" mm.dots="1">
+                        <rend xml:id="r7b1vga" fontstyle="normal" fontweight="bold">Tranquillo </rend>
+                        <rend xml:id="r1ekk7wh" fontweight="bold"><rend xml:id="rv5x4aw" fontfam="smufl"></rend> = 54 </rend>
+                        </tempo>
                   </measure>
                   <scoreDef xml:id="sad6n6j">
                      <meterSig xml:id="m9ox37w" count="2" unit="4" />

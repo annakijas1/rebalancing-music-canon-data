@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Par ce que j'ai souffert</title>
             <respStmt>
-               <persName role="composer">Lili Boulanger</persName>
-               <persName role="transcriber">Chelsea Hong</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lb01" role="composer">Lili Boulanger</persName>
+               <persName xml:id="ch01" role="transcriber">Chelsea Hong</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-24" type="encoding-date">2021-05-24</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000000576167488">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001087326861">
-                     <rend xml:id="rend-0000001155397569" halign="center" valign="top">Par ce que j'ai souffert</rend>
                      <rend xml:id="rend-0000000817018380" halign="right" valign="bottom">Lili Boulanger</rend>
                      <rend xml:id="rend-0000002014556172" halign="left" valign="bottom">Francis Jammes</rend>
                   </pgHead>
@@ -88,9 +87,12 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000000216303584" place="above" staff="1" tstamp="3.000000" vgrp="200">
-                        <rend xml:id="rend-0000001510633480" rend="none" fontweight="normal">pp avec une douceur émue</rend>
-                     </dir>
+                     <tempo place="above" staff="1" tstamp="1">
+                        <rend>Assez lent</rend></tempo>
+                     <dynam place="above" staff="1" tstamp="3" vgrp="1">pp</dynam>
+                     <dynam xml:id="dir-0000000216303584" place="above" staff="1" tstamp="4.25" vgrp="1">
+                        <rend xml:id="rend-0000001510633480" rend="none" fontweight="normal">avec une douceur émue</rend>
+                     </dynam>
                      <slur xml:id="slur-0000001355857319" startid="#note-0000000314633358" endid="#note-0000001037012619" curvedir="above" />
                      <slur xml:id="slur-0000001438921750" startid="#note-0000000314633358" endid="#note-0000001885253112" curvedir="above" />
                   </measure>

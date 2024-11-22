@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Night Fantasy, I</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-12-03" type="encoding-date">2021-12-03</date>
@@ -37,8 +37,6 @@
             <score xml:id="sqff3x2">
                <scoreDef xml:id="sxpx5p2">
                   <pgHead xml:id="pnajo7l">
-                     <rend xml:id="riqdqep" halign="center" valign="top">Night Fantasy</rend>
-                     <rend xml:id="rijsyzy" halign="center" valign="top">I</rend>
                      <rend xml:id="rgp58cg" halign="right" valign="bottom">Dorothy Rudd Moore</rend>
                   </pgHead>
                   <staffGrp xml:id="saqe7wp">
@@ -61,7 +59,8 @@
                         </layer>
                      </staff>
                      <tempo place="above" staff="1" tstamp="1.000000" mm.unit="4">
-                        <rend fontname="VerovioText">Largo </rend> = 52</tempo>
+                        <rend >Largo</rend>
+                        <rend fontsize="small" fontname="VerovioText"> </rend> = 52</tempo>
                   </measure>
                   <measure xml:id="mo2kvf1" n="10">
                      <staff xml:id="sf0fs7c" n="1">

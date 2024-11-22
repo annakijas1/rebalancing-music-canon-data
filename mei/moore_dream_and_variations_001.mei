@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dream and Variations</title>
+            <title>Dream and Variations, 1</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-11" type="encoding-date">2022-07-11</date>
@@ -37,7 +37,6 @@
             <score xml:id="soqa1c2">
                <scoreDef xml:id="squgj9a">
                   <pgHead xml:id="pfxyug5">
-                     <rend xml:id="r1ught3" halign="center" valign="top">Dream and Variations</rend>
                      <rend xml:id="rhmjrja" halign="right" valign="bottom">Dorothy Rudd Moore</rend>
                   </pgHead>
                   <staffGrp xml:id="ske6jzx">
@@ -77,8 +76,9 @@
                         </layer>
                      </staff>
                      <dynam xml:id="dk1v8uu" place="below" staff="1" tstamp="1.000000" val="80" vgrp="40">mf</dynam>
-                     <tempo xml:id="tu02fx5" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="50.000000" mm="50.000000" mm.unit="4">
-                        <rend xml:id="rueclbs" fontweight="bold">Intro: Largo &#x1d15f; = 50 </rend></tempo>
+                     <tempo xml:id="t1n5ymh7" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="50.000000" mm="50.000000" mm.unit="4">
+                        <rend xml:id="r7qpjpy" fontweight="bold">Intro: Largo </rend>
+                        <rend xml:id="r1iyov2a" fontfam="smufl"></rend> = 50</tempo>
                      <octave xml:id="ohss1ml" staff="2" startid="#riz775b" endid="#nhth5on" n="1" dis="8" dis.place="below" />
                      <tie xml:id="tfudyl1" startid="#n7n4qg3" endid="#nvhjb32" />
                      <pedal dir="down" staff="2" tstamp="1" vgrp="1"/>

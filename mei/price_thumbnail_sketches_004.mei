@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Thumbnail Sketches of a Day in the Life of a Washerwoman, Appendix: II. Dreaming at the Washtub</title>
             <respStmt>
-               <persName role="composer">Florence B.  Price</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="fbp01" role="composer">Florence B. Price</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-12-03" type="encoding-date">2021-12-03</date>
@@ -37,8 +37,6 @@
             <score xml:id="sute8n2">
                <scoreDef xml:id="sy7hcdu">
                   <pgHead xml:id="pq495fb">
-                     <rend xml:id="rgz09uc" halign="center" valign="top">Thumbnail Sketches of a Day in the Life of a Washerwoman</rend>
-                     <rend xml:id="r65wdse" halign="center" valign="top">Appendix: II. Dreaming at the Washtub</rend>
                      <rend xml:id="rnpoeb3" halign="right" valign="bottom">Florence B.  Price</rend>
                   </pgHead>
                   <staffGrp xml:id="srqtvbo">

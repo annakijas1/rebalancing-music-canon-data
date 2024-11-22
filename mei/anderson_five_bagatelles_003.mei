@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Bagatelles</title>
+            <title>Five Bagatelles, III. Burletta</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="sp09ia3">
                <scoreDef xml:id="sv3ymwn">
                   <pgHead xml:id="pwo8s4k">
-                     <rend xml:id="ryvmdr0" halign="center" valign="top">Five Bagatelles</rend>
-                     <rend xml:id="rdw071s" halign="center" valign="top">III. Burletta</rend>
                      <rend xml:id="r959jnk" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="sssg4xz">
@@ -170,8 +168,10 @@
                            <rest xml:id="rhnzta" dur.ppq="30" dur="8" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tfo28sw" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rsz843z" fontname="VerovioText"> Larghetto </rend> = c. 69</tempo>
+                     <tempo xml:id="t1sdmbkr" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="rqxmt7h" fontweight="bold">Larghetto </rend>
+                        <rend xml:id="rq00xu3" fontweight="bold"><rend xml:id="r1jrpm5g" fontfam="smufl"></rend> = c. 69</rend>
+                        </tempo>
                      <dir xml:id="dmqm7jf" place="below" staff="1" tstamp="3.000000" vgrp="40">
                         <rend xml:id="rkipil7" fontstyle="italic" fontweight="bold">fp</rend>
                      </dir>

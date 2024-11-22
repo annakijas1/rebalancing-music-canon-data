@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Scattered Winds / Uhutud Tuuled</title>
             <respStmt>
-               <persName role="composer">Alisson Kruusmaa</persName>
+               <persName xml:id="ak02" role="composer">Alisson Kruusmaa</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-09-21" type="encoding-date">2022-09-21</date>
+         <publisher>Rebalancing the Music Canon</publisher>
+         <availability>
+            <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
+         </availability>
+         <identifier>
+         <ref target="https://rebalancing-music-canon.com/"/>
+         </identifier>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-voq5s3">
@@ -28,8 +37,6 @@
             <score xml:id="s13cq0ik">
                <scoreDef xml:id="s12gttid">
                   <pgHead xml:id="p197vafm">
-                     <rend xml:id="r1x8ir39" halign="center" valign="top">scattered winds / uhutud tuuled</rend>
-                     <rend xml:id="ref8pce" halign="center" valign="top">for bass clarinet solo / soolobassklarnetile</rend>
                      <rend xml:id="r1yirp3a" halign="right" valign="bottom">Alisson Kruusmaa</rend>
                   </pgHead>
                   <staffGrp xml:id="s1atncj8">

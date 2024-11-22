@@ -5,13 +5,13 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Un poete disait...</title>
+            <title>Un poète disait...</title>
             <respStmt>
-               <persName role="composer">Lili Boulanger</persName>
-               <persName role="lyricist">Francis Jammes</persName>
-               <persName role="transcriber">Chelsea Hong</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lb01" role="composer">Lili Boulanger</persName>
+               <persName xml:id="fj01" role="lyricist">Francis Jammes</persName>
+               <persName xml:id="ch01" role="transcriber">Chelsea Hong</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-06-23" type="encoding-date">2021-06-23</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -38,13 +38,12 @@
             <score xml:id="score-0000000279662537">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000537184961">
-                     <rend xml:id="rend-0000001275642985" halign="center" valign="top">Un poète disait...</rend>
                      <rend xml:id="rend-0000001727362442" halign="right" valign="bottom">Lili Boulanger</rend>
                      <rend xml:id="rend-0000001616753997" halign="left" valign="bottom">Francis Jammes</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000778293639">
                      <staffGrp xml:id="staffgrp-0000001052955155">
-                        <grpSym xml:id="grpsym-0000000679913504" symbol="brace" />
+                        <grpSym xml:id="grpsym-0000000679913504" />
                         <staffDef xml:id="P1" n="1" lines="5" ppq="2">
                            <label xml:id="label-0000001497039130">Voice</label>
                            <labelAbbr xml:id="labelAbbr-0000001104591732"></labelAbbr>
@@ -64,6 +63,9 @@
                            <mRest xml:id="mrest-0000000994437979" />
                         </layer>
                      </staff>
+                     <tempo place="above" staff="1" tstamp="0">
+                        <rend> Sans lenteur</rend>
+                     </tempo>
                   </measure>
                   <measure xml:id="measure-0000000923080176" n="2">
                      <staff xml:id="staff-0000001265228955" n="1">
@@ -103,9 +105,9 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000000541012321" place="above" staff="1" tstamp="1.500000" vgrp="200">
+                     <dynam xml:id="dir-0000000541012321" place="above" staff="1" tstamp="1.500000" vgrp="1">
                         <rend xml:id="rend-0000000954455855" fontstyle="italic" fontweight="bold">p</rend>
-                     </dir>
+                     </dynam>
                   </measure>
                   <sb xml:id="sb-0000000795963156" />
                   <measure xml:id="measure-0000001957105033" n="4">
@@ -144,9 +146,9 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000000648443881" place="above" staff="1" tstamp="1.750000" vgrp="200">
+                     <dynam xml:id="dir-0000000648443881" place="above" staff="1" tstamp="1.750000" vgrp="1">
                         <rend xml:id="rend-0000002011352582" fontstyle="italic">sans rigueur</rend>
-                     </dir>
+                     </dynam>
                   </measure>
                   <measure xml:id="measure-0000001500925129" n="5">
                      <staff xml:id="staff-0000000092983622" n="1">

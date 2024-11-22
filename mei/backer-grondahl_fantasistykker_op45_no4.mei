@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Fantasistykker, op. 45, no. 4 - Gyngende</title>
             <respStmt>
-               <persName role="composer">Agathe Backer-Grøndahl</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="abg01" role="composer">Agathe Backer-Grøndahl</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -39,7 +39,7 @@
             <score xml:id="soz0r65">
                <scoreDef xml:id="sw5ggj0">
                   <pgHead xml:id="pt9ag2s">
-                     <rend xml:id="ry92lp0" halign="center" valign="top">Fantasistykker, op. 45, no. 4 - Gyngende</rend>
+                     <rend xml:id="ry92lp0" halign="center" valign="top"></rend>
                      <rend xml:id="r74exst" halign="right" valign="bottom">Agathe Backer-Grøndahl</rend>
                   </pgHead>
                   <staffGrp xml:id="sdjghby">
@@ -86,8 +86,9 @@
                            <rest xml:id="ru4ejo7" dur.ppq="1" dur="8" />
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="1">
-                     <rend fontname="VerovioText">Allegretto non troppo (M.M.  = 108)</rend></tempo>
+                     <tempo xml:id="t1i7rid8" place="above" staff="1" tstamp="0.000000" xml:lang="it" midi.bpm="120">
+                        <rend xml:id="r1u6kx" fontweight="normal">Allegretto non troppo (<rend xml:id="r26rdj" fontfam="smufl" fontweight="normal"></rend> = 108)</rend>
+                     </tempo>
                      <dir xml:id="d8a2a75" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="rzaahol" fontstyle="italic" fontweight="bold">pp</rend>
                      </dir>

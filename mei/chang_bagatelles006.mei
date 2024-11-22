@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Bagatelles</title>
+            <title>Bagatelles, 6. rhythm study no. 1</title>
             <respStmt>
-               <persName role="composer">Dorothy Chang</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="dc01" role="composer">Dorothy Chang</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-12" type="encoding-date">2022-08-12</date>
@@ -37,8 +37,6 @@
             <score xml:id="sffrobo">
                <scoreDef xml:id="svidhoy">
                   <pgHead xml:id="p5qnr5z">
-                     <rend xml:id="r4tinjs" halign="center" valign="top">Bagatelles</rend>
-                     <rend xml:id="rphvupq" halign="center" valign="top">6. rhythm study no. 1</rend>
                      <rend xml:id="rykimnb" halign="right" valign="bottom">Dorothy Chang</rend>
                   </pgHead>
                   <staffGrp xml:id="stcy6fl">
@@ -103,8 +101,9 @@
                         </layer>
                      </staff>
                      <dynam xml:id="dsslftl" place="below" staff="1" tstamp="1.000000" val="49" vgrp="40">p lightly</dynam>
-                     <tempo xml:id="t2cl04a" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="132.000000" mm="132.000000" mm.unit="4">
-                        <rend xml:id="rnhyoml" fontweight="bold">&#x1d15f; = 132-138 Groovy</rend></tempo>
+                     <tempo xml:id="t1kttyr6" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="132.000000" mm="132.000000" mm.unit="4">
+                        <rend xml:id="rr8tqqr" fontweight="bold"><rend xml:id="r19pogks" fontfam="smufl"></rend> = 132-138 Groovy</rend>
+                        </tempo>
                      <slur xml:id="sc62tql" startid="#nkv3jpa" endid="#nikyl5c" curvedir="below" />
                   </measure>
                   <scoreDef xml:id="s8ho2sy">

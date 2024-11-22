@@ -7,10 +7,19 @@
          <titleStmt>
             <title>Broke Baroque, II. Alberti</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-08-23" type="encoding-date">2021-08-23</date>
+         <publisher>Rebalancing the Music Canon</publisher>
+           <availability>
+               <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
+           </availability>
+        <identifier>
+           <ref target="https://rebalancing-music-canon.com/"/>
+           </identifier>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-prgel5">
@@ -28,8 +37,6 @@
             <score xml:id="sxikfuf">
                <scoreDef xml:id="smvisno">
                   <pgHead xml:id="pcb608l">
-                     <rend xml:id="rcyeubw" halign="center" valign="top">Broke Baroque</rend>
-                     <rend xml:id="rh3x3yi" halign="center" valign="top">II. Alberti</rend>
                      <rend xml:id="roz0r65" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="swxjtze">
@@ -68,13 +75,14 @@
                            <note xml:id="ngbwgot" dur.ppq="2" dur="4" oct="2" pname="a" stem.dir="up" />
                         </layer>
                      </staff>
-                     <tempo xml:id="t1b3a2y" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rmnk48p" fontname="VerovioText"></rend> = c. 60</tempo>
-                     <dir xml:id="d8a2a75" place="below" staff="1" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="rzaahol" fontstyle="italic" fontweight="bold">p;</rend>
-                        <lb xml:id="lhdlmi7" />
-                        <rend xml:id="ro1ymqm" fontweight="normal"> dolciss. sempre</rend>
-                     </dir>
+                     <tempo xml:id="t1tvhnut" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="rid4o4i" fontweight="bold"><rend xml:id="r1qocchr" fontfam="smufl"></rend> = c. 60</rend>
+                        </tempo>
+                     <dynam place="below" staff="1" tstamp="1.000000" vgrp="40">
+                        <rend>p</rend></dynam>
+                     <dynam xml:id="d8a2a75" place="below" staff="1" tstamp="1.4" vgrp="40">
+                        <rend xml:id="ro1ymqm" fontweight="normal">; dolciss. sempre</rend>
+                     </dynam>
                      <tie xml:id="tqfakv4" startid="#n1dqub1" endid="#ndhd7u7" />
                   </measure>
                   <measure xml:id="mpn9bfx" n="2">

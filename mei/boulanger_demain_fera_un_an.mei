@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Demain fera un an</title>
             <respStmt>
-               <persName role="composer">Lili Boulanger</persName>
-               <persName role="transcriber">Chelsea Hong</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lb01" role="composer">Lili Boulanger</persName>
+               <persName xml:id="ch01" role="transcriber">Chelsea Hong</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-24" type="encoding-date">2021-05-24</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000000923103253">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001336063757">
-                     <rend xml:id="rend-0000001582876614" halign="center" valign="top">Demain fera un an</rend>
                      <rend xml:id="rend-0000001632294250" halign="right" valign="bottom">Lili Boulanger</rend>
                      <rend xml:id="rend-0000000302770330" halign="left" valign="bottom">Francis Jammes</rend>
                   </pgHead>
@@ -86,12 +85,15 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000001634987740" place="above" staff="1" tstamp="1.500000" vgrp="234">
-                        <rend xml:id="rend-0000000761005113" rend="none" fontweight="normal">p résigné</rend>
+                     <dynam place="above" staff="1" tstamp="1.6" vgrp="2">p</dynam>
+                     <dir xml:id="dir-0000001634987740" place="above" staff="1" tstamp="1.900000" vgrp="234">
+                        <rend xml:id="rend-0000000761005113" rend="none" fontweight="normal">résigné</rend>
                      </dir>
-                     <dir xml:id="dir-0000000880909333" place="above" staff="1" tstamp="1.500000" vgrp="200">
+                     <dir xml:id="dir-0000000880909333" place="above" staff="1" tstamp="1.900000" vgrp="200">
                         <rend xml:id="rend-0000000590109734" rend="none" fontstyle="italic">Librement</rend>
                      </dir>
+                     <tempo place="above" staff="1" tstamp="0">
+                        <rend>Lent</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000001842492582" n="2">
                      <staff xml:id="staff-0000000416216982" n="1">
@@ -177,7 +179,7 @@
                                  <syl xml:id="syl-0000001325319933" con="u">lé,</syl>
                               </verse>
                            </note>
-                           <tuplet xml:id="tuplet-0000001438921750" num="3" numbase="2" bracket.visible="true">
+                           <tuplet xml:id="tuplet-0000001438921750" num="3" numbase="2" bracket.visible="false" bracket.place="above">
                               <note xml:id="note-0000001037012619" dur.ppq="4" dur="8" oct="4" pname="b" stem.dir="down" accid.ges="f" />
                               <note xml:id="note-0000000606754492" dur.ppq="4" dur="8" oct="4" pname="b" stem.dir="down" accid.ges="f">
                                  <verse xml:id="verse-0000000666516987" n="1">
@@ -190,7 +192,7 @@
                                  </verse>
                               </note>
                            </tuplet>
-                           <tuplet xml:id="tuplet-0000000437838765" num="3" numbase="2" bracket.visible="true">
+                           <tuplet xml:id="tuplet-0000000437838765" num="3" numbase="2" bracket.visible="false" bracket.place="above">
                               <note xml:id="note-0000001430505301" dur.ppq="4" dur="8" oct="4" pname="b" stem.dir="down" accid.ges="f">
                                  <verse xml:id="verse-0000001677366315" n="1">
                                     <syl xml:id="syl-0000000139232141" con="d" wordpos="i">prai</syl>

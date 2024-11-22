@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>I Still Think About You</title>
+            <title>I Still Think About You, Karaoke Ballad 3</title>
             <respStmt>
-               <persName role="composer">Nicole Lizée</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="nl01" role="reviewer">Nicole Lizée</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-14" type="encoding-date">2022-07-14</date>
@@ -37,8 +37,6 @@
             <score xml:id="suvxq0c">
                <scoreDef xml:id="sdjnm51">
                   <pgHead xml:id="pkl2im8">
-                     <rend xml:id="r9sij9t" halign="center" valign="top">I Still Think About You</rend>
-                     <rend xml:id="raz00cl" halign="center" valign="top">Karaoke Ballad 3</rend>
                      <rend xml:id="rxafg8j" halign="right" valign="bottom">Nicole Lizée</rend>
                   </pgHead>
                   <staffGrp xml:id="s9b0iej">
@@ -107,7 +105,7 @@
                      <dir xml:id="dh0l33b" place="above" staff="1" tstamp="1.000000" vgrp="239">Press play</dir>
                      <dir xml:id="dym2qqd" place="above" staff="1" tstamp="1.000000" vgrp="261">Karaoke Tape 3</dir>
                      <tempo xml:id="teebmh4" place="above" staff="1" tstamp="1.000000" midi.bpm="104.000000" mm="104.000000" mm.unit="4">
-                        <rend xml:id="r4530b9" fontname="VerovioText"></rend> = 104</tempo>
+                        <rend xml:id="r4530b9" fontfam="smufl"></rend> = 104</tempo>
                   </measure>
                   <measure xml:id="mo5h9cz" n="2">
                      <staff xml:id="ss4u9kk" n="1">

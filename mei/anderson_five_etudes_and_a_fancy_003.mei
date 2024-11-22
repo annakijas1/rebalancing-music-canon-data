@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Etudes and a Fancy</title>
+            <title>Five Etudes and a Fancy, III. Transference</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,10 +38,7 @@
             <score xml:id="svnyxgr">
                <scoreDef xml:id="son7z7h">
                   <pgHead xml:id="pyjeiqs">
-                     <rend xml:id="rmv9cv0" halign="center" valign="top">Five Etudes and a Fancy</rend>
-                     <rend xml:id="rzb566" halign="center" valign="top">III. Transference</rend>
                      <rend xml:id="rsftbkn" halign="right" valign="bottom">T. J. Anderson</rend>
-                     <rend xml:id="rxetjtr" halign="left" valign="top">Flute</rend>
                   </pgHead>
                   <staffGrp xml:id="s15mtb1">
                      <staffGrp xml:id="s80ovry">
@@ -72,9 +69,10 @@
                            </note>
                         </layer>
                      </staff>
-                     <tempo xml:id="ts5noxm" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="r2gwmkx" fontweight="bold">Allegro (</rend>
-                        <rend xml:id="rlzbj4k" fontname="VerovioText"></rend> = c. 112)</tempo>
+                     <tempo xml:id="t15h7tac" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="r1682z2g" fontweight="bold">Allegro (</rend>
+                        <rend xml:id="rsayex5" fontweight="bold"><rend xml:id="r1nzqp0z" fontfam="smufl"></rend> = c. 112)</rend>
+                        </tempo>
                      <dir xml:id="dbgbjpg" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="r2k2wzv" fontstyle="italic" fontweight="bold">mf</rend>
                      </dir>

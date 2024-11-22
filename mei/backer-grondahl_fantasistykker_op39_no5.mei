@@ -8,9 +8,9 @@
             <title>Fantasistykker, op. 39, no. 5 - I baaden</title>
             <title type="subordinate">No. 5</title>
             <respStmt>
-               <persName role="composer">Agatha Backer-Grøndahl</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="abg01" role="composer">Agathe Backer-Grøndahl</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-03-02" type="encoding-date">2021-03-02</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -38,7 +38,7 @@
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001389019958">
                      <rend xml:id="rend-0000000023950376" halign="right" valign="bottom">Agathe Backer-Grøndahl</rend>
-                     <rend xml:id="rend-0000000348776167" halign="center" valign="top">Fantasistykker, op. 39, no. 5 - I baaden</rend>
+                     <rend xml:id="rend-0000000348776167" halign="center" valign="top"></rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000801364560">
                      <staffGrp xml:id="P1" bar.thru="true">

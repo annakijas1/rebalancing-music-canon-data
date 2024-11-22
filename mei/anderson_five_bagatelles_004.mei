@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Bagatelles</title>
+            <title>Five Bagatelles, IV. Blues</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="saioo3l">
                <scoreDef xml:id="sxivbla">
                   <pgHead xml:id="p98u0z9">
-                     <rend xml:id="rlv26ex" halign="center" valign="top">Five Bagatelles</rend>
-                     <rend xml:id="r7yzjfa" halign="center" valign="top">IV. Blues</rend>
                      <rend xml:id="rw7dwtx" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="spmuov4">
@@ -146,8 +144,10 @@
                            <note xml:id="nrxbsw9" dur.ppq="6" dur="8" oct="3" pname="d" stem.dir="down" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tuqek3j" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rhhv88" fontname="VerovioText">Adagio </rend> = c.66</tempo>
+                     <tempo xml:id="tath0fu" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="r10awzql" fontweight="bold">Adagio </rend>
+                        <rend xml:id="r9t5evc" fontweight="bold"><rend xml:id="r1ivt6v0" fontfam="smufl"></rend> = c. 66</rend>
+                        </tempo>
                      <dir xml:id="dbzmdbi" place="below" staff="1" tstamp="2.000000" vgrp="54">
                         <rend xml:id="rkfaq25" fontstyle="italic" fontweight="bold">p</rend>
                      </dir>

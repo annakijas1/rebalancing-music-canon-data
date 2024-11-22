@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Saans</title>
             <respStmt>
-               <persName role="composer">Reena Esmail</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="re01" role="composer">Reena Esmail</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-03-31" type="encoding-date">2021-03-31</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -36,10 +36,7 @@
             <score xml:id="score-0000001322732797">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001181695304">
-                     <rend xml:id="rend-0000000246005706" halign="center" valign="top">Saans</rend>
-                     <rend xml:id="rend-0000001229662389" halign="center" valign="top">(Breath)</rend>
                      <rend xml:id="rend-0000000776271432" halign="right" valign="top">Reena Esmail</rend>
-                     <rend xml:id="rend-0000000380233170" halign="left" valign="top">Piano</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001761944607">
                      <staffGrp xml:id="P1" bar.thru="true">
@@ -121,15 +118,15 @@
                            </chord>
                         </layer>
                      </staff>
-                     <tempo xml:id="tempo-0000000541919863" place="above" staff="1" tstamp="1.000000" midi.bpm="50" mm="50.000000" mm.unit="4">
-<rend xml:id="rend-0000001503896436" fontname="VerovioText">Tenderly (</rend> = 50)</tempo>
+                      <tempo xml:id="t1isw167" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="50" mm="50.000000" mm.unit="4">
+                        <rend xml:id="rekzpnu" fontweight="bold">Tenderly </rend> (<rend xml:id="r1wsy5bk" fontfam="smufl"></rend> = 50)</tempo>
                      <arpeg xml:id="arpeg-0000001635121290" plist="#chord-0000000694977375" />
                      <tie xml:id="tie-0000001584250782" startid="#note-0000000783393548" endid="#note-0000001034508618" />
                      <tie xml:id="tie-0000001510009997" startid="#note-0000000275087107" endid="#note-0000001944083628" />
                      <tie xml:id="tie-0000000946822850" startid="#note-0000001769123044" endid="#note-0000000689691617" />
-                     <dir xml:id="dir-0000001969022005" place="below" staff="2" tstamp="1.000000" vgrp="40">
+                     <dynam xml:id="dir-0000001969022005" place="below" staff="2" tstamp="1.000000" vgrp="40">
                         <rend xml:id="rend-0000000548904394" rend="none" fontweight="normal">p delicate</rend>
-                     </dir>
+                     </dynam>
                   </measure>
                   <measure xml:id="measure-0000001150523226" n="2">
                      <staff xml:id="staff-0000000448733775" n="1">

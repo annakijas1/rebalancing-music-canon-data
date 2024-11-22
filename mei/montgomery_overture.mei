@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Overture</title>
             <respStmt>
-               <persName role="composer">Jessie Montgomery</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="jm01" role="composer">Jessie Montgomery</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-07" type="encoding-date">2022-07-07</date>
@@ -37,7 +37,6 @@
             <score xml:id="syezg7k">
                <scoreDef xml:id="sbmd2fx">
                   <pgHead xml:id="pudg6l0">
-                     <rend xml:id="r7qx4ma" halign="center" valign="top">Overture</rend>
                      <rend xml:id="rhmuiqj" halign="right" valign="bottom">Jessie Montgomery</rend>
                   </pgHead>
                   <staffGrp xml:id="s4ocp2k">
@@ -72,8 +71,9 @@
                      <dynam xml:id="d5solns" place="below" staff="1" tstamp="1.000000" val="96" vgrp="40">f sempre, legato</dynam>
                      <dynam xml:id="dju4jig" place="above" staff="1" tstamp="1.000000" vgrp="233">
                         <rend fontstyle="normal" >relentless, sustained</rend></dynam>
-                     <tempo xml:id="tudn82k" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="72.000000" mm="72.000000" mm.unit="4">
-                        <rend xml:id="rsm4355" fontweight="bold">Boldly &#x1d15f; = 72</rend></tempo>
+                      <tempo xml:id="tgh9drs" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="72.000000" mm="72.000000" mm.unit="4">
+                        <rend xml:id="r1nbm3nw" fontweight="bold">Boldly </rend>
+                        <rend xml:id="r1giqt9o" fontfam="smufl" fontsize="small"></rend> = 72</tempo>
                      <tie xml:id="tv0o61b" startid="#ne2ys1h" endid="#nxifyf" />
                   </measure>
                   <measure xml:id="m2zd0r2" n="2">

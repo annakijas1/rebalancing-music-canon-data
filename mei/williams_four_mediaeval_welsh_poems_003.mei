@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Four Mediaeval Welsh Poems, III. Boddi Maes Gwyddno</title>
             <respStmt>
-               <persName role="composer">Grace Williams</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="gw01" role="composer">Grace Williams</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-11-24" type="encoding-date">2021-11-24</date>
@@ -37,8 +37,6 @@
             <score xml:id="score-0000001184958712">
                <scoreDef xml:id="scoredef-0000002125242283">
                   <pgHead xml:id="pghead-0000001819549317">
-                     <rend xml:id="rend-0000000787587958" halign="center" valign="top">Four Mediaeval Welsh Poems</rend>
-                     <rend xml:id="rend-0000000598170158" halign="center" valign="top">III. Boddi Maes Gwyddno</rend>
                      <rend xml:id="rend-0000001615863232" halign="right" valign="bottom">Grace Williams</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000653364714">
@@ -61,7 +59,7 @@
                         </layer>
                      </staff>
                      <tempo place="above" staff="1" tstamp="1.0000">
-             <rend fontname="VerovioText">Allegro Agitato</rend></tempo>
+             <rend fontweight="bold">Allegro Agitato</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000001205286071" n="7">
                      <staff xml:id="staff-0000001352205843" n="1">
@@ -87,9 +85,9 @@
                            <note xml:id="note-0000000473725457" dur.ppq="12" dur="4" oct="5" pname="c" stem.dir="down" accid.ges="s" />
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000002022728720" place="above" staff="1" tstamp="1.750000" vgrp="234">
+                     <dynam xml:id="dir-0000002022728720" place="above" staff="1" tstamp="1.750000" vgrp="234">
                         <rend xml:id="rend-0000000838497619" rend="none" fontweight="regular">ff declamando</rend>
-                     </dir>
+                     </dynam>
                      <tie xml:id="tie-0000000328086020" startid="#note-0000001558003715" endid="#note-0000000473725457" />
                   </measure>
                   <sb xml:id="sb-0000002019563750" />

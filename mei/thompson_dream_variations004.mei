@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dream Variations</title>
+            <title>Dream Variations. A Black Pierrot</title>
             <respStmt>
-               <persName role="composer">Richard Thompson</persName>
-               <persName role="lyricist">Langston Hughes</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="rt01" role="composer">Richard Thompson</persName>
+               <persName xml:id="lh01" role="lyricist">Langston Hughes</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -38,8 +38,6 @@
             <score xml:id="stxc9pa">
                <scoreDef xml:id="sbmxi48">
                   <pgHead xml:id="ps69l35">
-                     <rend xml:id="rrsxces" halign="center" valign="top">Dream Variations</rend>
-                     <rend xml:id="rqnv233" halign="center" valign="top">A Black Pierrot</rend>
                      <rend xml:id="rjofbxb" halign="right" valign="bottom">Richard Thompson</rend>
                      <rend xml:id="rjsx8sk" halign="left" valign="bottom">Langston Hughes</rend>
                   </pgHead>
@@ -62,8 +60,9 @@
                            <mRest xml:id="mfekw9m" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tyw1084" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="104.000000" mm="104.000000" mm.unit="4">
-                        <rend xml:id="r77x0on" fontweight="bold">Playful &#x1d15f; =104</rend></tempo>
+                      <tempo xml:id="tpho8xt" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="104.000000" mm="104.000000" mm.unit="4">
+                        <rend xml:id="retzcvp" fontweight="bold">Playful </rend>
+                        <rend xml:id="rpw7mkj" fontfam="smufl"></rend> = 104</tempo>
                   </measure>
                   <scoreDef xml:id="s2kb1lj">
                      <meterSig xml:id="mqofgk" count="2" unit="4" />

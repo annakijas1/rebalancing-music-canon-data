@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Songs of Illumination </title>
+            <title>Songs of Illumination, I. Living Below Van Gogh</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="se0tyio">
                <scoreDef xml:id="sa18urg">
                   <pgHead xml:id="pmfv22u">
-                     <rend xml:id="rb0trsr" halign="center" valign="top">Songs of Illumination </rend>
-                     <rend xml:id="r4y5pn8" halign="center" valign="top">I. Living Below Van Gogh</rend>
                      <rend xml:id="ri98u6e" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="sw7uewp">
@@ -88,17 +86,17 @@
                            <note xml:id="nu2lxwk" dur.ppq="24" dur="2" oct="3" pname="b" stem.dir="down" />
                         </layer>
                      </staff>
-                     <tempo xml:id="t43urk5" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="ry9n4c0" fontname="VerovioText"></rend> = c. 69</tempo>
+                     <tempo xml:id="t43urk5" place="above" staff="1" tstamp="1.000000" xml:lang="it" mm.unit="4">
+                        <rend xml:id="ry9n4c0" fontsize="small" fontname="VerovioText"></rend> = c. 69</tempo>
                      <slur xml:id="sruiurp" startid="#n12af4d" endid="#nz2t4qh" curvedir="above" />
                      <tie xml:id="tpz86w5" startid="#n12af4d" endid="#nb4466v" />
                      <tie xml:id="tj9vl8l" startid="#nbclei5" endid="#nquyfj8" />
                      <tie xml:id="t4nse5t" startid="#noq2zjg" endid="#nbhk259" />
-                     <dir xml:id="d9xgx29" place="below" staff="2" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="rz5dkg3" fontstyle="italic" fontweight="bold">ppp</rend>
-                        <lb xml:id="luft15u" />
+                     <dynam place="below" staff="2" tstamp="1.000000" vgrp="40">
+                        <rend fontstyle="italic" fontweight="bold">ppp</rend></dynam>
+                     <dynam xml:id="d9xgx29" place="below" staff="2" tstamp="2.5" vgrp="40">
                         <rend xml:id="r38ibl0" fontweight="normal">; dolcissimo</rend>
-                     </dir>
+                     </dynam>
                      <tie xml:id="tdf4bho" startid="#n3dtskj" endid="#nu2lxwk" />
                      <slur xml:id="s6o92nc" startid="#nu2lxwk" endid="#nsg2ft4" curvedir="above" />
                   </measure>

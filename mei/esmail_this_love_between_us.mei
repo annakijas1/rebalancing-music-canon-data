@@ -7,9 +7,9 @@
          <titleStmt>
             <title>This Love Between Us. Movement V: (Hinduism)</title>
             <respStmt>
-               <persName role="composer">Reena Esmail</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="re01" role="composer">Reena Esmail</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-11-03" type="encoding-date">2021-11-03</date>
@@ -37,8 +37,6 @@
             <score xml:id="s7oicqb">
                <scoreDef xml:id="s2gu2ua">
                   <pgHead xml:id="pb632ud">
-                     <rend xml:id="rgb6hj2" halign="center" valign="top">This Love Between Us</rend>
-                     <rend xml:id="rgbdou0" halign="center" valign="top">Movement V: (Hinduism)</rend>
                      <rend xml:id="rfoloyc" halign="right" valign="bottom">Reena Esmail</rend>
                   </pgHead>
                   <staffGrp xml:id="sbmbyem">
@@ -58,12 +56,12 @@
                            <rest xml:id="rqygo7c" dur.ppq="2" dur="4" />
                            <note xml:id="n28dovh" dur.ppq="2" dur="4" oct="4" pname="f" stem.dir="up" accid="s">
                               <verse xml:id="vz8a2c1" n="1">
-                                 <syl xml:id="se56ina" con="s" wordpos="s">This</syl>
+                                 <syl xml:id="se56ina" con="s" wordpos="i">This</syl>
                               </verse>
                            </note>
                            <note xml:id="n8gw2ya" dots="1" dur.ppq="3" dur="4" oct="4" pname="f" stem.dir="up" accid.ges="s">
                               <verse xml:id="vby2o2k" n="1">
-                                 <syl xml:id="smdpupi" con="s" wordpos="s">love</syl>
+                                 <syl xml:id="smdpupi" con="s" wordpos="m">love</syl>
                               </verse>
                            </note>
                            <note xml:id="nnz8mc2" dur.ppq="1" dur="8" oct="4" pname="g" stem.dir="up" accid="s">
@@ -78,13 +76,13 @@
                            </note>
                            <note xml:id="nr0ejxp" dur.ppq="2" dur="4" oct="4" pname="f" stem.dir="up" accid.ges="s">
                               <verse xml:id="vqtqsy6" n="1">
-                                 <syl xml:id="sdotesn" con="u" wordpos="s">us,</syl>
+                                 <syl xml:id="sdotesn" con="u" wordpos="t">us,</syl>
                               </verse>
                            </note>
                         </layer>
                      </staff>
-                     <tempo xml:id="tww5kja" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="63.000000" mm="63.000000" mm.unit="4">
-                        <rend xml:id="rqub5ka" fontname="VerovioText"> Serene (</rend> = 63)</tempo>
+                     <tempo xml:id="t1gey37e" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="63" mm="63.000000" mm.unit="4">
+                        <rend xml:id="rxraim6" fontweight="bold">Serene </rend> (<rend xml:id="r16tdqhv" fontfam="smufl"></rend> = 63)</tempo>
                      <dir xml:id="dsup4f7" place="above" staff="1" tstamp="1.500000" vgrp="234">
                         <rend xml:id="r61kj91" fontstyle="italic" fontweight="bold">mp</rend>
                      </dir>
@@ -104,12 +102,12 @@
                            <rest xml:id="r9qlxlx" dur.ppq="2" dur="4" />
                            <note xml:id="nkn12tu" dur.ppq="2" dur="4" oct="4" pname="f" stem.dir="up" accid="s">
                               <verse xml:id="vllfvge" n="1">
-                                 <syl xml:id="ss3ak7p" con="s" wordpos="s">this</syl>
+                                 <syl xml:id="ss3ak7p" con="s" wordpos="i">this</syl>
                               </verse>
                            </note>
                            <note xml:id="nqwrz83" dots="1" dur.ppq="3" dur="4" oct="4" pname="b" stem.dir="down">
                               <verse xml:id="v3flgi2" n="1">
-                                 <syl xml:id="s6zt2ou" con="s" wordpos="s">love</syl>
+                                 <syl xml:id="s6zt2ou" con="s" wordpos="m">love</syl>
                               </verse>
                            </note>
                            <note xml:id="nsbtf7c" dur.ppq="1" dur="8" oct="4" pname="g" stem.dir="up" accid="s">
@@ -124,7 +122,7 @@
                            </note>
                            <note xml:id="ngw87ac" dur.ppq="2" dur="4" oct="4" pname="e" stem.dir="up">
                               <verse xml:id="vfqrt31" n="1">
-                                 <syl xml:id="sa3qxkp" con="u" wordpos="s">us,</syl>
+                                 <syl xml:id="sa3qxkp" con="u" wordpos="t">us,</syl>
                               </verse>
                            </note>
                         </layer>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dream of the Cherry Blossoms</title>
+            <title>Dream of the Cherry Blossoms, 2</title>
             <respStmt>
-               <persName role="composer">Keiko Abe</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="ka01" role="composer">Keiko Abe</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -37,8 +37,8 @@
             <score xml:id="s7j9vle">
                <scoreDef xml:id="siz2w8w">
                   <pgHead xml:id="p5wr455">
-                     <rend xml:id="rrfnyg7" halign="center" valign="top">Dream of the Cherry Blossoms</rend>
-                     <rend xml:id="re6powd" halign="center" valign="top">II.</rend>
+                     <rend xml:id="rrfnyg7" halign="center" valign="top"></rend>
+                     <rend xml:id="re6powd" halign="center" valign="top"></rend>
                      <rend xml:id="repmloj" halign="right" valign="bottom">Keiko Abe</rend>
                   </pgHead>
                   <staffGrp xml:id="s9n70jn">
@@ -126,7 +126,8 @@
                         </layer>
                      </staff>
                      <tempo xml:id="t8u9mnj" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="29.000000" mm="58.000000" mm.unit="8" vgrp="2">
-                        <rend xml:id="rh5qfex" fontweight="bold">Adagio &#x1d160; = 58</rend></tempo>
+                        <rend xml:id="rh5qfex" fontweight="bold">Adagio</rend>
+                        <rend xml:id="r1l10vjc" fontfam="smufl">&#xe1d7;</rend> = 58</tempo>
                      <dir xml:id="d5rksu6" place="above" staff="1" tstamp="1.000000" vgrp="200">X - dämpfen (dead Stroke)</dir>
                      <dynam xml:id="d98j9d8" place="below" staff="1" tstamp="1.000000" val="33">pp</dynam>
                      <tie xml:id="tg5q09r" startid="#nk0gq1w" endid="#n75l7e6" />

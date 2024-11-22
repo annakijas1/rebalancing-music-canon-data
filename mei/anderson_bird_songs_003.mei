@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Bird Songs</title>
+            <title>Bird Songs, III. Pterodactyl</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="score-0000000108241160">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001474679209">
-                     <rend xml:id="rend-0000001969048543" halign="center" valign="top">Bird Songs</rend>
-                     <rend xml:id="rend-0000001694454087" halign="center" valign="top">III. Pterodactyl</rend>
                      <rend xml:id="rend-0000001475141758" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000002109038109">
@@ -89,13 +87,15 @@
                            </note>
                         </layer>
                      </staff>
-                     <tempo xml:id="tempo-0000001948093945" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="2">
-                        <rend xml:id="rend-0000002132246393" fontname="VerovioText"></rend> = c. 92</tempo>
-                     <dir xml:id="dir-0000001999217666" place="below" staff="1" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="rend-0000000344589507" fontstyle="italic" fontweight="bold">mf </rend>
-                        <lb xml:id="lb-0000001213094868" />
-                        <rend xml:id="rend-0000001332854591" fontweight="normal">misterioso</rend>
-                     </dir>
+                     <tempo xml:id="t1kg4gxz" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="2">
+                        <rend xml:id="r1txalgf" fontweight="bold"><rend xml:id="r184hm0l" fontfam="smufl"></rend> = c. 92</rend>
+                        </tempo>
+                     <dynam place="below" staff="1" tstamp="1.25" vgrp="1">
+                        <rend fontweight="normal">misterioso</rend>
+                     </dynam>
+                     <dynam place="below" staff="1" tstamp="1.000000" vgrp="1">
+                        <rend fontweight="normal">mf</rend>
+                     </dynam>
                      <slur xml:id="slur-0000002000293136" startid="#note-0000001103505768" endid="#note-0000001092122522" curvedir="above" />
                      <slur xml:id="slur-0000000085198211" startid="#note-0000000514854444" endid="#note-0000000266352791" curvedir="below" />
                   </measure>

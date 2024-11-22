@@ -7,9 +7,9 @@
          <titleStmt>
             <title>be still and know</title>
             <respStmt>
-               <persName role="composer">Carlos Simon</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="cs01" role="composer">Carlos Simon</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-03-31" type="encoding-date">2021-03-31</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -36,8 +36,6 @@
             <score xml:id="score-0000001315399295">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001231476396">
-                     <rend xml:id="rend-0000001351228775" halign="center" valign="top">be still and know</rend>
-                     <rend xml:id="rend-0000001623750583" halign="center" valign="top" fontstyle="italic">for piano trio</rend>
                      <rend xml:id="rend-0000001719288096" halign="right" valign="top">Carlos Simon</rend>
                      <rend xml:id="rend-0000001764184995" halign="left" valign="top" />
                   </pgHead>
@@ -74,7 +72,8 @@
                         </layer>
                      </staff>
                      <tempo xml:id="tempo-0000000276288853" place="above" staff="1" tstamp="1.000000" midi.bpm="50" mm="50.000000" mm.unit="4">
-                        <rend xml:id="rend-0000001331249885" fontname="VerovioText">Quietly and reflective </rend> = 50</tempo>
+                        <rend>Quietly and reflective</rend>
+                        <rend xml:id="rend-0000001331249885" fontname="VerovioText" fontsize="small"> </rend> = 50</tempo>
 
                      <fermata xml:id="fermata-0000000586984535" staff="1" startid="#mrest-0000000076100840" form="norm" place="above" />
                      <fermata xml:id="fermata-0000002104100511" staff="2" startid="#mrest-0000002132879705" form="norm" place="above" />

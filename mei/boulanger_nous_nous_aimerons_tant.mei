@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Nous nous aimerons tant</title>
             <respStmt>
-               <persName role="composer">Lili Boulanger</persName>
-               <persName role="transcriber">Chelsea Hong</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lb01" role="composer">Lili Boulanger</persName>
+               <persName xml:id="ch01" role="transcriber">Chelsea Hong</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-24" type="encoding-date">2021-05-24</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000001055422082">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000019148629">
-                     <rend xml:id="rend-0000000727622082" halign="center" valign="top">Nous nous aimerons tant</rend>
                      <rend xml:id="rend-0000001543238636" halign="right" valign="bottom">Lili Boulanger</rend>
                      <rend xml:id="rend-0000002038921238" halign="left" valign="bottom">Francis Jammes</rend>
                   </pgHead>
@@ -57,16 +56,11 @@
                   <measure xml:id="measure-0000001516301222" n="1">
                      <staff xml:id="staff-0000000985315630" n="1">
                         <layer xml:id="layer-0000000375743163" n="1">
-                           <mRest xml:id="mrest-0000001155397569" />
+                           <multiRest num="2" />
                         </layer>
                      </staff>
-                  </measure>
-                  <measure xml:id="measure-0000000025556641" n="2">
-                     <staff xml:id="staff-0000001455521293" n="1">
-                        <layer xml:id="layer-0000000108241160" n="1">
-                           <mRest xml:id="mrest-0000000973630378" />
-                        </layer>
-                     </staff>
+                     <tempo place="above" staff="1" tstamp="0">
+                        <rend>Lent</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000001969048543" n="3">
                      <staff xml:id="staff-0000000625243133" n="1">
@@ -99,9 +93,10 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000001627903427" place="above" staff="1" tstamp="1.500000" vgrp="246">
-                        <rend xml:id="rend-0000000427636485" rend="none" fontweight="normal">p très ému et très contenu</rend>
-                     </dir>
+                     <dynam place="above" staff="1" tstamp="1" vgrp="1">p</dynam>
+                     <dynam xml:id="dir-0000001627903427" place="above" staff="1" tstamp="1.7" vgrp="1">
+                        <rend xml:id="rend-0000000427636485" rend="none" fontweight="normal">très ému et très contenu</rend>
+                     </dynam>
                      <slur xml:id="slur-0000000216303584" startid="#note-0000001052142942" endid="#note-0000001213094868" curvedir="above" />
                   </measure>
                   <measure xml:id="measure-0000001103920070" n="4">

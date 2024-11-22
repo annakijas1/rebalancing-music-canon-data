@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Festival jubilate: for SATB chorus and piano</title>
+            <title>Festival jubilate, op. 17: for SATB chorus and piano</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-07-16" type="encoding-date">2021-07-16</date>
@@ -37,7 +37,6 @@
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001635121290">
                      <rend xml:id="rend-0000002116705864" halign="right" valign="top">Amy Beach</rend>
-                     <rend xml:id="rend-0000000679964586" halign="center" valign="top">Festival jubilate: for SATB chorus &amp; piano</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001557769433">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="1">
@@ -88,7 +87,7 @@
                      </staff>
                      <tempo xml:id="tempo-0000000487207374" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="66.000000" mm="66.000000" mm.unit="4">
                         <rend xml:id="rend-0000000079094986" fontweight="bold">Maestoso    </rend>
-                        <rend xml:id="rend-0000002109810578" fontname="VerovioText"></rend> = 66</tempo>
+                        <rend xml:id="rend-0000002109810578" fontsize="small" fontname="VerovioText"></rend> = 66</tempo>
                      <dynam xml:id="dynam-0000000500632097" place="above" staff="1" tstamp="1.000000" val="96" vgrp="224">f</dynam>
                   </measure>
                   <measure xml:id="measure-0000001819142039" n="4">

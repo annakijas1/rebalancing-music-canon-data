@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Blue/s Forms for Unaccompanied Violin</title>
+            <title>Blue/s Forms for Unaccompanied Violin. II. Just Blue/s</title>
             <respStmt>
-               <persName role="composer">Coleridge-Taylor Perkinson</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Phillip Wright</persName>
+               <persName xml:id="ctp01" role="composer">Coleridge-Taylor Perkinson</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="score-0000001638566291">
                <scoreDef xml:id="scoredef-0000001970444384">
                   <pgHead xml:id="pghead-0000000783425251">
-                     <rend xml:id="rend-0000001870783692" halign="center" valign="top">Blue/s Forms for Unaccompanied Violin</rend>
-                     <rend xml:id="rend-0000000720413629" halign="center" valign="top">II. Just Blue/s</rend>
                      <rend xml:id="rend-0000000823624886" halign="right" valign="bottom">Coleridge-Taylor Perkinson</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000463174007">
@@ -91,8 +89,8 @@
                      <dir xml:id="dir-0000001140948399" place="above" staff="1" tstamp="1.000000" vgrp="200">
                         <rend xml:id="rend-0000000836045783" fontstyle="italic">con sordino</rend>
                      </dir>
-                     <tempo xml:id="tempo-0000000033527115" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="33.000000" mm="66.000000" mm.unit="8">
-                        <rend xml:id="rend-0000001372442361" fontname="VerovioText">Very free ( = 66)</rend></tempo>
+                      <tempo xml:id="ti48aly" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="33" mm="66.000000" mm.unit="8">
+                        <rend xml:id="r1d36si6" fontfam="FreeSerif" fontweight="bold">Very free </rend>(<rend xml:id="r12esu9k" fontfam="smufl"></rend> = 66)</tempo>
                      <slur xml:id="slur-0000001338576136" startid="#note-0000001428826257" endid="#note-0000001468750620" curvedir="above" />
                      <slur xml:id="slur-0000001404528509" startid="#note-0000001468750620" endid="#note-0000001253159200" curvedir="above" />
                      <slur xml:id="slur-0000000357227399" startid="#note-0000001464483711" endid="#note-0000001667806760" curvedir="above" />

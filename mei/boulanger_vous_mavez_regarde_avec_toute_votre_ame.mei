@@ -7,10 +7,10 @@
          <titleStmt>
             <title>Vous m'avez regardé avec toute votre âme</title>
             <respStmt>
-               <persName role="composer">Lili Boulanger</persName>
-               <persName role="transcriber">Chelsea Hong</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lb01" role="composer">Lili Boulanger</persName>
+               <persName xml:id="ch01" role="transcriber">Chelsea Hong</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-24" type="encoding-date">2021-05-24</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000000770318467">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000494751321">
-                     <rend xml:id="rend-0000000602627322" halign="center" valign="top">Vous m'avez regardé avec toute votre âme</rend>
                      <rend xml:id="rend-0000001477966836" halign="right" valign="bottom">Lili Boulanger</rend>
                      <rend xml:id="rend-0000001233556008" halign="left" valign="bottom">Francis Jammes</rend>
                   </pgHead>
@@ -57,16 +56,11 @@
                   <measure xml:id="measure-0000000801364560" n="1">
                      <staff xml:id="staff-0000000872872807" n="1">
                         <layer xml:id="layer-0000000629113872" n="1">
-                           <mRest xml:id="mrest-0000000540239031" />
+                           <multiRest num="2" />
                         </layer>
                      </staff>
-                  </measure>
-                  <measure xml:id="measure-0000000357141663" n="2">
-                     <staff xml:id="staff-0000000733189405" n="1">
-                        <layer xml:id="layer-0000001768064207" n="1">
-                           <mRest xml:id="mrest-0000001702749235" />
-                        </layer>
-                     </staff>
+                     <tempo place="above" staff="1" tstamp="0">
+                        <rend>Sans lenteur</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000000381572419" n="3">
                      <staff xml:id="staff-0000001616753997" n="1">
@@ -100,9 +94,10 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000000679913504" place="above" staff="1" tstamp="2.500000" vgrp="200">
-                        <rend xml:id="rend-0000001104591732" rend="none" fontweight="normal">p avec une tendresse recueillie</rend>
-                     </dir>
+                     <dynam place="above" staff="1" tstamp="2.500000" vgrp="200">p</dynam>
+                     <dynam xml:id="dir-0000000679913504" place="above" staff="1" tstamp="2.6" vgrp="200">
+                        <rend xml:id="rend-0000001104591732" rend="none" fontweight="normal">avec une tendresse recueillie</rend>
+                     </dynam>
                   </measure>
                   <measure xml:id="measure-0000000250916008" n="4">
                      <staff xml:id="staff-0000000694323447" n="1">

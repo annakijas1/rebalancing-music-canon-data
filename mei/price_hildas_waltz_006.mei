@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Seven descriptive pieces, [No. 6.] Hilda's Waltz</title>
             <respStmt>
-               <persName role="composer">Florence B. Price</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="fbp01" role="composer">Florence B. Price</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,7 +38,6 @@
             <score xml:id="sxh08jl">
                <scoreDef xml:id="supwke1">
                   <pgHead xml:id="p7l54ls">
-                     <rend xml:id="rndlby0" halign="center" valign="top">Seven descriptive pieces, [No. 6.] Hilda's Waltz</rend>
                      <rend xml:id="rgz09uc" halign="right" valign="bottom">Florence B. Price</rend>
                   </pgHead>
                   <pgFoot xml:id="pvveh2s" />

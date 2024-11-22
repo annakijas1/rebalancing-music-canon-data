@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>You Have the Right to Remain Silent</title>
+            <title>You Have the Right to Remain Silent, II. (Loss)</title>
             <respStmt>
-               <persName role="composer">Anthony Davis</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="ad01" role="composer">Anthony Davis</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-21" type="encoding-date">2022-07-21</date>
@@ -37,8 +37,6 @@
             <score xml:id="sl9rqdw">
                <scoreDef xml:id="s3ukqf6">
                   <pgHead xml:id="p1k7agi">
-                     <rend xml:id="r779lw6" halign="center" valign="top">You Have the Right to Remain Silent</rend>
-                     <rend xml:id="rcv6z7g" halign="center" valign="top">II. (Loss)</rend>
                      <rend xml:id="rmfl5yh" halign="right" valign="bottom">Anthony Davis</rend>
                   </pgHead>
                   <staffGrp xml:id="s9mdddo">
@@ -68,8 +66,9 @@
                      <dynam xml:id="dvloo8m" place="below" staff="1" tstamp="1.500000" val="49" vgrp="40">p</dynam>
                      <tie xml:id="t7fzdfz" startid="#nlspjfg" endid="#n9ehmgp" />
                      <tie xml:id="tnbu15b" startid="#nvz4n6f" endid="#ns6w7z6" />
-                     <tempo place="above" staff="1" tstamp="1.000000">
-                        <rend>&#x1d15f; = 94</rend></tempo>
+                     <tempo xml:id="t1i7rid8" place="above" staff="1" tstamp="0.000000" xml:lang="it" midi.bpm="120.000000">
+                        <rend xml:id="r1u6kx" fontweight="normal"><rend xml:id="r26rdj" fontfam="smufl" fontweight="normal"></rend> = 94</rend>
+                     </tempo>
                   </measure>
                   <scoreDef xml:id="sjhv5gy">
                      <meterSig xml:id="ml50li2" count="5" unit="4" />

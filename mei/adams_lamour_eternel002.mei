@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>L'Amour éternel</title>
+            <title>L'Amour éternel, Andantino e poco agitato</title>
             <respStmt>
-               <persName role="composer">Leslie Adams</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="la01" role="composer">Leslie Adams</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -37,8 +37,6 @@
             <score xml:id="sdllsx1">
                <scoreDef xml:id="sxmpdtf">
                   <pgHead xml:id="psu5ymg">
-                     <rend xml:id="rxpb32d" halign="center" valign="top">L'Amour éternel</rend>
-                     <rend xml:id="r4t0ggj" halign="center" valign="top">II. Andantino e poco agitato</rend>
                      <rend xml:id="r1fdwx3" halign="right" valign="bottom">Leslie Adams</rend>
                   </pgHead>
                   <staffGrp xml:id="sa69cha">
@@ -60,8 +58,8 @@
                            <multiRest xml:id="munutj1" num="16" />
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="0">
-                        <rend>&#x1d15e; = c. 88</rend></tempo>
+                      <tempo xml:id="t1y1rhtt" place="above" staff="1" tstamp="0" xml:lang="it" midi.bpm="63.000000" mm="42.000000" mm.unit="4" mm.dots="1">
+                        <rend xml:id="rujg6v8" fontfam="smufl"></rend> = c. 88</tempo>
                   </measure>
                   <measure xml:id="m85cbkx" n="17">
                      <staff xml:id="sbr1o2t" n="1">

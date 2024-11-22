@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>American Vein</title>
+            <title>American Vein, 5. Barn Raising, Bourbon and Bluegrass (BB&amp;B)</title>
             <respStmt>
-               <persName role="composer">Valerie Coleman</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="vc01" role="composer">Valerie Coleman</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-12" type="encoding-date">2022-08-12</date>
@@ -37,12 +37,10 @@
             <score xml:id="sg3lwet">
                <scoreDef xml:id="s1ce9p1">
                   <pgHead xml:id="pko5krs">
-                     <rend xml:id="rdad44w" halign="center" valign="top">American Vein</rend>
-                     <rend xml:id="rmg256k" halign="center" valign="top">5. Barn Raising, Bourbon and Bluegrass (BB&amp;B)</rend>
                      <rend xml:id="rgqbbz2" halign="right" valign="bottom">Valerie Coleman</rend>
                   </pgHead>
                   <staffGrp xml:id="s423bk">
-                     <staffDef xml:id="P1" n="1" lines="5" ppq="12" trans.diat="-4.000000" trans.semi="-7.000000">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="12" trans.diat="-4" trans.semi="-7">
                         <label xml:id="lkeqjci">English Horn</label>
                         <labelAbbr xml:id="lkqa4nu">E. Hn.</labelAbbr>
                         <instrDef xml:id="ip3jqjh" midi.channel="0" midi.instrnum="69" midi.volume="78.00%" />
@@ -59,8 +57,9 @@
                            <mRest xml:id="m3ko6sr" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tjlurxs" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="80.000000" mm="80.000000" mm.unit="4">
-                        <rend xml:id="rqbv4wd" fontweight="bold">RUBATO &#x1d15f; = 80</rend></tempo>
+                     <tempo xml:id="t1tlroc7" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="80.000000" mm="80.000000" mm.unit="4">
+                        <rend xml:id="rd0vnn2" fontweight="bold">RUBATO </rend>
+                        <rend xml:id="rrr8msy" fontfam="smufl"></rend> = 80</tempo>
                   </measure>
                   <scoreDef xml:id="sq6hde4">
                      <meterSig xml:id="mtpftw0" count="4" unit="4" />

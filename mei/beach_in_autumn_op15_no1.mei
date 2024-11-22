@@ -7,10 +7,10 @@
          <titleStmt>
             <title>In autumn, op. 15, no. 1</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Sebastian Tringale</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="st01" role="transcriber">Sebastian Tringale</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-27" type="encoding-date">2021-05-27</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000000267851314">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000002014079449">
-                     <rend xml:id="rend-0000000473177626" halign="center" valign="top">In autumn, op. 15, no. 1</rend>
                      <rend xml:id="rend-0000001431130809" halign="right" valign="bottom">Amy Beach</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000232406695">
@@ -109,6 +108,7 @@
                            </beam>
                         </layer>
                      </staff>
+                     <tempo staff="1" tstamp="1.0" place="above">Allegro ma non tanto</tempo>
                      <dir xml:id="dir-0000001413552312" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="rend-0000000567190576" rend="none" fontstyle="italic" fontweight="bold">p</rend>
                      </dir>

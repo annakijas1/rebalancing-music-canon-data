@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>I. Call and Response</title>
+            <title>Spirit Songs, I. Call and Response</title>
             <respStmt>
-               <persName role="composer">T.J. Anderson</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-09-30" type="encoding-date">2021-09-30</date>
@@ -38,8 +38,7 @@
             <score xml:id="sok83uv">
                <scoreDef xml:id="scvyn21">
                   <pgHead xml:id="pj0vzy">
-                     <rend xml:id="rqy6uvi" halign="center" valign="top">Spirit Songs, I. Call and Response</rend>
-                     <rend xml:id="rmvqywc" halign="right" valign="bottom">T.J. Anderson</rend>
+                     <rend xml:id="rmvqywc" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="se0n5zi">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="2">
@@ -91,7 +90,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <tempo xml:id="t5enxxy" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="52.000000" mm.unit="4">
+                     <tempo xml:id="t5enxxy" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="52" mm.unit="4">
                         <rend xml:id="rb8n18v" fontname="VerovioText"></rend> = c. 52 </tempo>
                      <tie xml:id="taur2in" startid="#nfy8cw6" endid="#n7f5x73" />
                      <tie xml:id="t2xhqfl" startid="#nywjcgq" endid="#n822jm6" />

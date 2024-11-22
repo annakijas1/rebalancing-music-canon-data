@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Movement for String Trio</title>
             <respStmt>
-               <persName role="composer">Coleridge-Taylor Perkinson</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="ctp01" role="composer">Coleridge-Taylor Perkinson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-06-27" type="encoding-date">2022-06-27</date>
@@ -37,8 +37,6 @@
             <score xml:id="sbsz20q">
                <scoreDef xml:id="sx3dr4a">
                   <pgHead xml:id="po1o3we">
-                     <rend xml:id="rk6mgvn" halign="center" valign="top">Movement for String Trio
-</rend>
                      <rend xml:id="rsq6t5f" halign="right" valign="bottom">Coleridge-Taylor Perkinson</rend>
                   </pgHead>
                   <staffGrp xml:id="syhkgsd">

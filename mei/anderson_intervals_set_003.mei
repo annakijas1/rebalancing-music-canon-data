@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Intervals</title>
+            <title>Intervals, Set III</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-09-17" type="encoding-date">2021-09-17</date>
@@ -37,10 +37,7 @@
             <score xml:id="sbef6d">
                <scoreDef xml:id="spisyjw">
                   <pgHead xml:id="p3pd0i8">
-                     <rend xml:id="rxpx5p2" halign="center" valign="top">Intervals</rend>
-                     <rend xml:id="riqdqep" halign="center" valign="top">Set III</rend>
                      <rend xml:id="rnajo7l" halign="right" valign="bottom">T. J. Anderson</rend>
-                     <rend xml:id="rgrwnwj" halign="left" valign="top">English Horn</rend>
                   </pgHead>
                   <staffGrp xml:id="sc3wqsx">
                      <staffGrp xml:id="saqe7wp">
@@ -79,8 +76,10 @@
                      <dir xml:id="dbdu2k1" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="ro2kvf1" fontstyle="italic" fontweight="bold">f</rend>
                      </dir>
-                     <tempo xml:id="tg3oa0a" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
-                        <rend xml:id="roe9eny" fontname="VerovioText">Allegro (</rend> = c. 80 to 120)</tempo>
+                     <tempo xml:id="thbsqtu" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="r1yacrct" fontweight="bold">Allegro (</rend>
+                        <rend xml:id="r1ck71d2" fontweight="bold"><rend xml:id="r1i0c8xm" fontfam="smufl"></rend> = c. 80 to 120)</rend>
+                        </tempo>
                   </measure>
                   <measure xml:id="manlrp8" n="2">
                      <staff xml:id="slx27el" n="1">

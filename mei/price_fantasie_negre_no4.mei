@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Fantasie nègre No. 4 in B minor</title>
             <respStmt>
-               <persName role="composer">Florence Price</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+              <persName xml:id="fbp01" role="composer">Florence B. Price</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-10-18" type="encoding-date">2021-10-18</date>
@@ -35,7 +35,6 @@
             <score xml:id="shnc6pd">
                <scoreDef xml:id="ss8k04k">
                   <pgHead xml:id="plqjqg8">
-                     <rend xml:id="rrvoul" halign="center" valign="top">Fantasie nègre no. 4 in B minor</rend>
                      <rend xml:id="rdaxafr" halign="right" valign="bottom">Florence Price</rend>
                   </pgHead>
                   <staffGrp xml:id="swgmtoa">
@@ -197,7 +196,8 @@
                         </layer>
                      </staff>
                      <slur xml:id="s7dx87d" startid="#nq3qenz" endid="#nmfdklt" curvedir="above" lform="dashed" />
-                     <dir xml:id="df3ex1o" place="below" staff="1" tstamp="13.000000" vgrp="40">[mp]</dir>
+                     <dynam xml:id="df3ex1o" place="below" staff="1" tstamp="13.000000" vgrp="40" >
+                        <rend fontweight="bold">[mp]</rend></dynam>
                   </measure>
                </section>
             </score>

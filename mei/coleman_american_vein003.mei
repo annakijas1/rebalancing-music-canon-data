@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>American Vein</title>
+            <title>American Vein, 3. Woodstock: Summer of 1952</title>
             <respStmt>
-               <persName role="composer">Valerie Coleman</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="vc01" role="composer">Valerie Coleman</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-12" type="encoding-date">2022-08-12</date>
@@ -37,8 +37,6 @@
             <score xml:id="s81rd3s">
                <scoreDef xml:id="srx38ku">
                   <pgHead xml:id="pt9ngb1">
-                     <rend xml:id="ror4qij" halign="center" valign="top">American Vein</rend>
-                     <rend xml:id="r2qls9c" halign="center" valign="top">3. Woodstock: Summer of 1952</rend>
                      <rend xml:id="r4cprvt" halign="right" valign="bottom">Valerie Coleman</rend>
                   </pgHead>
                   <staffGrp xml:id="sfhrxss">
@@ -72,8 +70,9 @@
                         </layer>
                      </staff>
                      <dynam xml:id="d7ie7mq" place="below" staff="1" tstamp="1.000000" val="80" vgrp="40">mf</dynam>
-                     <tempo xml:id="ttjho2x" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="100.000000" mm="100.000000" mm.unit="4">
-                        <rend xml:id="rt6mexr" fontweight="bold">Wistful. &#x1d15f; = 100</rend></tempo>
+                     <tempo xml:id="t1axrkax" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="100.000000" mm="100.000000" mm.unit="4">
+                        <rend xml:id="r10n5mf0" fontweight="bold">Wistful. </rend>
+                        <rend xml:id="ryqhb03" fontfam="smufl"></rend> = 100</tempo>
                      <dir xml:id="dg1t9cq" place="above" staff="1" tstamp="1.000000" vgrp="227">Oboe</dir>
                      <slur xml:id="shvfxeb" startid="#n2x850z" endid="#ndow3oj" curvedir="above" />
                      <tie xml:id="t7x9m95" startid="#n2x850z" endid="#nrdgvd3" />

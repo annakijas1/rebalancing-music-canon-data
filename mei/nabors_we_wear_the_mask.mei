@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>We Wear the Mask</title>
             <respStmt>
-               <persName role="composer">Brian Raphael Nabors</persName>
-               <persName role="lyricist">Paul Laurence Dunbar </persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="brn01" role="composer">Brian Raphael Nabors</persName>
+               <persName xml:id="pld01" role="lyricist">Paul Laurence Dunbar </persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-21" type="encoding-date">2022-07-21</date>
@@ -38,7 +38,6 @@
             <score xml:id="sxglxcp">
                <scoreDef xml:id="sw1ko6v">
                   <pgHead xml:id="pg41md5">
-                     <rend xml:id="rfhlcoo" halign="center" valign="top">We Wear the Mask</rend>
                      <rend xml:id="rx0k6vp" halign="right" valign="bottom">Brian Raphael Nabors</rend>
                      <rend xml:id="ro3c6xk" halign="left" valign="bottom">Paul Laurence Dunbar </rend>
                   </pgHead>
@@ -61,8 +60,9 @@
                            <mRest xml:id="mc9uo39" />
                         </layer>
                      </staff>
-                     <tempo xml:id="tlmjfde" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="50.000000" mm="50.000000" mm.unit="4">
-                        <rend xml:id="rk5klsd" fontweight="bold">Pesante &#x1d15f; = 50</rend></tempo>
+                     <tempo xml:id="t1w4z5gw" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="50.000000" mm="50.000000" mm.unit="4">
+                        <rend xml:id="r5sqsbr" fontweight="bold">Pesante </rend>
+                        <rend xml:id="r15cjzmg" fontfam="smufl"></rend> = 50</tempo>
                   </measure>
                   <measure xml:id="m1lxh77" n="2">
                      <staff xml:id="sn2pd7i" n="1">

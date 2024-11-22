@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Primitive Echoes</title>
+            <title>Primitive Echoes, II. Ancient Whispers</title>
             <respStmt>
-               <persName role="composer">Alice Gomez</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="ag01" role="composer">Alice Gomez</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-11" type="encoding-date">2022-07-11</date>
@@ -37,8 +37,6 @@
             <score xml:id="sz8b5pu">
                <scoreDef xml:id="spgrg0s">
                   <pgHead xml:id="p1tbny7">
-                     <rend xml:id="rdtygvd" halign="center" valign="top">Primitive Echoes</rend>
-                     <rend xml:id="rvd6s5i" halign="center" valign="top">II. Ancient Whispers</rend>
                      <rend xml:id="risxm78" halign="right" valign="bottom">Alice Gomez</rend>
                   </pgHead>
                   <staffGrp xml:id="s76t7xr">
@@ -66,8 +64,9 @@
                         </layer>
                      </staff>
                      <dynam xml:id="dw8f9z4" place="below" staff="1" tstamp="1.000000" val="80" vgrp="62">mf</dynam>
-                     <tempo xml:id="tk4s42f" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="46.000000" mm="46.000000" mm.unit="4">
-                        <rend xml:id="r7p0pwb" fontweight="bold"> Mysterioso &#x1d15f; = 46</rend></tempo>
+                      <tempo xml:id="t1o5p3ox" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="46.000000" mm="46.000000" mm.unit="4">
+                        <rend xml:id="rd8bxuu" fontweight="bold"> Mysterioso</rend>
+                        <rend xml:id="rg3w3ps" fontfam="smufl"></rend> = 46</tempo>
                      <slur xml:id="s4ea9v0" startid="#nifilzq" endid="#nmnvmk0" curvedir="below" />
                      <tie xml:id="t7zegqz" startid="#na668gq" endid="#nmnvmk0" />
                   </measure>

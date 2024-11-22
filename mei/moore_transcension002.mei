@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Transcension</title>
+            <title>Transcension, II</title>
             <respStmt>
-               <persName role="composer">Dorothy Rudd Moore</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="drm01" role="composer">Dorothy Rudd Moore</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -37,8 +37,6 @@
             <score xml:id="sfk8e50">
                <scoreDef xml:id="sp76vfw">
                   <pgHead xml:id="pyove8f">
-                     <rend xml:id="r2n7uu6" halign="center" valign="top">Transcension</rend>
-                     <rend xml:id="rym586i" halign="center" valign="top">II.</rend>
                      <rend xml:id="rfyib5h" halign="right" valign="bottom">Dorothy Rudd Moore</rend>
                   </pgHead>
                   <staffGrp xml:id="s1ydyzd">
@@ -75,8 +73,10 @@
                         </layer>
                      </staff>
                      <dynam xml:id="ddonufd" place="below" staff="1" tstamp="1.000000" val="96" vgrp="47">f</dynam>
-                     <tempo xml:id="tk86luf" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rep5ysq" fontweight="bold">Allegro (M.M. &#x1d15f; = c. 120)</rend></tempo>
+                     <tempo xml:id="t1tmc9no" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
+                        <rend xml:id="r1nrtylg" fontweight="bold">Allegro (M.M. </rend>
+                        <rend xml:id="r4z0d1t" fontweight="bold"> <rend xml:id="rxiq810" fontfam="smufl"></rend> = c. 120)</rend>
+                        </tempo>
                   </measure>
                   <measure xml:id="mnp9ekp" n="2">
                      <staff xml:id="sazhgic" n="1">

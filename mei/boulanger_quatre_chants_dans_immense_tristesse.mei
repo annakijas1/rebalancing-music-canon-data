@@ -5,12 +5,12 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dans l'immense tristesse (In an infinite sadness)</title>
+            <title>Chants, Dans l'immense tristesse (In an infinite sadness)</title>
             <respStmt>
-               <persName role="composer">Lili Boulanger</persName>
-               <persName role="lyricist">B. Galeron De Calone</persName>
-               <persName role="transcriber">Chelsea Hong</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lb01" role="composer">Lili Boulanger</persName>
+               <persName xml:id="bgdc01" role="lyricist">B. Galeron De Calone</persName>
+               <persName xml:id="ch01" role="transcriber">Chelsea Hong</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-19" type="encoding-date">2021-05-19</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000000632745688">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000240688264">
-                     <rend xml:id="rend-0000000923103253" halign="center" valign="top">Dans l'immense tristesse </rend>
                      <rend xml:id="rend-0000001582876614" halign="left" valign="bottom">B. Galeron de Calone</rend>
                      <rend xml:id="rend-0000001336063757" halign="right" valign="bottom">Lili Boulanger</rend>
                   </pgHead>
@@ -57,16 +56,11 @@
                   <measure xml:id="measure-0000000018824687" n="1">
                      <staff xml:id="staff-0000001069022740" n="1">
                         <layer xml:id="layer-0000000876314340" n="1">
-                           <mRest xml:id="mrest-0000001515953719" />
+                           <multiRest num="2" />
                         </layer>
                      </staff>
-                  </measure>
-                  <measure xml:id="measure-0000001063995887" n="2">
-                     <staff xml:id="staff-0000000590109734" n="1">
-                        <layer xml:id="layer-0000000629703127" n="1">
-                           <mRest xml:id="mrest-0000000480801851" />
-                        </layer>
-                     </staff>
+                     <tempo place="above" staff="1" tstamp="1">
+                        <rend fontsize="normal" >Lent</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000001333123555" n="3">
                      <staff xml:id="staff-0000000082448546" n="1">
@@ -102,9 +96,11 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000000857924019" place="above" staff="1" tstamp="1.333333" vgrp="200">
-                        <rend xml:id="rend-0000000670894261" rend="none" fontweight="normal">p grave</rend>
-                     </dir>
+                     <dynam xml:id="dir-0000000857924019" place="above" staff="1" tstamp="1.333333" vgrp="1">
+                        <rend xml:id="rend-0000000670894261" rend="none" fontweight="normal">grave</rend>
+                     </dynam>
+                     <dynam place="above" staff="1" tstamp=".9" vgrp="1">
+                        <rend>p</rend></dynam>
                   </measure>
                   <measure xml:id="measure-0000000841413802" n="4">
                      <staff xml:id="staff-0000001789016772" n="1">

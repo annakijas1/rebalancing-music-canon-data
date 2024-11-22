@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Furias: para violín y piano</title>
+            <respStmt>
+               <persName xml:id="cnp01" role="composer">Carolina Noguera Palau</persName>
+               <persName xml:id="kmc01" role="transcriber">Kate M. Chang</persName>
+               <persName xml:id="sat01" role="reviewer">Samantha A. Tripp</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt><date isodate="2023-04-24" type="encoding-date">2023-04-24</date>
+                   <publisher>Rebalancing the Music Canon</publisher>
+            <availability>
+
+          <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
+
+       </availability>
+
+       <identifier>
+
+       <ref target="https://rebalancing-music-canon.com/"/>
+
+       </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingdesc-xehcfk">
+         <appInfo xml:id="appinfo-cuf0rl">
+            <application xml:id="application-156tf4v" isodate="2023-04-24T15:03:31" version="3.15.0-5abc7c0">
+               <name xml:id="name-ipzvqv">Verovio</name>
+               <p xml:id="p-1cz0z8p">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m1rbedrt">
+            <score xml:id="s6ecbiw">
+               <scoreDef xml:id="s1h48tfv">
+                  <pgHead xml:id="pwx3szt">
+                     <rend xml:id="rr9g7o7" halign="center" valign="top">
+</rend>
+                     <rend xml:id="ra6af7v" halign="right" valign="bottom">Carolina Noguera Palau</rend>
+                  </pgHead>
+                  <pgFoot xml:id="p1m9zdqe">
+                     <rend xml:id="r49a9s2"></rend>
+                  </pgFoot>
+                  <staffGrp xml:id="s9jwduy">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="4">
+                        <label xml:id="l1jwczum">Violin</label>
+                        <labelAbbr xml:id="l1ut5e7s">Vln.</labelAbbr>
+                        <instrDef xml:id="i9ec90t" midi.channel="0" midi.instrnum="40" midi.volume="78.00%" />
+                        <clef xml:id="cbnp1nx" shape="G" line="2" />
+                        <keySig xml:id="kj5ldfb" sig="0" />
+                        <meterSig xml:id="m10b7uc" count="3" unit="4" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1mnvnoy">
+                  <pb xml:id="pvco69z" />
+                  <measure xml:id="m1l8rqh2" n="1">
+                     <staff xml:id="smdyr1d" n="1">
+                        <layer xml:id="l1n9q3o9" n="1">
+                           <mRest xml:id="m1uu5du9" />
+                        </layer>
+                     </staff>
+                     <tempo xml:id="tebtv1c" place="above" staff="1" tstamp="0.00000" midi.bpm="152.000000" mm="152.000000" mm.unit="4">
+                        With much energy <rend xml:id="r16y77g8" fontfam="smufl"></rend> = 152</tempo>
+                  </measure>
+                  <measure xml:id="m1asmcg3" n="2">
+                     <staff xml:id="sf99ale" n="1">
+                        <layer xml:id="lhmfhu" n="1">
+                           <beam xml:id="bh2lipg">
+                              <chord xml:id="c148d3iv" dur.ppq="0" dur="8" grace="unacc" stem.dir="up" stem.mod="1slash">
+                                 <artic xml:id="a1clh33m" type="technical" artic="dnbow" />
+                                 <note xml:id="na6kjp9" oct="3" pname="a" />
+                                 <note xml:id="nplp9uf" oct="4" pname="d" />
+                              </chord>
+                              <chord xml:id="c17sivxl" dur.ppq="0" dur="8" grace="unacc" stem.dir="up" stem.mod="1slash">
+                                 <note xml:id="n4jw34m" oct="3" pname="a" />
+                                 <note xml:id="n1n0sw2l" oct="4" pname="d" />
+                              </chord>
+                           </beam>
+                           <beam xml:id="b16mkjsm">
+                              <note xml:id="ny541f" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <artic xml:id="a1p4psjd" artic="acc" />
+                              </note>
+                              <note xml:id="n1puakhd" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" accid="f" />
+                           </beam>
+                           <rest xml:id="r1dp9iou" dur.ppq="2" dur="8" />
+                           <chord xml:id="c1slv23u" dur.ppq="2" dur="8" stem.dir="up">
+                              <artic xml:id="a8tkiy7" artic="stacc" />
+                              <artic xml:id="ap34ii0" type="technical" artic="dnbow" />
+                              <note xml:id="n1pb0w23" oct="4" pname="e" accid.ges="f" />
+                              <note xml:id="n1udrtvi" oct="4" pname="f" />
+                           </chord>
+                           <note xml:id="n1dfmf8v" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" accid="n">
+                              <artic xml:id="a6g2w9z" artic="stacc" />
+                           </note>
+                           <rest xml:id="rz3g41q" dur.ppq="2" dur="8" />
+                        </layer>
+                        <layer xml:id="l1oi4k0b" n="2">
+                           <note xml:id="nzvum6g" dur.ppq="4" dur="4" oct="3" pname="a" stem.dir="down" />
+                           <space xml:id="sos931s" dur.ppq="8" dur="2" />
+                        </layer>
+                     </staff>
+                     <dir xml:id="d1fsv6jj" place="above" staff="1" tstamp="1.000000" vgrp="200">jeté</dir>
+                     <dynam xml:id="dktahv5" place="below" staff="1" tstamp="1.000000" val="96" vgrp="40">f</dynam>
+                     <hairpin xml:id="h1hekj73" staff="1" tstamp="1.000000" tstamp2="0m+1.5000" form="dim" place="below" vgrp="98" />
+                     <slur xml:id="scip6ah" startid="#ny541f" endid="#n1puakhd" curvedir="above" />
+                     <dynam xml:id="d1yeq1cy" place="below" staff="1" tstamp="1.500000" val="49" vgrp="78">p</dynam>
+                     <dir xml:id="duwggv2" place="above" staff="1" tstamp="2.500000" vgrp="229">staccato</dir>
+                     <dynam xml:id="dh7wqlu" place="below" staff="1" tstamp="2.500000" val="80" vgrp="42">mf</dynam>
+                  </measure>
+                  <measure xml:id="m132fao1" n="3">
+                     <staff xml:id="s1nfrotv" n="1">
+                        <layer xml:id="lb4l6yn" n="1">
+                           <beam xml:id="b15mfddp">
+                              <chord xml:id="c10ymtv1" dur.ppq="0" dur="8" grace="unacc" stem.dir="up" stem.mod="1slash">
+                                 <artic xml:id="agx0jvw" type="technical" artic="dnbow" />
+                                 <note xml:id="ney34yf" oct="3" pname="a" />
+                                 <note xml:id="nlfijqu" oct="4" pname="d" />
+                              </chord>
+                              <chord xml:id="c1wv3x95" dur.ppq="0" dur="8" grace="unacc" stem.dir="up" stem.mod="1slash">
+                                 <note xml:id="nzy732f" oct="3" pname="a" />
+                                 <note xml:id="n1eu0jir" oct="4" pname="d" />
+                              </chord>
+                           </beam>
+                           <beam xml:id="bmbd4g8">
+                              <note xml:id="n1sw04nz" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <artic xml:id="a1rx5ie5" artic="acc" />
+                              </note>
+                              <note xml:id="nl1nfyx" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" accid="f" />
+                           </beam>
+                           <rest xml:id="rcg26sr" dur.ppq="2" dur="8" />
+                           <chord xml:id="c1vb908p" dur.ppq="2" dur="8" stem.dir="up">
+                              <artic xml:id="a1065dyb" artic="stacc" />
+                              <artic xml:id="a1nd3zr7" type="technical" artic="dnbow" />
+                              <note xml:id="n4y1nxq" oct="4" pname="e" accid="n" />
+                              <note xml:id="n1jecnq9" oct="4" pname="f" accid="s" />
+                           </chord>
+                           <note xml:id="n7gvugy" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" accid="n">
+                              <artic xml:id="a13qvc6x" artic="stacc" />
+                           </note>
+                           <rest xml:id="r1l0lqtg" dur.ppq="2" dur="8" />
+                        </layer>
+                        <layer xml:id="leauv7t" n="2">
+                           <note xml:id="n1pl8yrw" dur.ppq="4" dur="4" oct="3" pname="a" stem.dir="down" />
+                           <space xml:id="snhsk17" dur.ppq="8" dur="2" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="d1v8i18u" place="below" staff="1" tstamp="1.000000" val="96" vgrp="81">f</dynam>
+                     <dir xml:id="d1nhlbhm" place="above" staff="1" tstamp="1.000000" vgrp="200">jeté</dir>
+                     <hairpin xml:id="hbpcf7n" staff="1" tstamp="1.000000" tstamp2="0m+1.5000" form="dim" place="below" vgrp="101" />
+                     <slur xml:id="s1dt9if1" startid="#n1sw04nz" endid="#nl1nfyx" curvedir="above" />
+                     <dynam xml:id="d1490bke" place="below" staff="1" tstamp="1.500000" val="49" vgrp="81">p</dynam>
+                     <dir xml:id="dpzzlrv" place="above" staff="1" tstamp="2.500000" vgrp="229">staccato</dir>
+                     <dynam xml:id="d1j42rvr" place="below" staff="1" tstamp="2.500000" val="96" vgrp="45">f</dynam>
+                  </measure>
+                  <measure xml:id="m3hja0a" n="4">
+                     <staff xml:id="s9rqm8d" n="1">
+                        <layer xml:id="lm67rfp" n="1">
+                           <rest xml:id="r9x726e" dur.ppq="2" dur="8" />
+                           <chord xml:id="c18mriai" dur.ppq="2" dur="8" stem.dir="up">
+                              <artic xml:id="admylw5" artic="stacc" />
+                              <note xml:id="neawhgt" oct="4" pname="e" />
+                              <note xml:id="nxwirms" oct="4" pname="f" />
+                           </chord>
+                           <beam xml:id="b1bnexzz">
+                              <chord xml:id="c1jj3bc6" dur.ppq="2" dur="8" stem.dir="up">
+                                 <artic xml:id="a1sgjv8v" artic="stacc" />
+                                 <note xml:id="n172hhf" oct="4" pname="e" />
+                                 <note xml:id="nbloh7o" oct="4" pname="f" />
+                              </chord>
+                              <chord xml:id="c1bpzx1g" dur.ppq="2" dur="8" stem.dir="up">
+                                 <artic xml:id="ap97d4o" artic="stacc" />
+                                 <note xml:id="n16ilxfd" oct="4" pname="c" />
+                                 <note xml:id="nvpkplb" oct="4" pname="d" />
+                              </chord>
+                           </beam>
+                           <beam xml:id="b1y9ap9w">
+                              <chord xml:id="c1lf335c" dur.ppq="2" dur="8" stem.dir="up">
+                                 <artic xml:id="afi00lu" artic="stacc" />
+                                 <note xml:id="n16zh40z" oct="4" pname="d" />
+                                 <note xml:id="nav082g" oct="4" pname="e" accid="f" />
+                              </chord>
+                              <chord xml:id="c145qd1w" dur.ppq="2" dur="8" stem.dir="up">
+                                 <artic xml:id="a7kfs55" artic="stacc" />
+                                 <note xml:id="n1ufmm14" oct="4" pname="c" accid="s" />
+                                 <note xml:id="n3iwdgs" oct="4" pname="d" />
+                              </chord>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <dynam xml:id="dlo2yyr" place="below" staff="1" tstamp="1.500000" val="49" vgrp="58">p</dynam>
+                     <dir xml:id="d1pcrje3" place="above" staff="1" tstamp="1.500000" vgrp="213">staccato</dir>
+                     <hairpin xml:id="h15ppfay" staff="1" tstamp="1.500000" tstamp2="0m+3.0000" form="cres" place="below" vgrp="78" />
+                     <dynam xml:id="d19qb27k" place="below" staff="1" tstamp="3.000000" val="80" vgrp="78">mf</dynam>
+                     <hairpin xml:id="hl9ldv6" staff="1" tstamp="3.000000" tstamp2="0m+3.5000" form="dim" place="below" vgrp="98" />
+                     <dynam xml:id="dpoaj9m" place="below" staff="1" tstamp="3.500000" val="64" vgrp="78">mp</dynam>
+                  </measure>
+                  <measure xml:id="mlmxrzw" n="5">
+                     <staff xml:id="s1aj1iqa" n="1">
+                        <layer xml:id="l1sxjyvs" n="1">
+                           <beam xml:id="b7jauif">
+                              <note xml:id="n1d8memy" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <artic xml:id="a1fwx2ns" artic="acc" />
+                              </note>
+                              <note xml:id="nqa1sb7" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" accid="f" />
+                           </beam>
+                           <beam xml:id="b1olz6a7">
+                              <note xml:id="nq0kd2e" dur.ppq="1" dur="16" oct="3" pname="g" stem.dir="up">
+                                 <artic xml:id="a1s0h0d3" artic="stacc" />
+                              </note>
+                              <rest xml:id="r1sd8sme" dur.ppq="1" dur="16" ploc="a" oloc="5" />
+                              <note xml:id="n1phj5zu" dur.ppq="2" dur="8" oct="5" pname="g" stem.dir="up" accid="f" />
+                           </beam>
+                           <chord xml:id="cmw8qtw" dur.ppq="4" dur="4" stem.dir="up">
+                              <artic xml:id="aip0dfb" artic="acc" />
+                              <note xml:id="n5fwnl0" oct="4" pname="e" accid="n" />
+                              <note xml:id="nafbnmi" oct="5" pname="f" />
+                           </chord>
+                        </layer>
+                        <layer xml:id="l141k9dj" n="2">
+                           <note xml:id="n1c2gl20" dur.ppq="4" dur="4" oct="3" pname="b" stem.dir="down" />
+                           <space xml:id="s1jmy5w8" dur.ppq="8" dur="2" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="d1giubv4" place="below" staff="1" tstamp="1.000000" val="80" vgrp="76">mf</dynam>
+                     <hairpin xml:id="h3banth" staff="1" tstamp="1.000000" tstamp2="0m+2.0000" form="dim" place="below" vgrp="96" />
+                     <slur xml:id="s4trf9b" startid="#n1d8memy" endid="#nqa1sb7" curvedir="above" />
+                     <dir xml:id="d160axpj" place="above" staff="1" tstamp="2.000000" vgrp="225">stacc.</dir>
+                     <dynam xml:id="d63je7p" place="below" staff="1" tstamp="2.000000" val="33" vgrp="65">pp</dynam>
+                     <dynam xml:id="dw1ur1f" place="below" staff="1" tstamp="2.000000" val="96" vgrp="74">f</dynam>
+                     <slur xml:id="s1blydba" startid="#n1phj5zu" endid="#n5fwnl0" curvedir="below" />
+                  </measure>
+                  <sb xml:id="s1rsdadj" />
+                  <measure xml:id="m79n3e6" n="6">
+                     <staff xml:id="s1urrsiv" n="1">
+                        <layer xml:id="ljoyllw" n="1">
+                           <beam xml:id="b1it9fva">
+                              <chord xml:id="c1l5yr5l" dur.ppq="0" dur="8" grace="unacc" stem.dir="up" stem.mod="1slash">
+                                 <artic xml:id="ajasfgv" type="technical" artic="dnbow" />
+                                 <note xml:id="nwfelcu" oct="3" pname="a" accid="f" />
+                                 <note xml:id="n1iml0mz" oct="4" pname="d" />
+                              </chord>
+                              <chord xml:id="c1rcx5vu" dur.ppq="0" dur="8" grace="unacc" stem.dir="up" stem.mod="1slash">
+                                 <note xml:id="nev3csd" oct="3" pname="a" accid.ges="f" />
+                                 <note xml:id="n2yqrmb" oct="4" pname="d" />
+                              </chord>
+                           </beam>
+                           <beam xml:id="b1j7k79s">
+                              <note xml:id="n96ixu2" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <artic xml:id="a1vz2i6d" artic="acc" />
+                              </note>
+                              <note xml:id="n1jhxo9c" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" accid="f" />
+                           </beam>
+                           <beam xml:id="bupg3rt">
+                              <note xml:id="n12o2c7b" dur.ppq="2" dur="8" oct="5" pname="g" stem.dir="up">
+                                 <artic xml:id="a1r1tjio" artic="stacc" />
+                              </note>
+                              <note xml:id="n1m4prz0" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" accid="f" />
+                           </beam>
+                           <note xml:id="nvf8fcb" dur.ppq="4" dur="4" oct="4" pname="f" stem.dir="up" />
+                        </layer>
+                        <layer xml:id="l8x5bn" n="2">
+                           <note xml:id="n1pnhoj7" dur.ppq="2" dur="8" oct="3" pname="a" stem.dir="down" accid.ges="f" />
+                           <space xml:id="s1adw65g" dur.ppq="8" dur="2" />
+                           <space xml:id="s1tt9faf" dur.ppq="2" dur="8" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="d1y4hja6" place="below" staff="1" tstamp="1.000000" val="96" vgrp="89">f</dynam>
+                     <dir xml:id="d1pso0r3" place="above" staff="1" tstamp="1.000000" vgrp="200">jeté</dir>
+                     <hairpin xml:id="h1wbldy7" staff="1" tstamp="1.000000" tstamp2="0m+1.5000" form="dim" place="below" vgrp="109" />
+                     <slur xml:id="sjno0e5" startid="#n96ixu2" endid="#n1jhxo9c" curvedir="above" />
+                     <dynam xml:id="dr4uvwi" place="below" staff="1" tstamp="1.500000" val="33" vgrp="89">pp</dynam>
+                     <dir xml:id="dsaj9zv" place="above" staff="1" tstamp="2.000000" vgrp="227">staccato</dir>
+                     <dynam xml:id="dq4e7gz" place="below" staff="1" tstamp="2.000000" val="96" vgrp="40">f</dynam>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

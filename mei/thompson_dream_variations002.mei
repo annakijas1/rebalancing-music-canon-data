@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Dream Variations</title>
+            <title>Dream Variations. The Negro speaks of Rivers</title>
             <respStmt>
-               <persName role="composer">Richard Thompson</persName>
-               <persName role="lyricist">Langston Hughes</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="rt01" role="composer">Richard Thompson</persName>
+               <persName xml:id="lh01" role="lyricist">Langston Hughes</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-16" type="encoding-date">2022-08-16</date>
@@ -38,10 +38,8 @@
             <score xml:id="sxy0xal">
                <scoreDef xml:id="sqwwkwj">
                   <pgHead xml:id="p4z7pyt">
-                     <rend xml:id="r6lky1z" halign="center" valign="top">Dream Variations</rend>
                      <rend xml:id="rf9550t" halign="right" valign="bottom">Richard Thompson</rend>
                      <rend xml:id="rs0teey" halign="left" valign="bottom">Langston Hughes</rend>
-                     <rend xml:id="rpi7lds" halign="center" valign="top">The Negro speaks of Rivers</rend>
                   </pgHead>
                   <staffGrp xml:id="stmkvrc">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="12">
@@ -62,8 +60,9 @@
                            <multiRest xml:id="madinc2" num="2" />
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="0">
-                        <rend fontweight="bold">&#x1d15f; = 48 Lento e rubato</rend></tempo>
+                     <tempo xml:id="t55h7yz" place="above" staff="1" tstamp="0.000000" xml:lang="it" midi.bpm="90.000000" mm="60.000000" mm.unit="4" mm.dots="1">
+                        <rend xml:id="r1ekk7wh" fontweight="bold"><rend xml:id="rv5x4aw" fontfam="smufl"></rend> = 84 Lento e rubato</rend>
+                        </tempo>
                   </measure>
                   <measure xml:id="m6twe2u" n="3">
                      <staff xml:id="sumu2fq" n="1">

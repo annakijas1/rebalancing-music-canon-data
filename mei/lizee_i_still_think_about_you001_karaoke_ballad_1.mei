@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>I Still Think About You</title>
+            <title>I Still Think About You, Karaoke Ballad 1</title>
             <respStmt>
-               <persName role="composer">Nicole Lizée</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="nl01" role="reviewer">Nicole Lizée</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-14" type="encoding-date">2022-07-14</date>
@@ -37,8 +37,6 @@
             <score xml:id="smz73f2">
                <scoreDef xml:id="saaochz">
                   <pgHead xml:id="pitocg">
-                     <rend xml:id="rc12utl" halign="center" valign="top">I Still Think About You</rend>
-                     <rend xml:id="rq1hrp9" halign="center" valign="top">Karaoke Ballad 1</rend>
                      <rend xml:id="rgiv5e6" halign="right" valign="bottom">Nicole Lizée</rend>
                   </pgHead>
                   <staffGrp xml:id="sfg1rie">
@@ -118,8 +116,8 @@
                            <mRest xml:id="mw34x6" />
                         </layer>
                      </staff>
-                     <tempo xml:id="t75tty5" place="above" staff="1" tstamp="1.000000" midi.bpm="84.000000" mm="84.000000" mm.unit="4">
-                        <rend xml:id="rog5szu" fontname="VerovioText">&#x1d15f; = 84</rend></tempo>
+                     <tempo xml:id="t6tzo4m" place="above" staff="1" tstamp="1.000000" midi.bpm="84.000000" mm="84.000000" mm.unit="4">
+                        <rend xml:id="r9xm3zg" fontfam="smufl"></rend> = 84</tempo>
                      <dir xml:id="d62d85g" place="above" staff="1" tstamp="1.000000" vgrp="213">(Cue)</dir>
                      <dynam xml:id="dn2uw55" place="below" staff="1" tstamp="1.000000" val="80" vgrp="42">mf</dynam>
                      <dir xml:id="dmatc3y" place="above" staff="1" tstamp="2.000000" vgrp="214">Delay tail</dir>

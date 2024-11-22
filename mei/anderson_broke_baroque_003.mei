@@ -7,10 +7,19 @@
          <titleStmt>
             <title>Broke Baroque, III. Banchieri</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-08-23" type="encoding-date">2021-08-23</date>
+         <publisher>Rebalancing the Music Canon</publisher>
+           <availability>
+               <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
+           </availability>
+           <identifier>
+             <ref target="https://rebalancing-music-canon.com/"/>
+             </identifier>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-6vyupj">
@@ -28,8 +37,6 @@
             <score xml:id="sv5j0yg">
                <scoreDef xml:id="sqqknd9">
                   <pgHead xml:id="pb8swm8">
-                     <rend xml:id="rcvdj7r" halign="center" valign="top">Broke Baroque</rend>
-                     <rend xml:id="roraqsa" halign="center" valign="top">III. Banchieri</rend>
                      <rend xml:id="ri9n8fo" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="s5rfxqj">
@@ -51,13 +58,15 @@
                            <note xml:id="n856mdm" dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up" accid.ges="s" />
                         </layer>
                      </staff>
-                     <dir xml:id="dnp6vqv" place="below" staff="1" tstamp="1.000000" vgrp="64">
-                        <rend xml:id="r2dsfn8" fontstyle="italic" fontweight="bold">mf;</rend>
-                        <lb xml:id="l3xo6kw" />
-                        <rend xml:id="rkxa8wr" fontweight="normal"> giocoso</rend>
-                     </dir>
-                     <tempo xml:id="tp88nfo" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rplq2m1" fontname="VerovioText"></rend> = c. 120</tempo>
+                     <dynam place="below" staff="1" tstamp=".5" vgrp="64">
+                        <rend fontweight="normal">mf</rend>
+                     </dynam>
+                     <dynam xml:id="dnp6vqv" place="below" staff="1" tstamp="1.25" vgrp="64">
+                        <rend xml:id="rkxa8wr" fontweight="normal">; giocoso</rend>
+                     </dynam>
+                     <tempo xml:id="t1xkuix3" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
+                        <rend xml:id="r1gdtrjt" fontweight="bold"><rend xml:id="r5qxwgj" fontfam="smufl"></rend> = c. 120</rend>
+                        </tempo>
                   </measure>
                   <measure xml:id="m7nllr5" n="1">
                      <staff xml:id="sndlby0" n="1">

@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Variations on Balkan themes, op. 60</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Sebastian Tringale</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="st01" role="transcriber">Sebastian Tringale</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
                <persName role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
@@ -37,7 +37,6 @@
             <score xml:id="score-0000001036990045">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000323894195">
-                     <rend xml:id="rend-0000001741671957" halign="center" valign="top">Variations on Balkan themes, op. 60</rend>
                      <rend xml:id="rend-0000001928277915" halign="right" valign="bottom">Amy Beach</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000001825754353">
@@ -98,10 +97,12 @@
                         <rend xml:id="rend-0000002017620213" rend="none" fontstyle="italic" fontweight="bold">pp</rend>
                      </dir>
                      <tempo xml:id="tempo-0000000539833858" place="above" staff="1" tstamp="1.000000" midi.bpm="66" mm="66.000000" mm.unit="4">
-                        <rend xml:id="rend-0000001711015550" fontname="VerovioText">Adagio malincolico (</rend> = 66)</tempo>
+                        <rend xml:id="rend-0000001711015550" fontsize = "normal" >Adagio malincolico (</rend>
+                        <rend fontname="VerovioText" fontsize="small" ></rend> = 66)
+                        </tempo>
                      <slur xml:id="slur-0000000172224867" startid="#note-0000001370400839" endid="#note-0000001635121290" curvedir="below" />
                      <tie xml:id="tie-0000000636036110" startid="#note-0000000937272741" endid="#note-0000000063689108" />
-                     <tie xml:id="tie-0000000380233170" startid="#note-0000000776271432" endid="#note-0000002067897949" curvedir="above"  />
+                     <slur startid="#note-0000000776271432" endid="#note-0000002067897949" curvedir="above"  />
                   </measure>
                   <measure xml:id="measure-0000001069215937" n="2">
                      <staff xml:id="staff-0000000200271843" n="1">
@@ -269,8 +270,8 @@
                      <slur xml:id="slur-0000001783211973" startid="#note-0000001703014070" endid="#note-0000001531826502" curvedir="above" />
                      <slur xml:id="slur-0000001829812290" startid="#note-0000001558549552" endid="#note-0000001050861906" curvedir="below" />
                      <tie xml:id="tie-0000001347402940" startid="#note-0000000854008134" endid="#note-0000001733416591" />
-                     <slur xml:id="slur-0000000912727500" startid="#note-0000000850084654" endid="#note-0000001834948503" curvedir="below" />
-                     <slur xml:id="slur-0000001395184307" startid="#note-0000000850084654" endid="#note-0000001834948503" curvedir="below" />
+                     <tie xml:id="slur-0000000912727500" startid="#note-0000000850084654" endid="#note-0000001834948503" curvedir="below" />
+                     <tie xml:id="slur-0000001395184307" startid="#note-0000000172525003" endid="#note-0000000576646817" curvedir="below" />
                      <slur xml:id="slur-0000000292513456" startid="#note-0000001834948503" endid="#note-0000001185180611" curvedir="above" />
                      <tie xml:id="tie-0000001673334875" startid="#note-0000000638566488" endid="#note-0000000819687180" />
                   </measure>

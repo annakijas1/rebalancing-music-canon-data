@@ -7,9 +7,9 @@
          <titleStmt>
             <title>A Thanksgiving fable, op.75, no.2</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="lyricist">Oliver Herford</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="oh01" role="lyricist">Oliver Herford</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
                <persName role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
@@ -39,7 +39,6 @@
                   <pgHead xml:id="pghead-0000000426976355">
                      <rend xml:id="rend-0000000847924224" halign="right" valign="top">Amy Beach</rend>
                      <rend xml:id="rend-0000000666516987" halign="left" valign="top">Oliver Herford</rend>
-                     <rend xml:id="rend-0000001356899142" halign="center" valign="top">A Thanksgiving fable, op.75, no.2</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000002134469716">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="4">
@@ -60,7 +59,8 @@
                            <rest xml:id="rest-0000000188363639" dur.ppq="2" dur="8" />
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000001608522080" place="above" staff="1" tstamp="1.000000" vgrp="200">Tempo di Gavotta</dir>
+                     <tempo place="above" staff="1" tstamp="0">
+                        <rend fontsize = "normal">Tempo di Gavotta</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000000266352791" n="2">
                      <staff xml:id="staff-0000001500480442" n="1">

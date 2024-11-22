@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Chanson de la Riviére</title>
             <respStmt>
-               <persName role="composer">Valerie Coleman</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="vc01" role="composer">Valerie Coleman</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-12" type="encoding-date">2022-08-12</date>
@@ -37,7 +37,6 @@
             <score xml:id="stbphg6">
                <scoreDef xml:id="srk0jz7">
                   <pgHead xml:id="p3oifml">
-                     <rend xml:id="rslfic6" halign="center" valign="top">Chanson de la Riviére</rend>
                      <rend xml:id="rdfj176" halign="right" valign="bottom">Valerie Coleman</rend>
                   </pgHead>
                   <staffGrp xml:id="sltugf">
@@ -68,7 +67,7 @@
                         </layer>
                      </staff>
                      <dynam xml:id="dwsbezu" place="below" staff="1" tstamp="1.000000" val="49" vgrp="40">p</dynam>
-                     <tempo xml:id="trux1fb" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="132.000000" mm="88.000000" mm.unit="4" mm.dots="1">SERENE. &#x1d15f; &#x1d16d; = 88</tempo>
+                     <tempo xml:id="t1p4jz78" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="132.000000" mm="88.000000" mm.unit="4" mm.dots="1">SERENE.<rend xml:id="r8vqz52" fontfam="smufl"></rend> = 88</tempo>
                      <slur xml:id="su5nnnd" startid="#n9lkxyz" endid="#ndewvdl" curvedir="below" />
                   </measure>
                   <measure xml:id="mxveoep" n="2">

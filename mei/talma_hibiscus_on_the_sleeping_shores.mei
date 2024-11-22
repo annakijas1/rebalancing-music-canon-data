@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Hibiscus on the sleeping shores</title>
             <respStmt>
-               <persName role="composer">Louise Talma</persName>
-               <persName role="transcriber">Joanna Strogatz</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="lt01" role="composer">Louise Talma</persName>
+               <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-05-06" type="encoding-date">2021-05-06</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -36,7 +36,6 @@
             <score xml:id="score-0000001638748985">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000980984678">
-                     <rend xml:id="rend-0000000276288853" halign="center" valign="top">Hibiscus on the sleeping shores</rend>
                      <rend xml:id="rend-0000001331249885" halign="right" valign="bottom">Louise Talma</rend>
                      <rend xml:id="rend-0000000532594667" halign="left" valign="bottom">Wallace Stevens</rend>
                   </pgHead>
@@ -61,7 +60,8 @@
                         </layer>
                      </staff>
                      <tempo xml:id="tempo-0000000733189405" place="above" staff="1" tstamp="1.000000" midi.bpm="108" mm="108.000000" mm.unit="4">
-                        <rend xml:id="rend-0000000279662537" fontname="VerovioText">Allegramente </rend> = 108</tempo>
+                        <rend>Allegramente</rend>
+                        <rend xml:id="rend-0000000279662537" fontname="VerovioText" fontsize="small"> </rend> = 108</tempo>
                   </measure>
                   <measure xml:id="measure-0000001727362442" n="1">
                      <staff xml:id="staff-0000001104591732" n="1">

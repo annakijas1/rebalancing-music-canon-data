@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Songs of Illumination </title>
+            <title>Songs of Illumination, VII. River to Cross</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="shvrzav">
                <scoreDef xml:id="s8l9iiy">
                   <pgHead xml:id="ptiauc0">
-                     <rend xml:id="r2itzn0" halign="center" valign="top">Songs of Illumination </rend>
-                     <rend xml:id="rzfcmw8" halign="center" valign="top">VII. River to Cross</rend>
                      <rend xml:id="rpbnh47" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="ssd8ib4">
@@ -85,12 +83,12 @@
                            <note xml:id="n1c8wca" dur.ppq="48" dur="1" oct="3" pname="c" />
                         </layer>
                      </staff>
-                     <dir xml:id="dgjl1x2" place="below" staff="1" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="r993m7x" fontstyle="italic" fontweight="bold">pp</rend>
-                        <lb xml:id="ldplfnq" />
-                        <rend xml:id="r3srodd" fontweight="normal">; dolciss.</rend>
-                     </dir>
-                     <tempo xml:id="tw8z5w5" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
+                     <dynam  place="below" staff="1" tstamp="1.000000" vgrp="40">
+                        <rend  fontstyle="italic" fontweight="bold">pp</rend></dynam>
+                     <dynam  place="below" staff="1" tstamp="1.75" vgrp="40">
+                        <rend  fontweight="normal">; dolciss.</rend>
+                     </dynam>
+                     <tempo xml:id="tw8z5w5" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
                         <rend xml:id="r7c8w03" fontname="VerovioText"></rend> = c. 56</tempo>
                      <slur xml:id="sqc2tgq" startid="#niq4d5n" endid="#nksovj5" curvedir="above" />
                      <slur xml:id="sdixh18" startid="#n9dj12g" endid="#n1c8wca" curvedir="above" />

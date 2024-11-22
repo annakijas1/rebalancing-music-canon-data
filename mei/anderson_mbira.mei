@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Mbira</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-08-12" type="encoding-date">2022-08-12</date>
@@ -37,7 +37,6 @@
             <score xml:id="sf3modw">
                <scoreDef xml:id="swxdd8f">
                   <pgHead xml:id="pv91egs">
-                     <rend xml:id="rt56p46" halign="center" valign="top">Mbira</rend>
                      <rend xml:id="ro4811n" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="s5rf299">
@@ -73,8 +72,8 @@
                         </layer>
                      </staff>
                      <dynam xml:id="di21qk" place="below" staff="1" tstamp="1.000000" val="64" vgrp="40">mp sempre</dynam>
-                     <tempo xml:id="t8wp69g" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
-                        <rend xml:id="rdrqm89" fontweight="bold">&#x1d15f; = ca. 72</rend></tempo>
+                      <tempo xml:id="t1gp66f8" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
+                        <rend xml:id="r1ajgb4" fontfam="smufl"></rend> = ca. 72</tempo>
                      <tie xml:id="t9oo8ma" startid="#nvklud8" endid="#npqcymf" />
                   </measure>
                   <measure xml:id="mskorih" n="2">

@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Etudes and a Fancy</title>
+            <title>Five Etudes and a Fancy, VI. Fancy</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson </persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson </persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,10 +38,7 @@
             <score xml:id="s9j19og">
                <scoreDef xml:id="sgamqem">
                   <pgHead xml:id="pdifjf0">
-                     <rend xml:id="rf7rmp" halign="center" valign="top">Five Etudes and a Fancy</rend>
-                     <rend xml:id="rip3emn" halign="center" valign="top">VI. Fancy</rend>
                      <rend xml:id="rqx537g" halign="right" valign="bottom">T. J. Anderson </rend>
-                     <rend xml:id="rzd7413" halign="left" valign="top">Flute</rend>
                   </pgHead>
                   <staffGrp xml:id="so2kvf1">
                      <staffGrp xml:id="s1sfzew">
@@ -101,9 +98,10 @@
                      <dir xml:id="dwn6uw" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="rrtgwkn" fontstyle="italic" fontweight="bold">mf</rend>
                      </dir>
-                     <tempo xml:id="trgorqi" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="2">
-                        <rend xml:id="r57boni" fontweight="bold">Presto (</rend>
-                        <rend xml:id="rnsp34m" fontname="VerovioText"></rend> = c. 100)</tempo>
+                     <tempo xml:id="tnwe5u2" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="2">
+                        <rend xml:id="rs7x2aj" fontweight="bold">Presto (</rend>
+                        <rend xml:id="r19ik5jb" fontweight="bold"><rend xml:id="rts390j" fontfam="smufl"></rend> = c. 100)</rend>
+                        </tempo>
                      <slur xml:id="s4y5pn8" startid="#n6jnkhu" endid="#ndf4bho" curvedir="above" />
                   </measure>
                   <measure xml:id="m4ekv4n" n="2">

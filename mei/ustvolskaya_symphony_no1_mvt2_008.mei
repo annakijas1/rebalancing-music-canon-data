@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Symphony No. 1</title>
+            <title>Symphony No. 1, Mvt. II, 8. Sonne (Sun)</title>
             <respStmt>
-               <persName role="composer">Galina Ustvolskaya</persName>
-               <persName role="transcriber">Phillip Wright</persName>
-               <persName role="reviewer">Anna Kijas</persName>
+               <persName xml:id="gu01" role="composer">Galina Ustvolskaya</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+               <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-07-22" type="encoding-date">2022-07-22</date>
@@ -37,8 +37,6 @@
             <score xml:id="s4vrc1s">
                <scoreDef xml:id="sg3du28">
                   <pgHead xml:id="phgrxm0">
-                     <rend xml:id="rqmazmx" halign="center" valign="top">Symphony No. 1</rend>
-                     <rend xml:id="r51eepa" halign="center" valign="top">II, 8. Sonne (Sun)</rend>
                      <rend xml:id="r3c8dar" halign="right" valign="bottom">Galina Ustvolskaya</rend>
                   </pgHead>
                   <staffGrp xml:id="swhxwdc">
@@ -79,7 +77,7 @@
                      </staff>
                      <dynam place="above" staff="1" tstamp="1.000000" val="49" vgrp="209">p espress.</dynam>
                      <tempo xml:id="tf2v0ea" place="above" staff="1" tstamp="1.000000" midi.bpm="72.000000" mm="72.000000" mm.unit="4">
-                        <rend xml:id="r38i33p" fontname="VerovioText"></rend> = 72</tempo>
+                        <rend xml:id="r38i33p" fontname="VerovioText" fontsize="small"></rend> = 72</tempo>
                      <tie xml:id="tpv3qu0" startid="#nrkshqy" endid="#n89sww0" />
                   </measure>
                   <measure xml:id="mysgqkz" n="2">

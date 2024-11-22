@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Songs of Illumination</title>
+            <title>Songs of Illumination, XII. Song of Illumination</title>
             <respStmt>
-               <persName role="composer">T. J. Anderson</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+               <persName xml:id="tja01" role="composer">T. J. Anderson</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -38,8 +38,6 @@
             <score xml:id="sprx4j4">
                <scoreDef xml:id="sdntliz">
                   <pgHead xml:id="p24grfo">
-                     <rend xml:id="ru9f876" halign="center" valign="top">Songs of Illumination</rend>
-                     <rend xml:id="rma7irg" halign="center" valign="top">XII. Song of Illumination</rend>
                      <rend xml:id="rhdnm8i" halign="right" valign="bottom">T. J. Anderson</rend>
                   </pgHead>
                   <staffGrp xml:id="se8ovch">
@@ -88,12 +86,14 @@
                            </chord>
                         </layer>
                      </staff>
-                     <tempo xml:id="tjhi0u0" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120.000000" mm.unit="4">
+                     <tempo xml:id="tjhi0u0" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="120" mm.unit="4">
                         <rend xml:id="rm7w9g2" fontname="VerovioText"></rend> = c. 69</tempo>
-                     <dir xml:id="d4p9ev2" place="below" staff="2" tstamp="1.000000" vgrp="40">
-                        <rend xml:id="rb1cgoy" fontstyle="italic" fontweight="bold">mp; dolce e cantabile</rend>
-                        <lb xml:id="l5yk7jf" />
-                     </dir>
+                     <dynam place="below" staff="2" tstamp="1.000000" vgrp="262">
+                        <rend fontstyle="italic" fontweight="bold">mp</rend>
+                     </dynam>
+                     <dynam place="below" staff="2" tstamp="1.3" vgrp="262">
+                        <rend fontstyle="italic" fontweight="normal">; dolce e cantabile</rend>
+                     </dynam>
                   </measure>
                   <measure xml:id="m2ngydw" n="2">
                      <staff xml:id="sepe1mo" n="1">

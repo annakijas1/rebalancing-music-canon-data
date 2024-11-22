@@ -5,11 +5,11 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>La Vida Misma, III  Homo Ludens</title>
+            <title>La Vida Misma, III Homo Ludens</title>
             <respStmt>
-               <persName role="composer">Leo Brouwer</persName>
-               <persName role="transcriber">Phillip G. Wright</persName>
-               <persName role="reviewer">Anna E. Kijas</persName>
+              <persName xml:id="lb01" role="composer">Leo Brouwer</persName>
+               <persName xml:id="pgw01" role="transcriber">Phillip G. Wright</persName>
+              <persName xml:id="aek01" role="reviewer">Anna E. Kijas</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-07-16" type="encoding-date">2021-07-16</date>
@@ -36,10 +36,7 @@
             <score xml:id="score-0000000876314340">
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000001634987740">
-                     <rend xml:id="rend-0000001702283324" halign="center" valign="top">La Vida Misma</rend>
-                     <rend xml:id="rend-0000000332759234" halign="center" valign="top">III  Homo Ludens</rend>
                      <rend xml:id="rend-0000000761005113" halign="right" valign="bottom">Leo Brouwer</rend>
-                     <rend xml:id="rend-0000000880909333" halign="left" valign="top">Percussion</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000629703127">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="2">
@@ -71,7 +68,8 @@
                         </layer>
                      </staff>
                      <tempo xml:id="tempo-0000000090140701" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="160" mm="160" mm.unit="4">
-                        <rend xml:id="rend-0000001889650736" fontname="VerovioText">Vivace </rend> = 160-176</tempo>
+                        <rend xml:id="rend-0000001889650736" >Vivace</rend>
+                        <rend xml:id="rend-0000001889650737" fontsize="small" fontname="VerovioText"> </rend> = 160-176</tempo>
                      <dir xml:id="dir-0000001055422082" place="below" staff="1" tstamp="1.000000" vgrp="40">
                         <rend xml:id="rend-0000000669697387" fontstyle="italic" fontweight="bold">pp</rend>
                      </dir>

@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Grand Mass in E-flat Major Opus 5, Sanctus</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Ismenia Ginebra</persName>
-               <persName role="reviewer">Phillip G. Wright</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="ig01" role="transcriber">Ismenia Ginebra</persName>
+               <persName xml:id="pgw01" role="reviewer">Phillip G. Wright</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-10-22" type="encoding-date">2021-10-22</date>
@@ -37,7 +37,6 @@
             <score xml:id="sbef6d">
                <scoreDef xml:id="spisyjw">
                   <pgHead xml:id="p3pd0i8">
-                     <rend xml:id="rxpx5p2" halign="center" valign="top">Grand Mass in E-flat Major Opus 5, Sanctus</rend>
                      <rend xml:id="riqdqep" halign="right" valign="bottom">Amy Beach</rend>
                   </pgHead>
                   <staffGrp xml:id="snajo7l">
@@ -59,7 +58,8 @@
                         </layer>
                      </staff>
                      <tempo place="above" staff="1" tstamp="1.000000" xml:lang="it">
-                        <rend xml:id="rz5dkg3" fontname="VerovioText">Largo </rend> = 60</tempo>
+                        <rend xml:id="rz5dkg3" fontsize = "normal">Largo </rend>
+                        <rend xml:id="rz5dkg4" fontsize = "small" fontname="VerovioText"> </rend> = 60</tempo>
                   </measure>
                   <scoreDef xml:id="sodzhrd">
                      <keySig xml:id="ks0u153" sig="1s" />
@@ -80,12 +80,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <tempo xml:id="tsszwhw" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="48.000000" mm="48.000000" mm.unit="4">
-                        <rend xml:id="ryvo07x" fontname="VerovioText">Più lento </rend> = 48</tempo>
+                     <tempo xml:id="tsszwhw" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="48" mm="48.000000" mm.unit="4">
+                        <rend xml:id="ryvo07x" fontsize = "normal" >Più lento</rend>
+                        <rend xml:id="ryvo07y" fontsize = "small" fontname="VerovioText"> </rend> = 48</tempo>
                      <dir xml:id="d1j5ag9" place="above" staff="1" tstamp="1.000000" vgrp="234">
                         <rend xml:id="rqx7mbn" fontstyle="italic" fontweight="bold">p</rend>
                      </dir>
-                     <dir xml:id="deyfprj" place="above" staff="1" tstamp="1.000000" vgrp="222">[Tenor Solo]</dir>
                      <slur xml:id="sii0nzz" startid="#nhef2ou" endid="#n6jnkhu" curvedir="above" />
                   </measure>
                   <measure xml:id="m57boni" n="23">
@@ -122,7 +122,7 @@
                      <slur xml:id="sen19ri" startid="#nmd0bb3" endid="#ni27z4q" curvedir="above" />
                      <slur xml:id="sqlo7kw" startid="#nv6fim0" endid="#n8ij48c" curvedir="above" />
                   </measure>
-                  <measure xml:id="m345abb" right="end" n="25">
+                  <measure xml:id="m345abb" right="single" n="25">
                      <staff xml:id="sdxswtm" n="1">
                         <layer xml:id="lotci4a" n="1">
                            <beam xml:id="bb1osm2">

@@ -7,9 +7,9 @@
          <titleStmt>
             <title>Dolladine, op. 75, no. 3</title>
             <respStmt>
-               <persName role="composer">Amy Beach</persName>
-               <persName role="transcriber">Hailing Wang</persName>
-               <persName role="reviewer">Joanna Strogatz</persName>
+               <persName xml:id="amcb01" role="composer">Amy Marcy Cheney Beach</persName>
+               <persName xml:id="hw01" role="transcriber">Hailing Wang</persName>
+               <persName xml:id="js01" role="reviewer">Joanna Strogatz</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-03-22" type="encoding-date">2021-03-22</date> <publisher>Rebalancing the Music Canon</publisher>
@@ -37,7 +37,6 @@
                <scoreDef xml:id="scoredef-0000001527545709">
                   <pgHead xml:id="pghead-0000000920913527">
                      <rend xml:id="rend-0000000473518983" halign="right" valign="bottom">Amy Beach</rend>
-                     <rend xml:id="rend-0000000268858337" halign="center" valign="top">Dolladine, op. 75, no. 3</rend>
                   </pgHead>
                   <staffGrp xml:id="staffgrp-0000000216110201">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="2">
@@ -58,7 +57,8 @@
                            <mRest xml:id="mrest-0000001578309063" />
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000001475141758" place="above" staff="1" tstamp="1.000000" vgrp="200">Tempo di Valse (poco lento)</dir>
+                     <tempo place="above" staff="1" tstamp="0">
+                        <rend fontsize = "normal">Tempo di Valse (poco lento)</rend></tempo>
                   </measure>
                   <measure xml:id="measure-0000000625243133" n="2">
                      <staff xml:id="staff-0000001249339395" n="1">

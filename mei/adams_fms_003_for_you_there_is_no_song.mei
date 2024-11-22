@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Five Millay Songs</title>
+            <title>Five Millay Songs: For you there is no song</title>
             <respStmt>
-               <persName role="composer">H. Leslie Adams</persName>
-               <persName role="lyricist">Edna St. Vincent Millay</persName>
+               <persName xml:id="la01" role="composer">Leslie Adams</persName>
+               <persName xml:id="esvm01" role="lyricist">Edna St. Vincent Millay</persName>
+                <persName xml:id="js01" role="transcriber">Joanna Strogatz</persName>
+               <persName xml:id="am01" role="reviewer">Aviva Michaeli</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-02-22" type="encoding-date">2022-02-22</date>
+                  <publisher>Rebalancing the Music Canon</publisher>
+           <availability>
+               <useRestrict>The incipits are provided for educational use only and are not to be used commercially. Incipits are assigned a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</useRestrict>
+           </availability>
+           <identifier>
+           <ref target="https://rebalancing-music-canon.com/"/>
+           </identifier>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-72lqf9">
@@ -29,8 +38,6 @@
             <score xml:id="sii0nzz">
                <scoreDef xml:id="s3ks4ww">
                   <pgHead xml:id="prgorqi">
-                     <rend xml:id="rrtgwkn" halign="center" valign="top">Five Millay Songs</rend>
-                     <rend xml:id="r57boni" halign="center" valign="top">3. For You There Is No Song</rend>
                      <rend xml:id="rlx27el" halign="right" valign="bottom">H. Leslie Adams</rend>
                      <rend xml:id="rmf8q7b" halign="left" valign="bottom">Edna St. Vincent Millay</rend>
                   </pgHead>
@@ -55,7 +62,7 @@
                      <tempo xml:id="tx2x828" place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="99.000000" mm="66.000000" mm.unit="4" mm.dots="1">
                         <lb xml:id="lv6fim0" />
                         <rend xml:id="r30vz3p" fontfam="FreeSerif" fontstyle="normal" />
-                        <rend xml:id="r5wpbis" fontname="VerovioText">Adagio portamento </rend> = 66</tempo>
+                        <rend xml:id="r5wpbis" fontweight="bold">Adagio portamento &#x1d15f; &#x1d16d; = 66</rend></tempo>
                   </measure>
                   <measure xml:id="m4ekv4n" n="2">
                      <staff xml:id="sotci4a" n="1">
